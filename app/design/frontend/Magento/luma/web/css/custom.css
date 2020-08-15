@@ -31,5 +31,31 @@
     height: 460px;
     width: 100%;
 }
-
+.logo{
+    left:22vw;
+}
+.block-search input{
+    height:60px;
+}
+.header.content{
+    display: flex;
+    align-items: center;
+}
+.block-search .action.search{
+    top:24% !important;
+    right:unset;
+    left:22px;
+}
+.minicart-wrapper{
+    display: none;
+}
+#search_mini_form .control input#search{
+    padding:0 25px;
+    background:#E9E9E9;
+    border:none;
+}
+.nav-toggle{
+    display: block !important;
+    top:50% !important;
+}
 /* Testimoninal */
