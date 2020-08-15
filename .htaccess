@@ -43,6 +43,8 @@
 
     php_value memory_limit 756M
     php_value max_execution_time 18000
+    php_value upload_max_filesize 24M
+    php_value post_max_size 120M
 
 ############################################
 ## disable automatic session start
@@ -66,7 +68,9 @@
 
     php_value memory_limit 756M
     php_value max_execution_time 18000
-
+    php_value upload_max_filesize 24M
+    php_value post_max_size 120M
+    
 ############################################
 ## disable automatic session start
 ## before autoload was initialized
