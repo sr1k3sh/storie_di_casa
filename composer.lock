@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8cd374871cb89d758f529ff31e26f71",
+
+    "content-hash": "320c486c0e1f561e67b80330a564b18e",
     "packages": [
+        {
+            "name": "boxleaf/module-bannerslider",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danrcoull/magento2-hero-banner-slider.git",
+                "reference": "dc3497f6a8a800d96b1c785a3cd4cb6ef0960f27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danrcoull/magento2-hero-banner-slider/zipball/dc3497f6a8a800d96b1c785a3cd4cb6ef0960f27",
+                "reference": "dc3497f6a8a800d96b1c785a3cd4cb6ef0960f27",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "BoxLeaf\\BannerSlider\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "email": "hello@boxleafdigital.com",
+                    "name": "Daniel Coull"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/danrcoull/magento2-hero-banner-slider/tree/1.0.1",
+                "issues": "https://github.com/danrcoull/magento2-hero-banner-slider/issues"
+            },
+            "time": "2020-02-01T19:45:17+00:00"
+        },
         {
             "name": "braintree/braintree_php",
             "version": "3.35.0",
@@ -10025,5 +10064,6 @@
         "ext-zip": "*",
         "lib-libxml": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

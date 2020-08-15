@@ -28,6 +28,7 @@
         "ext-xsl": "*",
         "ext-zip": "*",
         "lib-libxml": "*",
+        "boxleaf/module-bannerslider": "1.0.1",
         "braintree/braintree_php": "3.35.0",
         "colinmollenhour/cache-backend-file": "~1.4.1",
         "colinmollenhour/cache-backend-redis": "1.10.6",
@@ -349,5 +350,11 @@
         }
     },
     "version": "2.3.5",
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": {
+        "productpricelist": {
+            "type": "vcs",
+            "url": "https://github.com/danrcoull/magento2-hero-banner-slider.git"
+        }
+    }
 }

@@ -8,7 +8,6 @@
 
 use Magento\Framework\App\Bootstrap;
 use Magento\Framework\App\Filesystem\DirectoryList;
-
 try {
     require __DIR__ . '/../app/bootstrap.php';
 } catch (\Exception $e) {

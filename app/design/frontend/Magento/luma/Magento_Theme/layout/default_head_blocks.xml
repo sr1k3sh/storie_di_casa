@@ -14,5 +14,6 @@
         <font src="fonts/opensans/bold/opensans-700.woff2"/>
         <font src="fonts/Luma-Icons.woff2"/>
         <css src="css/custom.css"/>
+
     </head>
 </page>
