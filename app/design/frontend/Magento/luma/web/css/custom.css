@@ -1,0 +1,35 @@
+.feature-product{
+    text-align:center;
+}
+
+.custombanner .column-banner1{
+    float: left; 
+    width: 60%;
+    padding: 5px;
+}
+.custombanner .column-banner2{
+    float: left; 
+    width: 38%;
+    padding: 5px;
+}
+.custombanner .column-banner3{
+    float: left; 
+    width: 38%;
+    padding: 5px;
+}
+.custombanner .column-banner4{
+    float: left; 
+    width: 60%;
+    padding: 5px;
+}
+/* image css */
+.custombanner .banner1{
+    height: 460px;
+    width: 100%;
+}
+.custombanner .banner2{
+    height: 460px;
+    width: 100%;
+}
+
+/* Testimoninal */
