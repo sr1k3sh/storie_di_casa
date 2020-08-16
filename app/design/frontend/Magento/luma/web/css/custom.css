@@ -230,6 +230,8 @@ h2.section-title{
 }
 .page-footer .footer-list{
     text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
 }
 .page-footer .h6-font{
     font-size: 1.125rem;
@@ -240,4 +242,15 @@ h2.section-title{
     font-size: 1.125rem !important;
     color:#707070;
     text-transform: capitalize;
+}
+.copyright{
+    display: none;
+}
+.copyright-section{
+    margin-top:20px;
+    color: #707070;
+    font-size: 1rem;
+}
+.copyright-section .icon-payment>img{
+    height:33px;
 }
