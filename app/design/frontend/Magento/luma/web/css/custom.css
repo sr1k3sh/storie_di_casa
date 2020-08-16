@@ -233,8 +233,8 @@ h2.section-title{
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
 }
-.page-footer .h6-font{
-    font-size: 1.125rem;
+.page-footer .h4-font{
+    font-size: 1.125rem !important;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -257,4 +257,5 @@ h2.section-title{
 }
 .copyright-section .icon-payment>img{
     height:33px;
+    margin-left: 18px;
 }
