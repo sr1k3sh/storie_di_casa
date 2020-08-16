@@ -2,6 +2,9 @@
     text-align:center;
 }
 
+h2{
+    margin-top: 6.25rem !important;
+}
 .custombanner .column-banner1{
     float: left; 
     width: 60%;
@@ -100,4 +103,9 @@
     background:#fff;
     color:#7ebdcc;
     border-color: #fff;
+}
+h2.section-title{
+    font-size:2.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
