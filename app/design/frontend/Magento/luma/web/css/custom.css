@@ -250,6 +250,7 @@ h2.section-title{
     margin-top:20px;
     color: #707070;
     font-size: 1rem;
+    align-items: center;
 }
 .copyright-section .icon-payment>img{
     height:33px;
