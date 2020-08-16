@@ -168,7 +168,6 @@ h2.section-title{
     text-align: left;
 }
 
-<<<<<<< HEAD
 /* review container */
 .review-container{
     display: flex;
@@ -210,7 +209,7 @@ h2.section-title{
 }
 .review .reviewer .reviewer-name{
     margin-left:16px;
-=======
+}
 /* Footer */
 
 .page-footer .block-static-block{
@@ -228,5 +227,17 @@ h2.section-title{
 .footer.content ul {
     padding-right: 0px !important;
 }
->>>>>>> 038c185527677d6c2d0fdb2dbb0d6967a3b1134e
+}
+.page-footer .footer-list{
+    text-align: left;
+}
+.page-footer .h6-font{
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer.content .links li{
+    font-size: 1.125rem !important;
+    color:#707070;
+    text-transform: capitalize;
 }
