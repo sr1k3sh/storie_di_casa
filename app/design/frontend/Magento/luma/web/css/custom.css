@@ -252,6 +252,9 @@ h2.section-title{
     font-size: 1rem;
     align-items: center;
 }
+.copyright-section .col-copyright1{
+    text-align: left;
+}
 .copyright-section .icon-payment>img{
     height:33px;
 }
