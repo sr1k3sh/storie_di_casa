@@ -173,6 +173,9 @@ h2.section-title{
 .page-footer .block-static-block{
     text-align:center;
 }
+.footer-list{
+    text-align:left;
+}
 
 @media only screen and (min-width: 768px){
     .footer.content .links {
@@ -185,4 +188,15 @@ h2.section-title{
 .footer.content ul {
     padding-right: 0px !important;
 }
+}
+@media only screen and (max-width: 767px){
+.footer.content .links li{
+    font-size:13px;
+}
+}
+
+@media only screen and (max-width: 575px){
+    .footer-list{
+        text-align:center;
+    } 
 }
