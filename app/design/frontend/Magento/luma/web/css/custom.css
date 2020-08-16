@@ -188,8 +188,9 @@ h2.section-title{
 .footer.content ul {
     padding-right: 0px !important;
 }
+
 }
-@media only screen and (max-width: 767px){
+@media  screen and (max-width: 767px){
 .footer.content .links li{
     font-size:13px;
 }
@@ -199,4 +200,42 @@ h2.section-title{
     .footer-list{
         text-align:center;
     } 
+}
+
+/* copyright */
+.copyright-section{
+    padding-top:20px;
+}
+.col-copyright1{
+    text-align:left;
+}
+
+.copyright1{
+    font-size:14px;
+}
+
+.col-payment{
+    text-align:right;
+
+}
+.col-payment img{
+    height:33px;
+}
+.col-copyright1{
+    text-align:left;
+}
+.footer-quicklink{
+    padding-bottom:7px;
+}
+
+@media screen and (max-width: 767px) {
+    .col-payment{
+        text-align:center;
+    }
+    .col-copyright1{
+        text-align:center;
+    }
+}
+.copyright{
+    display: none;
 }
