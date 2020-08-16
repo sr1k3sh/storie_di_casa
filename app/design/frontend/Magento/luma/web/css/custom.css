@@ -227,4 +227,20 @@ h2.section-title{
 .footer.content ul {
     padding-right: 0px !important;
 }
+<<<<<<< HEAD
+=======
+}
+.page-footer .footer-list{
+    text-align: left;
+}
+.page-footer .h6-font{
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer.content .links li{
+    font-size: 1.125rem !important;
+    color:#707070;
+    text-transform: capitalize;
+>>>>>>> develop
 }
