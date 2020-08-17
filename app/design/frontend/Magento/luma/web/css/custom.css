@@ -239,3 +239,96 @@ h2.section-title{
 .copyright{
     display: none;
 }
+
+
+/* Bottom Banner */
+.bottom-banner .column1{
+    width:40%;
+    padding:15px;
+    height:300px;
+}
+.bottom-banner .column1 .banner{
+    float:right;
+    width: 70%;
+    height: 100%;
+}
+.bottom-banner .column1 .banner{
+    padding:10px 10px 10px 20px;
+    border: 1px solid #666666;
+}
+.bottom-banner .column1 img{
+    height:45px;
+    background-size: cover;
+}
+.bottom-banner .column1 .banner .banner-title{
+    font-size:22px;
+    line-height: 1.0;
+    color:#1A1A1A;
+    text-align: left;
+    font-weight: bold;
+}
+.bottom-banner .column1 .banner .banner-desc{
+    font-size:12px;
+    line-height: 1.0;
+    color:#4C4D4F;
+    text-align: left;
+}
+.bottom-banner .column1 .banner .banner-subtitle{
+    font-size: 15px;
+    color:#1A1A1A;
+    line-height: 1.0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.bottom-banner .column2{
+    width:60%;
+    padding:15px;
+    height:300px;
+    position: relative;
+}
+.bottom-banner .column2 img{
+    float:left;
+    width:90%;
+    height: 100%;
+}
+.newsletter-content{
+    position: absolute;
+    bottom:10%;
+    left:5%;
+}
+.newsletter-content .banner-title{
+    font-size:22px;
+    color:#ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.newsletter-content .banner-desc{
+    font-size:16px;
+    color:#ffffff;
+    text-align: left;
+}
+.btn-newsletter{
+    background-color:#1A1A1A !important;
+    text-transform: uppercase;
+    bottom: 15%;
+    position: absolute;
+    left: 63%;
+    color: white !important;
+    background-color: #1A1A1A;
+    height: 50px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+@media screen and  (max-width:500px){
+    .bottom-banner .column1 , .bottom-banner .column2{
+        width:100%;
+        text-align: center;
+    }
+    .bottom-banner img{
+        float:none !important;
+        width: 100% !important;
+    }
+    
+}
