@@ -61,7 +61,6 @@
     display: block !important;
     top:50% !important;
 }
-/* Testimoninal */
 /* hero banner */
 .hero-banner{
     position: relative;
@@ -215,6 +214,9 @@ h2.section-title{
 .page-footer .block-static-block{
     text-align:center;
 }
+.footer-list{
+    text-align:left;
+}
 
 @media only screen and (min-width: 768px){
     .footer.content .links {
@@ -227,6 +229,75 @@ h2.section-title{
 .footer.content ul {
     padding-right: 0px !important;
 }
+
+}
+@media  screen and (max-width: 767px){
+.footer.content .links li{
+    font-size:13px;
+}
+}
+
+@media only screen and (max-width: 575px){
+    .footer-list{
+        text-align:center;
+    } 
+}
+
+/* copyright */
+.copyright-section{
+    padding-top:20px;
+}
+.col-copyright1{
+    text-align:left;
+}
+
+.copyright1{
+    font-size:14px;
+}
+
+.col-payment{
+    text-align:right;
+
+}
+.col-payment img{
+    height:33px;
+}
+.col-copyright1{
+    text-align:left;
+}
+.footer-quicklink{
+    padding-bottom:7px;
+}
+
+@media screen and (max-width: 767px) {
+    .col-payment{
+        text-align:center;
+    }
+    .col-copyright1{
+        text-align:center;
+    }
+}
+.copyright{
+    display: none;
+}
+
+
+/* Bottom Banner */
+
+@media screen and  (max-width:500px){
+    .bottom-banner .column1 , .bottom-banner .column2{
+        width:100%;
+        text-align: center;
+    }
+    .bottom-banner .column2 img{
+        float:none !important;
+        width: 100% !important;
+    }
+    .bottom-banner .column1 .banner{
+        float:none !important;
+        width: 100% !important;
+    }
+    
 }
 .page-footer .footer-list{
     text-align: left;
