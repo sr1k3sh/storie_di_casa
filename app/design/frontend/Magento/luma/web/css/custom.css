@@ -258,12 +258,14 @@ h2.section-title{
 }
 .bottom-banner .column1 img{
     height:45px;
+    float: left;
     background-size: cover;
 }
 .bottom-banner .column1 .banner .banner-title{
     font-size:22px;
     line-height: 1.0;
     color:#1A1A1A;
+    display:inline-block;
     text-align: left;
     font-weight: bold;
 }
@@ -326,7 +328,11 @@ h2.section-title{
         width:100%;
         text-align: center;
     }
-    .bottom-banner img{
+    .bottom-banner .column2 img{
+        float:none !important;
+        width: 100% !important;
+    }
+    .bottom-banner .column1 .banner{
         float:none !important;
         width: 100% !important;
     }
