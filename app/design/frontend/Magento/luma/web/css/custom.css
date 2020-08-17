@@ -61,7 +61,6 @@ h2{
     display: block !important;
     top:50% !important;
 }
-/* Testimoninal */
 /* hero banner */
 .hero-banner{
     position: relative;
@@ -168,6 +167,48 @@ h2.section-title{
     text-align: left;
 }
 
+/* review container */
+.review-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.review{
+    width:24%;
+    background:#E9E9E9;
+    padding:4.6875rem 3.125rem;
+}
+.review .review-date{
+    color:#707070;
+    font-size: 0.875rem;
+}
+.review .ratings{
+    margin-bottom: 10px;
+
+}
+.review .review-title{
+    font-weight: bold;
+    font-size:1rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.review .review-desc{
+    font-size:1rem;
+}
+.review .reviewer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.review .reviewer .reviewer-name>p{
+    margin-bottom: 0;
+}
+.review .reviewer .reviewer-name{
+    margin-left:16px;
+}
 /* Footer */
 
 .page-footer .block-static-block{
@@ -337,4 +378,35 @@ h2.section-title{
         width: 100% !important;
     }
     
+}
+.page-footer .footer-list{
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+.page-footer .h4-font{
+    font-size: 1.125rem !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer.content .links li{
+    font-size: 1.125rem !important;
+    color:#707070;
+    text-transform: capitalize;
+}
+.copyright{
+    display: none;
+}
+.copyright-section{
+    margin-top:20px;
+    color: #707070;
+    font-size: 1rem;
+    align-items: center;
+}
+.copyright-section .col-copyright1{
+    text-align: left;
+}
+.copyright-section .icon-payment>img{
+    height:33px;
+    margin-left: 18px;
 }
