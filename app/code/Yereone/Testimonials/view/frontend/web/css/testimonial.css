@@ -1,5 +1,5 @@
 .yereone-testimonials {
-    text-align: center;
+    text-align: left;
 }
 
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-image img {
@@ -9,7 +9,7 @@
 
 .yereone-testimonials-slider .yereone-testimonial-item > div,
 .yereone-testimonials-grid .yereone-testimonials-grid-right > div {
-    margin-bottom: 10px
+    margin-bottom: 2px
 }
 
 .yereone-testimonials-slider .slick-prev,
@@ -38,7 +38,7 @@
     width: 100%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    color: #c7c7c7;
+    color: #F4C030;
     font-size: 25px;
     height: 25px;
     line-height: 25px;
@@ -68,6 +68,7 @@
     position: relative;
     vertical-align: middle;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-rating .rating-result > span {
@@ -111,12 +112,13 @@
 }
 
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-author span {
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-title span {
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .yereone-testimonials-grid {
@@ -233,9 +235,29 @@
 }
 
 .user-profile{
-    display:flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+}
+.user-des{
+    margin-left:16px;
 }
 .yereone-testimonial-item {
     background:#E9E9E9 0% 0% no-repeat padding-box;
+    padding: 4.6875rem 3.125rem;
+}
+
+.yereone-testimonial-meta{
+    overflow:hidden;
+    }
+
+.yereone-testimonial-meta .yereone-testimonial-date{
+color: #707070;
+font-size: 0.875rem;
+float:left;
+}
+
+.yereone-testimonial-content span{
+    font-size: 1rem;
 }
