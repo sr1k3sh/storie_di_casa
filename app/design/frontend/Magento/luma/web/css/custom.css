@@ -65,6 +65,9 @@
 .hero-banner{
     position: relative;
 }
+.hero-banner img{
+    min-height:230px;
+}
 .hero-banner .banner-content{
     position: absolute;
     top:20%;
@@ -292,6 +295,7 @@ h2.section-title{
     .bottom-banner .column2 img{
         float:none !important;
         width: 100% !important;
+        min-height: 150px;
     }
     .bottom-banner .column1 .banner{
         float:none !important;
@@ -356,6 +360,10 @@ h2.section-title{
     width:60%;
     position: relative;
 }
+.bottom-banner .column2 img{
+    height: 100%;
+    width: 100%;
+}
 .bottom-banner .newsletter-content{
     position: absolute;
     bottom: 20px;
@@ -402,6 +410,10 @@ h2.section-title{
     z-index:2;
     margin-left: 0px;
     margin-right: 0px;
+<<<<<<< HEAD
+=======
+    display: table;
+>>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
 }
 
 .promo-banner .promo-banner-1-content div{
@@ -411,11 +423,21 @@ h2.section-title{
 .promo-banner .promo-banner-1-content div.content{
     padding-left:10px;
     text-align: left;
+<<<<<<< HEAD
+=======
+    display: table-cell;
+    vertical-align: middle;
+>>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
 }
 
 .promo-banner .promo-banner-1-content div.button-link{
     padding-right:10px;
     text-align: right;
+<<<<<<< HEAD
+=======
+    display: table-cell;
+    vertical-align: middle;
+>>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
 }
 .promo-banner .grid-child img{
     width: 100%;
@@ -447,6 +469,7 @@ h2.section-title{
     height:100%;
     width: 100%;
 }
+<<<<<<< HEAD
 /* .navigation{
     display: none !important;
 } */
@@ -506,5 +529,139 @@ border:1px solid #000;
 @media only screen and (min-width:768px){
     .nav-sections-item-content > .navigation{
         display: none;
+=======
+@media only screen and (max-width: 991px) {
+    /* Hero banner */
+    .hero-banner .banner-content .header-sub-title {
+        font-size: 1.5rem;
+    }
+    .hero-banner .banner-content .header-title {
+        font-size: 3.25rem;
+    }
+    .hero-banner button {
+        border: 1px solid #fff;
+        padding: 1.125rem 2.125rem;
+        font-size: 1.5rem;
+    }
+     /* Bottom banner newsletter */
+     h2.section-title {
+        font-size: 1.25rem;
+    }
+    .bottom-banner .newsletter-content{
+        left:0px;
+    }
+    .newsletter-content .btn-newsletter {
+        padding: 10px 10px;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Hero banner */
+    .hero-banner .banner-content .header-sub-title {
+        font-size: 1.2rem;
+    }
+    .hero-banner .banner-content .header-title {
+        font-size: 2.0rem;
+    }
+    .hero-banner button {
+        border: 1px solid #fff;
+        padding: 1.125rem 2.125rem;
+        font-size: 1.5rem;
+    }
+    .copyright-section .col-copyright1 {
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container.promo-image{
+        grid-template-rows: 180px;
+    }
+    .grid-container.promo-banner{
+        grid-template-rows: 200px 60px;
+    }
+    .bottom-banner .column1{
+        width:60%
+    }
+    .column1 .banner{
+        text-align: center;
+    }
+    .column1 .banner img{
+        display:block;
+        margin:auto;
+    }
+    .bottom-banner .column2 {
+        width: 80%;
+        margin-top:10px;
+    }
+
+    /* Footer */
+    .page-footer .footer-list {
+        text-align: center;
+    }
+} 
+
+@media only screen and (max-width: 450px) {
+    .grid-container.promo-image{
+        grid-template-rows: auto;
+    }
+    .grid-container.promo-banner{
+        grid-template-rows: 200px 70px;
+    }
+    .grid-child.promo-banner-1{
+        grid-column-end: 4;
+    }
+    .promo-banner .promo-banner-1-content {
+        grid-column-end: 4;
+    }
+    .grid-child.promo-banner-2{
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .grid-container .promo-image-1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .grid-container .promo-image-2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    /* Newsletter and bottom banner */
+    .bottom-banner .column1{
+        width:90%
+    }
+    .bottom-banner .newsletter-content {
+        bottom:0px;
+        align-items:flex-end;
+    }
+    .newsletter-content .btn-newsletter {
+        padding:3px 3px;
+    }
+    .newsletter-content div:nth-child(2){
+        padding:10px
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    /* Hero banner */
+    .hero-banner .banner-content .header-sub-title {
+        font-size: 1.2rem;
+    }
+    .hero-banner .banner-content .header-title {
+        font-size: 2.0rem;
+    }
+    .hero-banner button {
+        border: 1px solid #fff;
+        padding: 1.125rem 2.125rem;
+        font-size: 1.5rem;
+    }
+
+    .grid-container.promo-banner{
+        grid-template-rows: 100px 100px;
+>>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
     }
 }
