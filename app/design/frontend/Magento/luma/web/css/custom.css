@@ -469,7 +469,6 @@ h2.section-title{
     height:100%;
     width: 100%;
 }
-<<<<<<< HEAD
 /* .navigation{
     display: none !important;
 } */
@@ -529,7 +528,6 @@ border:1px solid #000;
 @media only screen and (min-width:768px){
     .nav-sections-item-content > .navigation{
         display: none;
-=======
 @media only screen and (max-width: 991px) {
     /* Hero banner */
     .hero-banner .banner-content .header-sub-title {
@@ -662,6 +660,5 @@ border:1px solid #000;
 
     .grid-container.promo-banner{
         grid-template-rows: 100px 100px;
->>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
     }
 }
