@@ -15,6 +15,7 @@
         <font src="fonts/Luma-Icons.woff2"/>
         <css src="css/custom.css"/>
         <css src="css/bootstrap.css"/>
+        <link src="js/custom-menu.js"/>
 
     </head>
 </page>
