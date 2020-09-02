@@ -505,6 +505,9 @@ background:#fff;
 color:#000;
 border:1px solid #000;
 }
+.overlay-menu .splash-nav .splash-btn:hover a{
+    color:#000;
+}
 .nav-open body{
     overflow: hidden;
     height:100vh;
