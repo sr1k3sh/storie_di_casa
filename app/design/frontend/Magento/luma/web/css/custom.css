@@ -410,10 +410,7 @@ h2.section-title{
     z-index:2;
     margin-left: 0px;
     margin-right: 0px;
-<<<<<<< HEAD
-=======
     display: table;
->>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
 }
 
 .promo-banner .promo-banner-1-content div{
@@ -423,21 +420,15 @@ h2.section-title{
 .promo-banner .promo-banner-1-content div.content{
     padding-left:10px;
     text-align: left;
-<<<<<<< HEAD
-=======
     display: table-cell;
     vertical-align: middle;
->>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
 }
 
 .promo-banner .promo-banner-1-content div.button-link{
     padding-right:10px;
     text-align: right;
-<<<<<<< HEAD
-=======
     display: table-cell;
     vertical-align: middle;
->>>>>>> 8d7bc84e2880d2d74b3c2dcf6d234eef915df543
 }
 .promo-banner .grid-child img{
     width: 100%;
@@ -528,6 +519,8 @@ border:1px solid #000;
 @media only screen and (min-width:768px){
     .nav-sections-item-content > .navigation{
         display: none;
+    }
+}
 @media only screen and (max-width: 991px) {
     /* Hero banner */
     .hero-banner .banner-content .header-sub-title {
