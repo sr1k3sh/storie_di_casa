@@ -39,12 +39,12 @@ define([
 
             if (this.options.responsive === true) {
                 mediaCheck({
-                    media: '(max-width: 640px)',
+                    media: '(max-width: 1920px)',
                     entry: $.proxy(function () {
                         this._toggleMobileMode();
                     }, this),
                     exit: $.proxy(function () {
-                        this._toggleDesktopMode();
+                        // this._toggleDesktopMode();
                     }, this)
                 });
             }
@@ -76,7 +76,7 @@ define([
                     $('html').removeClass('nav-before-open');
                 }, 300);
             } else {
-                $('html').addClass('nav-before-open');
+                $('html').addClass('nav-before-open test');
                 setTimeout(function () {
                     $('html').addClass('nav-open');
                 }, 42);
