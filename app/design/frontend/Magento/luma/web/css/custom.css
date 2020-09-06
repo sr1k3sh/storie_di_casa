@@ -544,6 +544,7 @@ border:1px solid #000;
     position: relative !important;;
     padding:10px 0px 0px 0px !important;
     color:#000000 !important;
+    margin-left: 3px;
 }
 
 .promobanner .banner-text{
@@ -732,7 +733,9 @@ border:1px solid #000;
         grid-template-rows: 100px 100px;
     }
 }
-
+.navigation .level0 > .level-top{
+    text-transform: uppercase;
+}
 
 /* CATEGORIA PAGE */
 
