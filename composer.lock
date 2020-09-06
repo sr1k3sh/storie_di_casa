@@ -4,9 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-
-    "content-hash": "320c486c0e1f561e67b80330a564b18e",
+    "content-hash": "50880a452c93d704ef444d8541e63bbe",
     "packages": [
+        {
+            "name": "avada/module-proofo",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Proofo/proofo-magento-2.git",
+                "reference": "b25831077338cac895d7403e03938606a2fadfb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Proofo/proofo-magento-2/zipball/b25831077338cac895d7403e03938606a2fadfb6",
+                "reference": "b25831077338cac895d7403e03938606a2fadfb6",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Avada\\Proofo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Proofo Team",
+                    "email": "proofo@avada.io",
+                    "homepage": "https://proofo.io",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Proofo Social Proof",
+            "time": "2020-07-02T09:11:56+00:00"
+        },
         {
             "name": "boxleaf/module-bannerslider",
             "version": "1.0.1",
@@ -3498,6 +3535,86 @@
                 "framework"
             ],
             "time": "2019-11-26T15:09:40+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.4.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "3c531ab1b1390ae04f6a9886d0d2f0a5d40788b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/3c531ab1b1390ae04f6a9886d0d2f0a5d40788b9",
+                "reference": "3c531ab1b1390ae04f6a9886d0d2f0a5d40788b9",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "time": "2020-08-04T17:20:33+00:00"
+        },
+        {
+            "name": "mageplaza/module-instagram-feed",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-instagram-feed.git",
+                "reference": "a6fd9a0373ac9b031e4d4d8834d2dc1463ad0927"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-instagram-feed/zipball/a6fd9a0373ac9b031e4d4d8834d2dc1463ad0927",
+                "reference": "a6fd9a0373ac9b031e4d4d8834d2dc1463ad0927",
+                "shasum": ""
+            },
+            "require": {
+                "avada/module-proofo": "^1.0.2",
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\InstagramFeed\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Instagram Feed Extension",
+            "time": "2020-07-24T07:04:02+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -8159,6 +8276,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-11-27T05:48:46+00:00"
         },
         {
@@ -8718,6 +8836,7 @@
             ],
             "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
             "homepage": "https://github.com/sebastianbergmann/finder-facade",
+            "abandoned": true,
             "time": "2020-01-16T08:08:45+00:00"
         },
         {
