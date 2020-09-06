@@ -582,6 +582,7 @@ border:1px solid #000;
     width: 100vw;
     margin-left: calc((100% - 100vw) / 2);
     background:#666666;
+    margin-bottom:50px;
 }
 .section-grid div.grid{
     display: grid;
