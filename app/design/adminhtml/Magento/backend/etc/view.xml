@@ -37,6 +37,7 @@
         <item type="file">Lib::mage/list.js</item>
         <item type="file">Lib::mage/loader.js</item>
         <item type="file">Lib::mage/menu.js</item>
+        <item type="file">Lib::mage/custom.js</item>
         <item type="file">Lib::mage/redirect-url.js</item>
         <item type="file">Lib::mage/sticky.js</item>
         <item type="file">Lib::mage/terms.js</item>
