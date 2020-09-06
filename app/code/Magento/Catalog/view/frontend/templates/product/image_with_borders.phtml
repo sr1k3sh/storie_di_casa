@@ -9,11 +9,12 @@
 <span class="product-image-container"
       style="width:<?= $block->escapeHtmlAttr($block->getWidth()) ?>px;">
     <span class="product-image-wrapper"
-          style="padding-bottom: <?= ($block->getRatio() * 100) ?>%;">
-        <img class="<?= $block->escapeHtmlAttr($block->getClass()) ?>"
-            <?= $block->escapeHtmlAttr($block->getCustomAttributes()) ?>
-            src="<?= $block->escapeUrl($block->getImageUrl()) ?>"
-            max-width="<?= $block->escapeHtmlAttr($block->getWidth()) ?>"
-            max-height="<?= $block->escapeHtmlAttr($block->getHeight()) ?>"
-            alt="<?= /* @noEscape */ $block->stripTags($block->getLabel(), null, true) ?>"/></span>
-</span>
+          style="position:relative;padding-bottom: <?= ($block->getRatio() * 100) ?>%;">
+          <img class="<?= $block->escapeHtmlAttr($block->getClass()) ?>"
+          <?= $block->escapeHtmlAttr($block->getCustomAttributes()) ?>
+          src="<?= $block->escapeUrl($block->getImageUrl()) ?>"
+          max-width="<?= $block->escapeHtmlAttr($block->getWidth()) ?>"
+          max-height="<?= $block->escapeHtmlAttr($block->getHeight()) ?>"
+          alt="<?= /* @noEscape */ $block->stripTags($block->getLabel(), null, true) ?>"/></span>
+        </span>
+        
