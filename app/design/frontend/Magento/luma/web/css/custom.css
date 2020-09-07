@@ -537,7 +537,7 @@ border:1px solid #000;
     object-fit: cover;
     min-height: 300px;
     max-height: 300px;
-    max-width: 100%;
+    width: 100%;
 }
 .evidenza-column {
     flex: 25%;
