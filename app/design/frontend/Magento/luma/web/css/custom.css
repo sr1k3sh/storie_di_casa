@@ -721,6 +721,14 @@ form.form.subscribe div.actions button{
         padding: 10px 10px;
 
     }
+
+    /* Evidenza banner categories */
+    .evidenza-column {
+        flex: 50%;
+        -ms-flex: 50%;
+        max-width: 50%;
+        padding: 0 25px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -849,6 +857,13 @@ form.form.subscribe div.actions button{
     form.form.subscribe div.actions button{
         width: 230px;
         height: 30px;
+    }
+    /* Evidenza banner categories */
+    .evidenza-column {
+        flex: 100%;
+        -ms-flex: 100%;
+        max-width: 100%;
+        padding: 0 25px;
     }
 }
 
