@@ -1041,7 +1041,7 @@ div.newsletter-content div.block.newsletter {
 }
 input{
     outline:none;
-    border:none;
+    border:none !important;
 }
 button:not(.primary){
     box-shadow: none;
