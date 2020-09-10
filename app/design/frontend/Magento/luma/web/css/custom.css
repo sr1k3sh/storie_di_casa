@@ -1013,10 +1013,11 @@ div.newsletter-content div.block.newsletter {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    top: 7px;
+    top: 6px;
     font-weight: 500;
     position: relative;
     transition: all 0.3s ease-in-out;
+    padding:0;
 }
 .product-item-info .float-cart .action.tocart::after {
     position: relative;
@@ -1029,3 +1030,19 @@ div.newsletter-content div.block.newsletter {
 }
 /* CATEGORIA PAGE */
 
+.hero-banner .whatsapp-link{
+    position: absolute;
+    bottom: 3px;
+    right: 27px;
+    width: inherit;
+    min-height: inherit;
+    transform: scale(0.6);
+    cursor: pointer;
+}
+input{
+    outline:none;
+    border:none !important;
+}
+button:not(.primary){
+    box-shadow: none;
+}
