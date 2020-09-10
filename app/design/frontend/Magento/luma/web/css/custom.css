@@ -2,6 +2,9 @@
     font-size:13px;
     color:#666666;
 }
+.page-title-wrapper{
+    display: none;
+}
 .feature-product{
     text-align:center;
 }
