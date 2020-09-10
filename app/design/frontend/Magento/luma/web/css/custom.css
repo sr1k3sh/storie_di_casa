@@ -1013,10 +1013,11 @@ div.newsletter-content div.block.newsletter {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    top: 7px;
+    top: 6px;
     font-weight: 500;
     position: relative;
     transition: all 0.3s ease-in-out;
+    padding:0;
 }
 .product-item-info .float-cart .action.tocart::after {
     position: relative;
@@ -1041,4 +1042,7 @@ div.newsletter-content div.block.newsletter {
 input{
     outline:none;
     border:none;
+}
+button:not(.primary){
+    box-shadow: none;
 }
