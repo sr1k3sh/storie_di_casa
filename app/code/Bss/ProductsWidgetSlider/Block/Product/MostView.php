@@ -62,6 +62,7 @@ class MostView extends \Bss\ProductsWidgetSlider\Block\GetData
         \Magento\Catalog\Helper\Output $Output,
         \Magento\Framework\Data\Helper\PostHelper $postHelper,
         \Magento\Framework\App\ProductMetadataInterface $productMetadata,
+        \Magento\Catalog\Api\CategoryRepositoryInterface $categoryRepository,
         GetMostViewCollection $bssGetMostViewCollection,
         priceCurrencyInterface $priceCurrencyInterface,
         array $data = []
@@ -80,6 +81,7 @@ class MostView extends \Bss\ProductsWidgetSlider\Block\GetData
             $Output,
             $postHelper,
             $productMetadata,
+            $categoryRepository,
             $priceCurrencyInterface,
             $data
         );
