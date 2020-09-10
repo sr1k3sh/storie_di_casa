@@ -1036,4 +1036,9 @@ div.newsletter-content div.block.newsletter {
     width: inherit;
     min-height: inherit;
     transform: scale(0.6);
+    cursor: pointer;
+}
+input{
+    outline:none;
+    border:none;
 }
