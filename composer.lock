@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50880a452c93d704ef444d8541e63bbe",
+    "content-hash": "2febd9ce16a5e0811dcb83bb652e50b1",
     "packages": [
         {
             "name": "avada/module-proofo",

@@ -67,7 +67,7 @@
         "laminas/laminas-validator": "^2.6.0",
         "laminas/laminas-view": "~2.11.2",
         "magento/composer": "~1.5.0",
-        "magento/magento-composer-installer": ">=0.1.11",
+        "magento/magento-composer-installer": "^0.1.13",
         "magento/zendframework1": "~1.14.2",
         "mageplaza/module-instagram-feed": "^1.1",
         "monolog/monolog": "^1.17",
@@ -356,6 +356,10 @@
         "productpricelist": {
             "type": "vcs",
             "url": "https://github.com/danrcoull/magento2-hero-banner-slider.git"
+        },
+        "emizentech-magento2-category-widget": {
+            "type": "vcs",
+            "url": "https://github.com/emizentech/magento2-category-list-widget/"
         }
     }
 }
