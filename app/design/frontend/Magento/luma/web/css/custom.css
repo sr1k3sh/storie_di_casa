@@ -1029,3 +1029,11 @@ div.newsletter-content div.block.newsletter {
 }
 /* CATEGORIA PAGE */
 
+.hero-banner .whatsapp-link{
+    position: absolute;
+    bottom: 3px;
+    right: 27px;
+    width: inherit;
+    min-height: inherit;
+    transform: scale(0.6);
+}
