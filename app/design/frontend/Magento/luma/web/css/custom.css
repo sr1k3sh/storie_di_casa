@@ -1071,5 +1071,14 @@ button:not(.primary){
     padding: 10px 45px !important;
 }
 .panel.header .instagram-link{
-    margin-left:16px;
+    margin-left:14px;
+}
+.panel.header .top-header-links{
+    display: flex;
+    align-items: center;
+}
+.panel.header .header-offer{
+    margin-left: 22px;
+    font-size: 14px;
+    text-transform: uppercase;
 }
