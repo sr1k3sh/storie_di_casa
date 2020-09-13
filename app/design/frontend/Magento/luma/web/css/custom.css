@@ -1107,7 +1107,7 @@ svg{
 .slick-arrow{
     background-color: #fff !important;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16) !important;
-    width: 70px !important;
-    height:70px !important;
+    width: 4.375rem !important;
+    height:4.375rem !important;
     border-radius: 50%;
 }
