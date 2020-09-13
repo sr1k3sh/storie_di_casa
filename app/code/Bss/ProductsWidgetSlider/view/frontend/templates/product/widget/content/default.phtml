@@ -93,22 +93,24 @@ else {
                                     <?= $productImage->toHtml()?>
                                 </a>
                                 <div class="product details product-item-details test2">
-                                    <?php
-                                    $_productNameStripped = $block->stripTags($block->escapeHtml($_product->getName()), null, true);
-                                    $info = [];
-                                    ?>
-                                    <strong class="product name product-item-name">
-                                        <a class="product-item-link"
-                                           href="<?= $block->escapeUrl($_product->getProductUrl()) ?>">
-                                            <?= $block->productAttribute($_product, $block->escapeHtml($_product->getName()), 'name') ?>
-                                        </a>
-                                    </strong>
-                                    <?= $block->getReviewsSummaryHtml($_product, $templateType) ?>
-                                    <?php if ($showPrice) { ?>
-                                        <div class="bss-price-box">
-                                            <?= /* @escapeNotVerified */$block->getProductPrice($_product) ?>
-                                        </div>
-                                    <?php } ?>
+                                    <div>
+                                        <?php
+                                        $_productNameStripped = $block->stripTags($block->escapeHtml($_product->getName()), null, true);
+                                        $info = [];
+                                        ?>
+                                        <strong class="product name product-item-name">
+                                            <a class="product-item-link"
+                                            href="<?= $block->escapeUrl($_product->getProductUrl()) ?>">
+                                                <?= $block->productAttribute($_product, $block->escapeHtml($_product->getName()), 'name') ?>
+                                            </a>
+                                        </strong>
+                                        <?= $block->getReviewsSummaryHtml($_product, $templateType) ?>
+                                        <?php if ($showPrice) { ?>
+                                            <div class="bss-price-box">
+                                                <?= /* @escapeNotVerified */$block->getProductPrice($_product) ?>
+                                            </div>
+                                        <?php } ?>
+                                    </div>
                                     <div class="">
                                         <div class="product actions product-item-actions bss-item-action"<?= $block->escapeQuote(strpos($pos, $viewMode . '-actions') ? $position : '') ?>>
                                             <div class="actions-primary"<?= $block->escapeQuote(strpos($pos, $viewMode . '-primary') ? $position : '' )?>>
