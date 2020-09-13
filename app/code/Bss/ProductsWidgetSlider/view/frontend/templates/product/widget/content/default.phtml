@@ -120,6 +120,31 @@ else {
                                                         <input type="hidden" name="product" value="<?= $block->escapeQuote($postParams['data']['product']) ?>">
                                                         <input type="hidden" name="<?= $block->escapeQuote(Action::PARAM_NAME_URL_ENCODED) ?>" value="<?= $block->escapeQuote($postParams['data'][Action::PARAM_NAME_URL_ENCODED]) ?>">
                                                         <?= $block->getBlockHtml('formkey') ?>
+                                                        <div class="float-cart" style="position:absolute">
+                                                            <?php if ($showCart) : ?>
+                                                                    <?php if ($_item->isSaleable()) : ?>
+                                                                        <?php $postParams = $block->getAddToCartPostParams($_item); ?>
+                                                                        <form data-role="tocart-form" data-product-sku="<?= $block->escapeHtmlAttr($_item->getSku()) ?>" action="<?= $block->escapeUrl($postParams['action']) ?>" method="post">
+                                                                            <input type="hidden" name="product" value="<?= $block->escapeHtmlAttr($postParams['data']['product']) ?>">
+                                                                            <input type="hidden" name="<?= /* @noEscape */ Action::PARAM_NAME_URL_ENCODED ?>" value="<?= /* @noEscape */ $postParams['data'][Action::PARAM_NAME_URL_ENCODED] ?>">
+                                                                            <?= $block->getBlockHtml('formkey') ?>
+                                                                            <button type="submit"
+                                                                                title="<?= $block->escapeHtmlAttr(__('Add to Cart')) ?>" class="btn btn-default" style="background:#000;padding:1.5rem 2.3125rem;display:inline-flex;">
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" viewBox="0 0 32 34"><g><g><path fill="#fff" d="M7.186 29.85a3.531 3.531 0 1 1 7.063 0 3.531 3.531 0 0 1-7.063 0z"/></g><g><path fill="#fff" d="M22.096 29.85a3.531 3.531 0 1 1 7.063 0 3.531 3.531 0 0 1-7.063 0z"/></g><g><path fill="#fff" d="M7.931 6.66L6.715 2.972A3.61 3.61 0 0 0 3.34.5H.712a.785.785 0 1 0 0 1.57H3.34a2.04 2.04 0 0 1 1.884 1.373l4.944 15.028-.353.902a3.885 3.885 0 0 0 .314 3.414 3.65 3.65 0 0 0 2.943 1.648h15.302a.785.785 0 1 0 0-1.57H13.072a1.962 1.962 0 0 1-1.61-.941 2.04 2.04 0 0 1-.195-1.884l.47-1.177a1.02 1.02 0 0 0 .04-.588l-.236-.589 15.97-1.648a2.707 2.707 0 0 0 2.394-2.08l1.648-6.945z"/></g></g></svg>
+                                                                                <span href="#">
+                                                                                    AGGIUNGI
+                                                                                </span>
+                                                                            </button>
+                                                                        </form>
+                                                                    <?php else : ?>
+                                                                        <?php if ($_item->getIsSalable()) : ?>
+                                                                            <div class="stock available"><span><?= $block->escapeHtml(__('In stock')) ?></span></div>
+                                                                        <?php else : ?>
+                                                                            <div class="stock unavailable"><span><?= $block->escapeHtml(__('Out of stock')) ?></span></div>
+                                                                        <?php endif; ?>
+                                                                    <?php endif; ?>
+                                                            <?php endif; ?>
+                                                        </div>
                                                         <?php if ($showCart) {
                                                             $postData = $block->getPostData($block->getAddToCartUrl($_product), ['product' => $_product->getEntityId()])
                                                             ?>
@@ -170,31 +195,6 @@ else {
                                                 <?php endif; ?>
                                             </div>
                                             <?php if ($showWishlist || $showCompare): ?>
-                                                <div class="float-cart" style="position:absolute">
-                                                    <?php if ($showCart) : ?>
-                                                            <?php if ($_item->isSaleable()) : ?>
-                                                                <?php $postParams = $block->getAddToCartPostParams($_item); ?>
-                                                                <form data-role="tocart-form" data-product-sku="<?= $block->escapeHtmlAttr($_item->getSku()) ?>" action="<?= $block->escapeUrl($postParams['action']) ?>" method="post">
-                                                                    <input type="hidden" name="product" value="<?= $block->escapeHtmlAttr($postParams['data']['product']) ?>">
-                                                                    <input type="hidden" name="<?= /* @noEscape */ Action::PARAM_NAME_URL_ENCODED ?>" value="<?= /* @noEscape */ $postParams['data'][Action::PARAM_NAME_URL_ENCODED] ?>">
-                                                                    <?= $block->getBlockHtml('formkey') ?>
-                                                                    <button type="submit"
-                                                                        title="<?= $block->escapeHtmlAttr(__('Add to Cart')) ?>" class="btn btn-default" style="background:#000;padding:1.5rem 2.3125rem;display:inline-flex;">
-                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" viewBox="0 0 32 34"><g><g><path fill="#fff" d="M7.186 29.85a3.531 3.531 0 1 1 7.063 0 3.531 3.531 0 0 1-7.063 0z"/></g><g><path fill="#fff" d="M22.096 29.85a3.531 3.531 0 1 1 7.063 0 3.531 3.531 0 0 1-7.063 0z"/></g><g><path fill="#fff" d="M7.931 6.66L6.715 2.972A3.61 3.61 0 0 0 3.34.5H.712a.785.785 0 1 0 0 1.57H3.34a2.04 2.04 0 0 1 1.884 1.373l4.944 15.028-.353.902a3.885 3.885 0 0 0 .314 3.414 3.65 3.65 0 0 0 2.943 1.648h15.302a.785.785 0 1 0 0-1.57H13.072a1.962 1.962 0 0 1-1.61-.941 2.04 2.04 0 0 1-.195-1.884l.47-1.177a1.02 1.02 0 0 0 .04-.588l-.236-.589 15.97-1.648a2.707 2.707 0 0 0 2.394-2.08l1.648-6.945z"/></g></g></svg>
-                                                                        <span href="#">
-                                                                            AGGIUNGI
-                                                                        </span>
-                                                                    </button>
-                                                                </form>
-                                                            <?php else : ?>
-                                                                <?php if ($_item->getIsSalable()) : ?>
-                                                                    <div class="stock available"><span><?= $block->escapeHtml(__('In stock')) ?></span></div>
-                                                                <?php else : ?>
-                                                                    <div class="stock unavailable"><span><?= $block->escapeHtml(__('Out of stock')) ?></span></div>
-                                                                <?php endif; ?>
-                                                            <?php endif; ?>
-                                                    <?php endif; ?>
-                                                </div>
                                                 <div class="actions-secondary" data-role="add-to-links">
                                                     <?php if ($block->isAllow() && $showWishlist): ?>
                                                         <a href="#"
