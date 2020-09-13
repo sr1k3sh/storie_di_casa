@@ -121,6 +121,8 @@ h2.section-title{
 .product-item-details{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .products-grid .product-item-info{
     position: sticky;
@@ -180,6 +182,7 @@ h2.section-title{
 }
 .product-item .price-box{
     text-align: left;
+    margin:0 !important;
 }
 
 /* review container */
@@ -1014,12 +1017,14 @@ div.newsletter-content div.block.newsletter {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    top: 6px;
+    top: 8px;
     font-weight: 500;
     position: relative;
     transition: all 0.3s ease-in-out;
     padding:0;
+    margin-left:8px;
 }
+
 .product-item-info .float-cart .action.tocart::after {
     position: relative;
     top:-6px;
@@ -1095,4 +1100,7 @@ button:not(.primary){
 .overlay-menu .menu-logo>a>img{
     width: 39.25rem;
     height: auto;
+}
+svg{
+    width:2rem;
 }
