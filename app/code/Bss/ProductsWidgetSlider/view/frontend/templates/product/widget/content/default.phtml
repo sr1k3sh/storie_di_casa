@@ -98,12 +98,12 @@ else {
                                         $_productNameStripped = $block->stripTags($block->escapeHtml($_product->getName()), null, true);
                                         $info = [];
                                         ?>
-                                        <strong class="product name product-item-name">
+                                        <div class="product name product-item-name">
                                             <a class="product-item-link"
                                             href="<?= $block->escapeUrl($_product->getProductUrl()) ?>">
                                                 <?= $block->productAttribute($_product, $block->escapeHtml($_product->getName()), 'name') ?>
                                             </a>
-                                        </strong>
+                                        </div>
                                         <?= $block->getReviewsSummaryHtml($_product, $templateType) ?>
                                         <?php if ($showPrice) { ?>
                                             <div class="bss-price-box">
