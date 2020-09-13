@@ -1051,3 +1051,12 @@ button:not(.primary){
     margin-right: 26px;
 }
 .nav-sections{margin-bottom:0px}
+
+
+/* qa verification */
+.header.content{
+    padding: 30px 50px 0;
+}
+.nav-sections-item-content > .navigation{
+    padding:0 30px;
+}
