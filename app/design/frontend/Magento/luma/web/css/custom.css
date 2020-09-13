@@ -45,14 +45,14 @@
     left:22vw;
 } */
 .block-search input{
-    height:60px;
+    height:48px;
 }
 .header.content{
     display: flex;
     align-items: center;
 }
 .block-search .action.search{
-    top:24% !important;
+    top:15% !important;
     right:unset;
     left:22px;
 }
