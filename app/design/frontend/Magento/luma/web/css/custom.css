@@ -1055,7 +1055,7 @@ button:not(.primary){
 
 /* qa verification */
 .header.content{
-    padding: 30px 50px 0;
+    padding: 30px 50px 0 !important;
 }
 .nav-sections-item-content > .navigation{
     padding:0 30px;
