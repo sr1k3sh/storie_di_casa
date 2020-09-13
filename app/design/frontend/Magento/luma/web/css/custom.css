@@ -1031,13 +1031,14 @@ div.newsletter-content div.block.newsletter {
 /* CATEGORIA PAGE */
 
 .hero-banner .whatsapp-link{
-    position: absolute;
-    bottom: 3px;
+    position: fixed;
+    bottom: 10px;
     right: 27px;
     width: inherit;
     min-height: inherit;
     transform: scale(0.6);
     cursor: pointer;
+    z-index: 111;
 }
 input{
     outline:none;
@@ -1046,3 +1047,7 @@ input{
 button:not(.primary){
     box-shadow: none;
 }
+.col-payment .icon-payment {
+    margin-right: 26px;
+}
+.nav-sections{margin-bottom:0px}
