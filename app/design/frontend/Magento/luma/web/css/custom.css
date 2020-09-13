@@ -1088,3 +1088,6 @@ button:not(.primary){
 .price-wrapper[data-price-type="oldPrice"]{
     text-decoration: line-through;
 }
+.product-item .price-box .price-label{
+    display: none;
+}
