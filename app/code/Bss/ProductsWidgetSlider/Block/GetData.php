@@ -18,6 +18,7 @@
 
 namespace Bss\ProductsWidgetSlider\Block;
 
+use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Magento\CatalogWidget\Block\Product\ProductsList;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
@@ -90,6 +91,7 @@ class GetData extends ProductsList
     /**
      * GetData constructor.
      * @param \Magento\Catalog\Block\Product\Context $context
+     * @param \CategoryRepositoryInterface $categoryRepository
      * @param \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $productCollectionFactory
      * @param \Magento\Catalog\Model\Product\Visibility $catalogProductVisibility
      * @param \Magento\Framework\App\Http\Context $httpContext
@@ -120,6 +122,7 @@ class GetData extends ProductsList
         \Magento\Catalog\Helper\Output $Output,
         \Magento\Framework\Data\Helper\PostHelper $postHelper,
         \Magento\Framework\App\ProductMetadataInterface $productMetadata,
+        \Magento\Catalog\Api\CategoryRepositoryInterface $categoryRepository,
         priceCurrencyInterface $priceCurrencyInterface,
         array $data = []
     ) {
@@ -131,6 +134,7 @@ class GetData extends ProductsList
             $sqlBuilder,
             $rule,
             $conditionsHelper,
+            $categoryRepository,
             $data
         );
         $this->listProduct = $listProduct;
