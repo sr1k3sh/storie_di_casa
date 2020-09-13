@@ -1050,7 +1050,7 @@ button:not(.primary){
 .col-payment .icon-payment {
     margin-right: 26px;
 }
-.nav-sections{margin-bottom:0px}
+.nav-sections{margin-bottom:0px !important}
 
 
 /* qa verification */
