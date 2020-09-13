@@ -1090,6 +1090,7 @@ button:not(.primary){
 }
 .product-item-name{
     text-align: left;
+    margin:0 !important;
 }
 .price-wrapper[data-price-type="oldPrice"]{
     text-decoration: line-through;
