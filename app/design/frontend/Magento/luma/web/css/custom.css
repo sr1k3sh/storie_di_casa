@@ -557,7 +557,7 @@ border:1px solid #000;
     position: relative !important;;
     padding:10px 0px 0px 0px !important;
     color:#000000 !important;
-    margin-left: 3px;
+    margin-left: 1px;
 }
 
 .promobanner .banner-text{
@@ -570,10 +570,8 @@ border:1px solid #000;
 }
 
 .promobanner .banner-subtitle{
-    font-style: oblique;
-    margin-bottom: 15px;
-    font-style: oblique;
-    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 12px;
 }
 
 .promobanner .btn-promo-banner{
@@ -1068,7 +1066,7 @@ button:not(.primary){
 }
 .panel.header{
     display: flex;
-    padding: 10px 45px !important;
+    padding: 10px 50px !important;
 }
 .panel.header .instagram-link{
     margin-left:14px;
