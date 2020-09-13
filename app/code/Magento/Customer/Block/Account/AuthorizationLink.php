@@ -69,7 +69,7 @@ class AuthorizationLink extends \Magento\Framework\View\Element\Html\Link implem
      */
     public function getLabel()
     {
-        return $this->isLoggedIn() ? __('Sign Out') : __('Sign In');
+        return $this->isLoggedIn() ? __('Sign Out') : __('Login');
     }
 
     /**

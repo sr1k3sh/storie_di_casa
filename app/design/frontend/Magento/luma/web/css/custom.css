@@ -1060,3 +1060,16 @@ button:not(.primary){
 .nav-sections-item-content > .navigation{
     padding:0 30px;
 }
+.header.panel > .header.links > .authorization-link::after{
+    margin:0 !important;
+}
+.header.panel > .header.links > li{
+    margin:0 0 0 4px !important;
+}
+.panel.header{
+    display: flex;
+    padding: 10px 45px !important;
+}
+.panel.header .instagram-link{
+    margin-left:16px;
+}
