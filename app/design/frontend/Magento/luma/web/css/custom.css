@@ -1111,3 +1111,7 @@ svg{
     height:4.375rem !important;
     border-radius: 50%;
 }
+.slick-prev::before,.slick-next::before{
+    font-weight: lighter;
+    font-size: 31px !important;
+}
