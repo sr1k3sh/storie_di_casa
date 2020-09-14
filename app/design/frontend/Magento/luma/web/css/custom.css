@@ -99,6 +99,7 @@
 *{
     font-family: 'muli', sans-serif !important;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 .hero-banner button{
     color:#fff;
     border:2px solid #fff;
@@ -537,6 +538,7 @@ border:1px solid #000;
     font-size: 22px;
     position: absolute;
     bottom: 18px;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 /* Splash Menu */
