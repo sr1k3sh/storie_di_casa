@@ -325,6 +325,9 @@ h2.section-title{
     color:#707070;
     text-transform: capitalize;
 }
+.footer-margin-17{
+    margin-bottom: 17px;
+}
 .copyright{
     display: none;
 }
