@@ -58,7 +58,14 @@
 }
 .minicart-wrapper .action.showcart:before{
     color: #ffffff;
+    display: flex;
+    align-items: center;
 }
+.minicart-wrapper .action.showcart{
+    display: flex;
+    align-items: center;
+}
+
 div.minicart-wrapper a.action.showcart span.text{
     font-size: 14px;
     width: auto;
@@ -67,6 +74,13 @@ div.minicart-wrapper a.action.showcart span.text{
     color: white;
     display: inline-block;
     position: relative;
+    margin-left: 5px;
+}
+@media (min-width: 768px){
+.header.panel > .header.links {
+    display: flex;
+    align-items: center;
+}
 }
 #search_mini_form .control input#search{
     padding:0 25px;
