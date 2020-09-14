@@ -45,14 +45,14 @@
     left:22vw;
 } */
 .block-search input{
-    height:60px;
+    height:48px;
 }
 .header.content{
     display: flex;
     align-items: center;
 }
 .block-search .action.search{
-    top:24% !important;
+    top:15% !important;
     right:unset;
     left:22px;
 }
@@ -99,6 +99,7 @@
 *{
     font-family: 'muli', sans-serif !important;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 .hero-banner button{
     color:#fff;
     border:2px solid #fff;
@@ -121,6 +122,8 @@ h2.section-title{
 .product-item-details{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .products-grid .product-item-info{
     position: sticky;
@@ -180,6 +183,7 @@ h2.section-title{
 }
 .product-item .price-box{
     text-align: left;
+    margin:0 !important;
 }
 
 /* review container */
@@ -271,6 +275,9 @@ h2.section-title{
 .footer-quicklink{
     padding-bottom:7px;
 }
+.footer-quicklink:first-child .h4-font{
+    text-transform: capitalize;
+}
 
 @media screen and (max-width: 767px) {
     .col-payment{
@@ -309,14 +316,17 @@ h2.section-title{
     padding-bottom: 20px;
 }
 .page-footer .h4-font{
-    font-size: 1.125rem !important;
-    font-weight: bold;
+    font-size: 1.225rem !important;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .footer.content .links li{
     font-size: 1.125rem !important;
     color:#707070;
     text-transform: capitalize;
+}
+.footer-margin-17{
+    margin-bottom: 17px !important;
 }
 .copyright{
     display: none;
@@ -483,6 +493,8 @@ h2.section-title{
 }
 .overlay-menu .menu-logo{
     margin-bottom: 55px;
+    position: relative;
+    bottom: 82px;
   }
 .overlay-menu .menu-logo>img{
     width:397px;
@@ -491,13 +503,18 @@ h2.section-title{
 display:flex;
 flex-direction:row;
 justify-content:space-between;
-width:32%;
+position: relative;
+bottom: 5px;
+}
+.overlay-menu .splash-nav>a{
+    margin:0 22px;
 }
 .overlay-menu .splash-nav .splash-btn{
 background:#000;
 color:#fff;
-font-weight:bold;
-padding:20px 50px;
+font-weight:500;
+font-size:24px;
+padding:34px 66px;
 transition:all 0.3s ease-in-out;
 cursor:pointer;
 border:1px solid;
@@ -523,9 +540,11 @@ border:1px solid #000;
 }
 .coriweb{
     text-align: center;
-    margin-top: 150px;
     color: #666666;
-    font-size: 12px;
+    font-size: 22px;
+    position: absolute;
+    bottom: 18px;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 /* Splash Menu */
@@ -557,7 +576,7 @@ border:1px solid #000;
     position: relative !important;;
     padding:10px 0px 0px 0px !important;
     color:#000000 !important;
-    margin-left: 3px;
+    margin-left: 1px;
 }
 
 .promobanner .banner-text{
@@ -570,10 +589,8 @@ border:1px solid #000;
 }
 
 .promobanner .banner-subtitle{
-    font-style: oblique;
-    margin-bottom: 15px;
-    font-style: oblique;
-    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 12px;
 }
 
 .promobanner .btn-promo-banner{
@@ -1013,12 +1030,14 @@ div.newsletter-content div.block.newsletter {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    top: 6px;
+    top: 8px;
     font-weight: 500;
     position: relative;
     transition: all 0.3s ease-in-out;
     padding:0;
+    margin-left:8px;
 }
+
 .product-item-info .float-cart .action.tocart::after {
     position: relative;
     top:-6px;
@@ -1031,13 +1050,14 @@ div.newsletter-content div.block.newsletter {
 /* CATEGORIA PAGE */
 
 .hero-banner .whatsapp-link{
-    position: absolute;
-    bottom: 3px;
+    position: fixed;
+    bottom: 10px;
     right: 27px;
     width: inherit;
     min-height: inherit;
     transform: scale(0.6);
     cursor: pointer;
+    z-index: 111;
 }
 input{
     outline:none;
@@ -1045,4 +1065,72 @@ input{
 }
 button:not(.primary){
     box-shadow: none;
+}
+.col-payment .icon-payment {
+    margin-right: 26px;
+}
+.nav-sections{margin-bottom:0px !important}
+
+
+/* qa verification */
+.header.content{
+    padding: 30px 50px 0 !important;
+}
+.nav-sections-item-content > .navigation{
+    padding:0 30px;
+}
+.header.panel > .header.links > .authorization-link::after{
+    margin:0 !important;
+}
+.header.panel > .header.links > li{
+    margin:0 0 0 4px !important;
+}
+.panel.header{
+    display: flex;
+    padding: 10px 50px !important;
+}
+.panel.header .instagram-link{
+    margin-left:14px;
+}
+.panel.header .top-header-links{
+    display: flex;
+    align-items: center;
+}
+.panel.header .header-offer{
+    margin-left: 22px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.product-item-name{
+    text-align: left;
+    margin:0 !important;
+}
+.price-wrapper[data-price-type="oldPrice"]{
+    text-decoration: line-through;
+}
+.product-item .price-box .price-label{
+    display: none;
+}
+.overlay-menu .menu-logo>a>img{
+    height: auto;
+}
+svg{
+    width:2rem;
+}
+.slick-arrow{
+    background-color: #fff !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16) !important;
+    width: 4.375rem !important;
+    height:4.375rem !important;
+    border-radius: 50%;
+}
+.slick-prev::before,.slick-next::before{
+    font-weight: lighter;
+    font-size: 31px !important;
+}
+.product-item-name, .product.name a{
+    font-weight: 600 !important;
+}
+.product-item .price-box .price{
+    font-weight: lighter !important;
 }
