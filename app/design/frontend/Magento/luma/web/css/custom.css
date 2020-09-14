@@ -275,6 +275,9 @@ h2.section-title{
 .footer-quicklink{
     padding-bottom:7px;
 }
+.footer-quicklink:first-child .h4-font{
+    text-transform: capitalize;
+}
 
 @media screen and (max-width: 767px) {
     .col-payment{
