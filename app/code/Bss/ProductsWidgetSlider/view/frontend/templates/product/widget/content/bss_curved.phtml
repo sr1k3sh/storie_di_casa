@@ -105,7 +105,7 @@ else {
                                                 if ($today >= strtotime($specialPriceFromDate) && $today <= strtotime($specialPriceToDate) || $today >= strtotime($specialPriceFromDate) && is_null($specialPriceToDate)) { ?>
                                                     <div class="label-product label-sale">
                                                         <span class="sale-product-icon">
-                                                            <?php if($sale) { echo $sale.'%'; } else {echo __('Sale');} ?>
+                                                            <?php if($sale) { echo '-'.$sale.'%'; } else {echo __('Sale');} ?>
                                                         </span>
                                                     </div>
                                                 <?php }
