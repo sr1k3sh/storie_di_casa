@@ -486,6 +486,8 @@ h2.section-title{
 }
 .overlay-menu .menu-logo{
     margin-bottom: 55px;
+    position: relative;
+    bottom: 82px;
   }
 .overlay-menu .menu-logo>img{
     width:397px;
@@ -494,16 +496,18 @@ h2.section-title{
 display:flex;
 flex-direction:row;
 justify-content:space-between;
+position: relative;
+bottom: 5px;
 }
 .overlay-menu .splash-nav>a{
-    margin:0 14px;
+    margin:0 22px;
 }
 .overlay-menu .splash-nav .splash-btn{
 background:#000;
 color:#fff;
 font-weight:500;
 font-size:24px;
-padding:33px 66px;
+padding:34px 66px;
 transition:all 0.3s ease-in-out;
 cursor:pointer;
 border:1px solid;
