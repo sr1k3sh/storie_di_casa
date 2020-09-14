@@ -90,30 +90,6 @@ else {
                                 ?>
                                 <?php // Product Image ?>
                                 <a href="<?= $block->escapeUrl($_product->getProductUrl()) ?>" class="product photo product-item-photo" tabindex="-1">
-<<<<<<< HEAD
-                                <?php //Product Discount in image top ?>
-                                    <?php 
-                                    $specialprice = $_product->getSpecialPrice();
-                                    $specialPriceFromDate = $_product->getSpecialFromDate();
-                                    $specialPriceToDate = $_product->getSpecialToDate();
-                                    $today = time();
-                                    $price = $_product->getPrice();
-                                    if($price){
-                                        $sale = round((($price-$specialprice)/$price)*100);
-                                    }
-                                    if ($specialprice) {
-                                        if ($today >= strtotime($specialPriceFromDate) && $today <= strtotime($specialPriceToDate) || $today >= strtotime($specialPriceFromDate) && is_null($specialPriceToDate)) { ?>
-                                            <div class="label-product label-sale">
-                                                <span class="sale-product-icon">
-                                                    <?php if($sale) { echo $sale.'%'; } else {echo __('Sale');} ?>
-                                                </span>
-                                            </div>
-                                        <?php }
-                                    }
-                                ?>
-                                <?= $productImage->toHtml()?>
-                                    
-=======
                                     <?php //Product Discount in image top ?>
                                         <?php 
                                         $specialprice = $_product->getSpecialPrice();
@@ -135,7 +111,6 @@ else {
                                         }
                                     ?>    
                                     <?= $productImage->toHtml()?>
->>>>>>> 66cc1ef58e4d1e3741edac83ee04cafc2c6b4dfb
                                 </a>
                                 <div class="product details product-item-details test2">
                                     <div>

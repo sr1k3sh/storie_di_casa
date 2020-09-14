@@ -56,8 +56,17 @@
     right:unset;
     left:22px;
 }
-.minicart-wrapper{
-    display: none;
+.minicart-wrapper .action.showcart:before{
+    color: #ffffff;
+}
+div.minicart-wrapper a.action.showcart span.text{
+    font-size: 14px;
+    width: auto;
+    clip: auto;
+    height: auto;
+    color: white;
+    display: inline-block;
+    position: relative;
 }
 #search_mini_form .control input#search{
     padding:0 25px;

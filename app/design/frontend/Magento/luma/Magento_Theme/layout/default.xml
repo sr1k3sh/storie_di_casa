@@ -19,5 +19,6 @@
         </referenceContainer>
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
+        <move element="minicart" destination="header.panel" /> 
     </body>
 </page>
