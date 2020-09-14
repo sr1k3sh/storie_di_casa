@@ -326,7 +326,7 @@ h2.section-title{
     text-transform: capitalize;
 }
 .footer-margin-17{
-    margin-bottom: 17px;
+    margin-bottom: 17px !important;
 }
 .copyright{
     display: none;
