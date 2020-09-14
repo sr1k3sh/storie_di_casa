@@ -1116,3 +1116,9 @@ svg{
     font-weight: lighter;
     font-size: 31px !important;
 }
+.product-item-name, .product.name a{
+    font-weight: 500 !important;
+}
+.product-item .price-box .price{
+    font-weight: lighter !important;
+}
