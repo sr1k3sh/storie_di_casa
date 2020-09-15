@@ -86,7 +86,7 @@ div.minicart-wrapper a.action.showcart span.text{
     margin:0 !important;
 }
 .modes{
-    display:none;
+    display:none !important;
 }
 .toolbar select {
         background-color: transparent !important;
@@ -710,13 +710,15 @@ border:1px solid #000;
     width: 100%;
 }
 div.newsletter-content .newsletter-title{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
+    text-align: left;
     color:#fff;
 }
 div.newsletter-content .newsletter-subtitle{
-    font-size: 15px;
+    font-size: 13px;
     color:#fff;
+    text-align: left;
 }
 div.newsletter-content div.block.newsletter{
     display: flex;
@@ -760,11 +762,17 @@ form.form.subscribe div.actions button{
     margin: 0;
     text-align: center;
     width: 100%;
+    padding:17px 20px;
 }
 
 .storie-newsletter-sidebar form.subscribe input{
     width:180px;
     margin:0px;
+    display: none;
+}
+.storie-newsletter-sidebar form.form.subscribe div.actions button {
+    border-color: #fff;
+    background:transparent;
 }
 .storie-newsletter-sidebar form.subscribe div.actions{
     display: block;
@@ -773,7 +781,7 @@ form.form.subscribe div.actions button{
     width:180px;
 }
 div.newsletter-content div.block.newsletter {
-    margin-top:100px;
+    margin-top:160px;
     margin-bottom:0px;
 }
  /* Sidebar Categories Anchor */
@@ -796,7 +804,7 @@ div.newsletter-content div.block.newsletter {
     display: block;
 }
 .catalog-category span.category a{
-    font-size: 1.125rem;
+    font-size:14px;
     color:#666666;
     line-height:1.7;
     text-transform: uppercase;
@@ -1194,4 +1202,22 @@ a.action.towishlist span{
 }
 .product-item .action.towishlist:before{
     display:none;
+
+/* side bar */
+.sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
+    color: #666666;
+}
+/* custom h3 */
+h3{
+    font-size: 1.5rem !important;
+}
+p{
+    font-size: 12px !important;
+}
+.storie-newsletter-sidebar::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #00000057;
 }
