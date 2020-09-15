@@ -86,7 +86,7 @@ div.minicart-wrapper a.action.showcart span.text{
     margin:0 !important;
 }
 .modes{
-    display:none;
+    display:none !important;
 }
 .toolbar select {
         background-color: transparent !important;
@@ -796,7 +796,7 @@ div.newsletter-content div.block.newsletter {
     display: block;
 }
 .catalog-category span.category a{
-    font-size: 1.125rem;
+    font-size:14px;
     color:#666666;
     line-height:1.7;
     text-transform: uppercase;
