@@ -1192,3 +1192,6 @@ svg{
 a.action.towishlist span{
     display: none;
 }
+.product-item .action.towishlist:before{
+    display:none;
+}
