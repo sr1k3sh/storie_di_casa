@@ -1228,3 +1228,6 @@ a.action.towishlist span{
     content: '';
     background: #00000057;
 }
+.sidebar.sidebar-additional .block.block-reorder{
+    display: none;
+}
