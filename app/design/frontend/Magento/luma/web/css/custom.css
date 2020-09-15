@@ -89,10 +89,15 @@ div.minicart-wrapper a.action.showcart span.text{
     display:none !important;
 }
 .toolbar select {
-        background-color: transparent !important;
-        box-shadow: none !important;
-        border-radius: 0 !important;
-        border: none;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none;
+    padding: 0 20px 0 0;
+    margin: 0 0 0 -4px;
+}
+.toolbar-sorter>label{
+    display: none;
 }
 @media (min-width: 768px){
 .header.panel > .header.links {
@@ -1219,10 +1224,10 @@ a.action.towishlist span{
     color: #666666;
 }
 /* custom h3 */
-h3{
+.widget.block.block-static-block h3{
     font-size: 1.5rem !important;
 }
-p{
+.widget.block.block-static-block p{
     font-size: 12px !important;
 }
 .storie-newsletter-sidebar::before {
