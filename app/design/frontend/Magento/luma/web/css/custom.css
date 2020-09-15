@@ -1212,3 +1212,10 @@ h3{
 p{
     font-size: 12px !important;
 }
+.storie-newsletter-sidebar::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #00000057;
+}
