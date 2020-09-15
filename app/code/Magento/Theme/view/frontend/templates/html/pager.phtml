@@ -20,11 +20,11 @@
         <p class="toolbar-amount">
             <span class="toolbar-number">
             <?php if ($block->getLastPageNum()>1) : ?>
-                <?= $block->escapeHtml(__('risultatis %1 to %2 of %3 total', $block->getFirstNum(), $block->getLastNum(), $block->getTotalNum())) ?>
+                <?= $block->escapeHtml(__('Items %1 to %2 of %3 total', $block->getFirstNum(), $block->getLastNum(), $block->getTotalNum())) ?>
             <?php elseif ($block->getTotalNum() == 1) : ?>
-                <?= $block->escapeHtml(__('%1 risultati', $block->getTotalNum())) ?>
+                <?= $block->escapeHtml(__('%1 risultatis', $block->getTotalNum())) ?>
             <?php else : ?>
-                <?= $block->escapeHtml(__('%1 risultati(s)', $block->getTotalNum())) ?>
+                <?= $block->escapeHtml(__('%1 risultatis(s)', $block->getTotalNum())) ?>
             <?php endif; ?>
             </span>
         </p>
