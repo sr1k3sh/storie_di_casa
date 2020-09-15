@@ -1113,10 +1113,10 @@ div.newsletter-content div.block.newsletter {
     cursor: pointer;
     z-index: 111;
 }
-input{
+/* input{
     outline:none;
     border:none !important;
-}
+} */
 button:not(.primary){
     box-shadow: none;
 }
