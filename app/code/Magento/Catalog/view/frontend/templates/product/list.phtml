@@ -64,6 +64,7 @@ $_helper = $this->helper(Magento\Catalog\Helper\Output::class);
                         <?php
                             $_productNameStripped = $block->stripTags($_product->getName(), null, true);
                         ?>
+                        <div>
                         <strong class="product name product-item-name">
                             <a class="product-item-link"
                                href="<?= $block->escapeUrl($_product->getProductUrl()) ?>">
@@ -75,6 +76,7 @@ $_helper = $this->helper(Magento\Catalog\Helper\Output::class);
                         <?php if ($_product->isAvailable()) :?>
                             <?= $block->getProductDetailsHtml($_product) ?>
                         <?php endif; ?>
+                        </div>
 
                         <div class="float-cart" style="position:absolute">
                             <div class="product actions product-item-actions"<?= strpos($pos, $viewMode . '-actions') ? $block->escapeHtmlAttr($position) : '' ?>>
