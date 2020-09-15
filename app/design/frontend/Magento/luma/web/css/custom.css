@@ -1224,6 +1224,9 @@ a.action.towishlist span{
 .sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
     color: #666666;
 }
+div.block.filter{
+    display:none;
+}
 /* custom h3 */
 .widget.block.block-static-block h3{
     font-size: 1.5rem !important;
