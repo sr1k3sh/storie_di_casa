@@ -1123,10 +1123,10 @@ form.form.subscribe div.actions button{
     cursor: pointer;
     z-index: 111;
 }
-input{
+/* input{
     outline:none;
     border:none !important;
-}
+} */
 button:not(.primary){
     box-shadow: none;
 }
