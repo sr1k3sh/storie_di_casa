@@ -710,13 +710,15 @@ border:1px solid #000;
     width: 100%;
 }
 div.newsletter-content .newsletter-title{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
+    text-align: left;
     color:#fff;
 }
 div.newsletter-content .newsletter-subtitle{
-    font-size: 15px;
+    font-size: 13px;
     color:#fff;
+    text-align: left;
 }
 div.newsletter-content div.block.newsletter{
     display: flex;
@@ -760,11 +762,17 @@ form.form.subscribe div.actions button{
     margin: 0;
     text-align: center;
     width: 100%;
+    padding:17px;
 }
 
 .storie-newsletter-sidebar form.subscribe input{
     width:180px;
     margin:0px;
+    display: none;
+}
+.storie-newsletter-sidebar form.form.subscribe div.actions button {
+    border-color: #fff;
+    background:transparent;
 }
 .storie-newsletter-sidebar form.subscribe div.actions{
     display: block;
@@ -1191,4 +1199,16 @@ svg{
 /* wish list */
 a.action.towishlist span{
     display: none;
+}
+
+/* side bar */
+.sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
+    color: #666666;
+}
+/* custom h3 */
+h3{
+    font-size: 1.5rem !important;
+}
+p{
+    font-size: 12px !important;
 }
