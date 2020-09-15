@@ -1205,6 +1205,9 @@ svg{
 a.action.towishlist span{
     display: none;
 }
+.product-item .action.towishlist:before{
+    display:none;
+}
 
 /* side bar */
 .sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
