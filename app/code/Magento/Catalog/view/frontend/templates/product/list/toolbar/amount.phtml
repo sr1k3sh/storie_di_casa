@@ -24,12 +24,12 @@
         ) ?>
     <?php elseif ($block->getTotalNum() == 1) :?>
         <?= $block->escapeHtml(
-            __('%1 Item', '<span class="toolbar-number">' . $block->getTotalNum() . '</span>'),
+            __('%1 risultati', '<span class="toolbar-number">' . $block->getTotalNum() . '</span>'),
             ['span']
         ) ?>
     <?php else :?>
         <?= $block->escapeHtml(
-            __('%1 Items', '<span class="toolbar-number">' . $block->getTotalNum() . '</span>'),
+            __('%1 risultatis', '<span class="toolbar-number>' . $block->getTotalNum() . '</span>'),
             ['span']
         ) ?>
     <?php endif; ?>
