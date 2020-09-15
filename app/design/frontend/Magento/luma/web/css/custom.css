@@ -646,6 +646,7 @@ border:1px solid #000;
     padding: 10px 18px;
     border: 2px solid black;
     box-shadow: none;
+    text-transform: uppercase;
 }
 
 .promobanner .btn-promo-banner:hover{
