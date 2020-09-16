@@ -117,13 +117,15 @@ div.minicart-wrapper a.action.showcart span.text{
 /* hero banner */
 .hero-banner{
     position: relative;
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
 }
 .hero-banner img{
     min-height:230px;
 }
 .hero-banner .banner-content{
     position: absolute;
-    top:20%;
+    top:30%;
     left:10%;
 }
 .hero-banner .banner-content .header-sub-title{
