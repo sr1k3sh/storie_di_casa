@@ -1261,3 +1261,7 @@ a.action.towishlist span{
 .feature-product,.cms-home .widget.block-static-block{
     padding:0 20px;
 }
+/* Bss ProductWidget */
+.slick-dots{
+    display: none;
+}
