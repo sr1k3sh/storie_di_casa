@@ -390,6 +390,9 @@ h2.section-title{
     height:33px;
     margin-left: 18px;
 }
+.copyright-section .icon-payment>a{
+    margin-left: 10px;
+}
 .column1 .banner{
     border: 1px solid #000;
     padding: 20px;
