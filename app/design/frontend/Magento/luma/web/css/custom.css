@@ -646,6 +646,7 @@ border:1px solid #000;
     padding: 10px 18px;
     border: 2px solid black;
     box-shadow: none;
+    text-transform: uppercase;
 }
 
 .promobanner .btn-promo-banner:hover{
@@ -1113,10 +1114,10 @@ div.newsletter-content div.block.newsletter {
     cursor: pointer;
     z-index: 111;
 }
-input{
+/* input{
     outline:none;
     border:none !important;
-}
+} */
 button:not(.primary){
     box-shadow: none;
 }
@@ -1226,4 +1227,7 @@ a.action.towishlist span{
     height: 100%;
     content: '';
     background: #00000057;
+}
+.sidebar.sidebar-additional .block.block-reorder{
+    display: none;
 }
