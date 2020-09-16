@@ -1238,6 +1238,6 @@ a.action.towishlist span{
 .sidebar #layered-filter-block{
     display: none !important;
 }
-.feature-product, .widget.block-static-block{
+.feature-product,.cms-home .widget.block-static-block{
     padding:0 20px;
 }
