@@ -1235,6 +1235,6 @@ a.action.towishlist span{
 .page-main{
     padding:0 !important;
 }
-.sidebar .layered-filter-block{
+.sidebar #layered-filter-block{
     display: none !important;
 }
