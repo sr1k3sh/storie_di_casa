@@ -1068,6 +1068,7 @@ div.newsletter-content div.block.newsletter {
 }
 .navigation .level0 > .level-top{
     text-transform: uppercase;
+    font-size: 12px;
 }
 .product-item-info .float-cart{
     position: absolute;
@@ -1220,9 +1221,6 @@ a.action.towishlist span{
 /* custom h3 */
 .widget.block.block-static-block h3{
     font-size: 1.5rem !important;
-}
-.widget.block.block-static-block p{
-    font-size: 12px !important;
 }
 .storie-newsletter-sidebar::before {
     position: absolute;
