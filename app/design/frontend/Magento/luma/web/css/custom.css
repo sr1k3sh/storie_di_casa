@@ -1244,9 +1244,12 @@ a.action.towishlist span{
 .sidebar.sidebar-additional .block.block-reorder{
     display: none;
 }
-.page-main{
+.cms-home .page-main{
     padding:0 !important;
 }
 .sidebar #layered-filter-block{
     display: none !important;
+}
+.feature-product,.cms-home .widget.block-static-block{
+    padding:0 20px;
 }
