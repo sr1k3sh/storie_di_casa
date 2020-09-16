@@ -1234,6 +1234,7 @@ a.action.towishlist span{
 }
 .cms-home .page-main{
     padding:0 !important;
+    max-width: 1366px !important
 }
 .sidebar #layered-filter-block{
     display: none !important;
