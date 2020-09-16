@@ -284,6 +284,12 @@ h2.section-title{
 .footer-list{
     text-align:left;
 }
+@media (min-width: 1400px){
+    .footer.content, .footer div.container{
+    max-width:100% !important;
+    }
+
+}
 
 
 @media  screen and (max-width: 767px){
