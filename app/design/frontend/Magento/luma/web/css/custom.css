@@ -718,13 +718,13 @@ border:1px solid #000;
 div.newsletter-content .newsletter-title{
     font-size: 27px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     color:#fff;
 }
 div.newsletter-content .newsletter-subtitle{
     font-size: 13px;
     color:#fff;
-    text-align: left;
+    text-align: center;
 }
 div.newsletter-content div.block.newsletter{
     display: flex;
@@ -770,7 +770,17 @@ form.form.subscribe div.actions button{
     width: 100%;
     padding:17px 20px;
 }
-
+.storie-newsletter-sidebar div.newsletter-content .newsletter-title {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+}
+.storie-newsletter-sidebar div.newsletter-content .newsletter-subtitle{
+    font-size: 13px;
+    color:#fff;
+    text-align: left;
+}
 .storie-newsletter-sidebar form.subscribe input{
     width:180px;
     margin:0px;
@@ -786,7 +796,7 @@ form.form.subscribe div.actions button{
 .storie-newsletter-sidebar form.subscribe button{
     width:180px;
 }
-div.newsletter-content div.block.newsletter {
+.storie-newsletter-sidebar div.newsletter-content div.block.newsletter {
     margin-top:160px;
     margin-bottom:0px;
 }
@@ -796,16 +806,16 @@ div.newsletter-content div.block.newsletter {
 }
 .block-title strong{
     font-size: 1.75rem;
-    visibility: hidden;
+    text-transform: uppercase;
 }
-.block-title strong::after{
+/* .block-title strong::after{
     content: "naviga";
     font-size: 1.75rem;
     left:0;
     visibility: visible;
     position: absolute;
     text-transform: uppercase;
-}
+} */
 .catalog-category span.category{
     display: block;
 }
@@ -1213,6 +1223,9 @@ a.action.towishlist span{
 /* side bar */
 .sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
     color: #666666;
+}
+div.block.filter{
+    display:none;
 }
 /* custom h3 */
 .widget.block.block-static-block h3{
