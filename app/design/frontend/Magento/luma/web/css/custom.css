@@ -1263,5 +1263,5 @@ a.action.towishlist span{
 }
 /* Bss ProductWidget */
 .slick-dots{
-    display: none;
+    display: none !important;
 }
