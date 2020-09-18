@@ -821,14 +821,6 @@ form.form.subscribe div.actions button{
     font-size: 1.75rem;
     text-transform: uppercase;
 }
-/* .block-title strong::after{
-    content: "naviga";
-    font-size: 1.75rem;
-    left:0;
-    visibility: visible;
-    position: absolute;
-    text-transform: uppercase;
-} */
 .catalog-category span.category{
     display: block;
 }
