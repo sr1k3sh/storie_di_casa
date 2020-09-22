@@ -1265,3 +1265,41 @@ a.action.towishlist span{
 .slick-dots{
     display: none !important;
 }
+
+/* Review Block in Product Details */
+.catalog-product-view div.column.main{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+div.product-info-main{
+    order:2;
+}
+div.product.media{
+    order:1;
+}
+div.product.info.detailed{
+    order:3;
+    display: inline-block;
+}
+div.block.review-add{
+    order:4;
+    position: relative;
+    display:inline-block;
+    background:#666666;
+    width:35vw;
+    left:50%;
+    right:50%;
+    margin-left: -50vw;
+    margin-right:-50vw;
+}
+div#product-review-container{
+    order:5;
+    position: relative;
+    display: inline-block;
+    background: #666666;
+    width: 65vw;
+    left: 50%;
+    margin-left: 50vw;
+    margin-right: 0vw;
+}
