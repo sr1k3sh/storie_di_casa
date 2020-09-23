@@ -1402,3 +1402,15 @@ div.price-box span.old-price{
 div.product.media .top-header-links{
     display:none;
 }
+.gallery-placeholder{
+    width: 100%;
+}
+.gallery-placeholder .fotorama__stage{
+    height:450px! important;
+}
+.fotorama__stage__frame .fotorama__img{
+    width:450px !important;
+}
+div.fotorama__nav.fotorama__nav--thumbs{
+    display: none;
+}
