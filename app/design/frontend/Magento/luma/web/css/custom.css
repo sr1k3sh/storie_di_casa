@@ -1414,3 +1414,14 @@ div.product.media .top-header-links{
 div.fotorama__nav.fotorama__nav--thumbs{
     display: none;
 }
+
+/* Product detail tabs */
+.product.info.detailed div.data.item.title a.data{
+    border: 0px;
+    border-bottom: 2px solid #707070;
+    padding:8px 1px 0px 1px;
+}
+.product.info.detailed div.data.item.content{
+    padding:0px;
+    border:none;
+}
