@@ -12,5 +12,6 @@
         <move element="product.info.review" destination="product.info.main" before="product.info.price"/>
         <move element="product.review.form" destination="content" after="product.info.details"/>
         <move element="reviews.tab" destination="content" after="product.review.form"/>
+        <move element="product.info.overview" destination="product.info.main" after="product.info.price"/>
     </body>
 </page>
