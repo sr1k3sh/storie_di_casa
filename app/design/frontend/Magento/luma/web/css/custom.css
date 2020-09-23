@@ -1395,3 +1395,10 @@ div.price-box span.old-price{
 .product-social-links .action.towishlist:before{
     display:none;
 }
+.product-info-main .product-info-price {
+    border-bottom:none;
+}
+
+div.product.media .top-header-links{
+    display:none;
+}
