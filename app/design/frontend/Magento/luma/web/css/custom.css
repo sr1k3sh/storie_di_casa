@@ -1280,7 +1280,7 @@ div.block.review-add{
     position: relative;
     display:flex;
     width:30%;
-    background:#666666;   
+    background:#E9E9E9; 
 }
 div.block.review-add .block-title{
     width:100%;
@@ -1295,7 +1295,7 @@ div#product-review-container{
     position: relative;
     display: flex;
     width:70%;
-    background: #666666;
+    background: #E9E9E9
 }
 
 
