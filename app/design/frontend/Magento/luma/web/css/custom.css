@@ -1257,3 +1257,141 @@ a.action.towishlist span{
 .slick-dots{
     display: none !important;
 }
+
+/* Review Block in Product Details */
+.catalog-product-view div.column.main{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+div.product-info-main{
+    order:2;
+}
+div.product.media{
+    order:1;
+}
+div.product.info.detailed{
+    order:3;
+    display: inline-block;
+    width: 100%;
+}
+div.block.review-add{
+    order:4;
+    position: relative;
+    display:flex;
+    width:30%;
+    background:#666666;   
+}
+div.block.review-add .block-title{
+    width:100%;
+    padding:10px 35px;
+}
+div.block.review-add .block-content{
+    width:100%;
+    padding:10px 35px;
+}
+div#product-review-container{
+    order:5;
+    position: relative;
+    display: flex;
+    width:70%;
+    background: #666666;
+}
+
+
+
+/* custom product detail */
+.product-info-main .product-info-price{
+    display: flex !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+    vertical-align: top;
+    flex-direction: column-reverse;
+}
+.product-info-main .product-info-stock-sku{
+   display: block !important; 
+   padding-bottom: 0 !important;
+   padding-left: 0 !important;
+   text-align: left !important;
+}
+.product-info-main .product.attribute.sku .type{
+    display: none;
+}
+.product-info-main .product.attribute.sku .value{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.product-info-main .product-info-price .price-box {
+    width:auto;
+}
+div.price-box span.special-price{
+    margin:0;
+    display:inline-block;
+}
+div.price-box span.old-price{
+    margin-left:1rem;
+    display:inline-block;
+    font-weight: lighter !important;
+}
+.product-info-main .price-box .price-container .price{
+    font-size: 2.25rem !important;
+    font-weight: lighter;
+}
+.product-reviews-summary .reviews-actions,.product-info-main .stock.available{
+    display: none;
+}
+.product-info-main .product-info-price .price-box .old-price .price-container span.price-label{
+    display:none;
+    
+}
+.product-info-main .product-add-form{
+
+}
+.product-info-main .product-add-form div.box-tocart div.field.qty{
+    display:inline-block;
+}
+.product-info-main .product-add-form div.box-tocart div.field.qty .label{
+    display:none;
+}
+.product-info-main .product-add-form div.box-tocart div.field.qty input{
+    height:81px;
+    width:187px;
+}
+.product-info-main .product-add-form div.box-tocart div.actions{
+    display:inline;
+}
+.product-info-main .product-add-form div.box-tocart button{
+    margin-bottom: 4px;
+    margin-left:25px;
+}
+.product-info-main .product-add-form div.box-tocart button span{
+    text-transform: uppercase;
+    padding: 2.2rem 2.3125rem;
+    text-decoration: none;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    top: 8px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    padding: 0;
+    margin-left: 8px;    
+}
+.product-reviews-summary{
+    display:none;
+}
+.product-social-links a.towishlist span{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.product-social-links .action.towishlist:before{
+    display:none;
+}

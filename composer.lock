@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5804ca577d07d915dd5013621d5cb491",
+    "content-hash": "47cd6c7db9796e72cc96c2b2ead7669c",
     "packages": [
         {
             "name": "avada/module-proofo",
@@ -4554,6 +4554,156 @@
                 "phar"
             ],
             "time": "2020-02-14T15:25:33+00:00"
+        },
+        {
+            "name": "swissup/easytabs",
+            "version": "1.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "/var/www/html/k/vendor/swissup/artifacts/easytabs-1.9.1.zip",
+                "shasum": "886c6adc47fb06e720c3190bdacbc662987412ea"
+            },
+            "require": {
+                "swissup/module-easytabs": "^1.9.1"
+            },
+            "type": "metapackage",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Custom tabs for product and CMS pages"
+        },
+        {
+            "name": "swissup/module-core",
+            "version": "1.10.5",
+            "dist": {
+                "type": "zip",
+                "url": "/var/www/html/k/vendor/swissup/artifacts/module-core-1.10.5.zip",
+                "shasum": "816886c31b4edcc5d254f65a53ed4ad71f62edf8"
+            },
+            "require": {
+                "swissup/module-marketplace": "^1.7.2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Core\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Swissup core module. It's purpose is to add menu and config placeholders",
+            "keywords": [
+                "core",
+                "installer",
+                "module manager",
+                "notifier",
+                "popup messenger",
+                "swissup services"
+            ]
+        },
+        {
+            "name": "swissup/module-easytabs",
+            "version": "1.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "/var/www/html/k/vendor/swissup/artifacts/module-easytabs-1.9.1.zip",
+                "shasum": "41ff58519723e1f586ab1d3599c5af3ffa9fd5cd"
+            },
+            "require": {
+                "swissup/module-core": "^1.10.5"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "swissup": {
+                    "links": {
+                        "store": "https://swissuplabs.com/product-tabs-magento-2-extension.html",
+                        "download": "https://swissuplabs.com/subscription/customer/products/",
+                        "docs": "http://docs.swissuplabs.com/m2/extensions/easytabs/",
+                        "changelog": "http://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                    }
+                },
+                "marketplace": {
+                    "gallery": [
+                        "https://docs.swissuplabs.com/images/marketplace/module-easytabs.png"
+                    ],
+                    "links": {
+                        "docs": "https://docs.swissuplabs.com/m2/extensions/easytabs/",
+                        "changelog": "https://docs.swissuplabs.com/m2/extensions/easytabs/changelog/"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Easytabs\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Easy Tabs extension from Swissup",
+            "keywords": [
+                "easytabs",
+                "homepage tabs",
+                "product tabs",
+                "tabs"
+            ]
+        },
+        {
+            "name": "swissup/module-marketplace",
+            "version": "1.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swissup/module-marketplace.git",
+                "reference": "c458c2e384624ffdd5c52427d4b76b30f1ef7448"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/c458c2e384624ffdd5c52427d4b76b30f1ef7448",
+                "reference": "c458c2e384624ffdd5c52427d4b76b30f1ef7448",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "*",
+                "magento/framework": ">=101.0",
+                "magento/module-backend": ">=100.2",
+                "magento/module-catalog": "*",
+                "magento/module-cms": "*",
+                "magento/module-deploy": ">=100.0",
+                "magento/module-theme": "*",
+                "magento/module-ui": ">=101.0",
+                "monolog/monolog": "*",
+                "psr/log": "*",
+                "symfony/console": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Marketplace\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "One-Click modules and themes downloader/installer",
+            "keywords": [
+                "Module Manager",
+                "installer",
+                "magento marketplace",
+                "marketplace",
+                "theme manager"
+            ],
+            "time": "2020-09-17T08:57:09+00:00"
         },
         {
             "name": "symfony/console",

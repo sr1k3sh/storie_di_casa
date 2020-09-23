@@ -79,6 +79,8 @@
         "phpseclib/mcrypt_compat": "1.0.8",
         "phpseclib/phpseclib": "2.0.*",
         "ramsey/uuid": "~3.8.0",
+        "swissup/easytabs": "^1.9",
+        "swissup/module-marketplace": "^1.7",
         "symfony/console": "~4.1.0||~4.2.0||~4.3.0||~4.4.0",
         "symfony/event-dispatcher": "~4.1.0||~4.2.0||~4.3.0||~4.4.0",
         "symfony/process": "~4.1.0||~4.2.0||~4.3.0||~4.4.0",
@@ -362,6 +364,10 @@
         "emizentech-magento2-category-widget": {
             "type": "vcs",
             "url": "https://github.com/emizentech/magento2-category-list-widget/"
+        },
+        "swissupartifacts": {
+            "type": "artifact",
+            "url": "/var/www/html/k/vendor/swissup/artifacts"
         }
     }
 }
