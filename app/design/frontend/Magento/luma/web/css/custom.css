@@ -1435,3 +1435,12 @@ div.fotorama__nav.fotorama__nav--thumbs{
     border:none;
     margin-top:60px;
 }
+.product.info.detailed{
+    padding:10px 140px;
+}
+.product.info.detailed div.data.item.title:first-child{
+    margin-left:0;
+}
+.product.info.detailed div.data.item.title:last-child{
+    margin-right:0;
+}
