@@ -1567,6 +1567,7 @@ progress[value]::-webkit-progress-value {
 
 #product-reviews-container div#product-review-container{
     position: relative;
+    margin-left: 15px;
 }
 #product-reviews-container div#product-review-container div.review-empty{
     margin: 0;
