@@ -1367,12 +1367,13 @@ div.price-box span.old-price{
 .product-info-main .product-add-form div.box-tocart div.field.qty input{
     height:81px;
     width:187px;
+    font-size: 28px;
 }
 .product-info-main .product-add-form div.box-tocart div.actions{
     display:inline;
 }
 .product-info-main .product-add-form div.box-tocart button{
-    margin-bottom: 4px;
+    margin-bottom: 14px;
     margin-left:25px;
 }
 .product-info-main .product-add-form div.box-tocart button span{
@@ -1617,4 +1618,29 @@ progress[value]::-webkit-progress-value {
 }
 .review-item {
     border-bottom:none;
+}
+.box-tocart .control{
+    position: relative;
+}
+.count-minus{
+    position: absolute;
+    left: 5%;
+    top: 28%;
+    font-size: 24px;
+    cursor: pointer;
+}
+.count-plus{
+    position: absolute;
+    right: 5%;
+    top: 36%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.fotorama__arr .fotorama__arr__arr {
+    left: 19% !important;
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+    scale:0.5;
 }

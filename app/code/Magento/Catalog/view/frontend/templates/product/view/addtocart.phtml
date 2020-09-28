@@ -15,6 +15,7 @@
         <div class="field qty">
             <label class="label" for="qty"><span><?= $block->escapeHtml(__('Qty')) ?></span></label>
             <div class="control">
+                <span class="count-minus">-</span>
                 <input type="number"
                        name="qty"
                        id="qty"
@@ -24,6 +25,7 @@
                        class="input-text qty"
                        data-validate="<?= $block->escapeHtmlAttr(json_encode($block->getQuantityValidators())) ?>"
                        />
+                <span class="count-plus">+</span>
             </div>
         </div>
         <?php endif; ?>
@@ -51,4 +53,29 @@
             "Magento_Catalog/js/validate-product": {}
         }
     }
+</script>
+<script>
+    require([
+        'jquery'
+    ],
+
+    function (jQuery) {
+        jQuery(document).ready(function() {
+                jQuery('.count-minus').click(function () {
+                    var $input = jQuery(this).parent().find('input');
+                    var count = parseInt($input.val()) - 1;
+                    count = count < 1 ? 1 : count;
+                    $input.val(count);
+                    $input.change();
+                    return false;
+                });
+                jQuery('.count-plus').click(function () {
+                    var $input = jQuery(this).parent().find('input');
+                    $input.val(parseInt($input.val()) + 1);
+                    $input.change();
+                    return false;
+                });
+            });
+
+    });
 </script>
