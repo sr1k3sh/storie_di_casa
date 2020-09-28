@@ -60,6 +60,7 @@
     color: #ffffff;
     display: flex;
     align-items: center;
+    content:'';
 }
 .minicart-wrapper .action.showcart:hover::before {
     color: #ffff;
