@@ -17,6 +17,14 @@ use Magento\Framework\View\Element\Template;
  */
 class Review extends Template implements IdentityInterface
 {
+
+        /**
+     * Review model
+     *
+     * @var \Magento\Review\Model\Review
+     */
+    protected $_objectReview;
+
     /**
      * Core registry
      *
@@ -38,6 +46,7 @@ class Review extends Template implements IdentityInterface
      * @param array $data
      */
     public function __construct(
+        \Magento\Review\Model\Review $reviewFactory,
         \Magento\Framework\View\Element\Template\Context $context,
         \Magento\Framework\Registry $registry,
         \Magento\Review\Model\ResourceModel\Review\CollectionFactory $collectionFactory,
@@ -45,6 +54,7 @@ class Review extends Template implements IdentityInterface
     ) {
         $this->_coreRegistry = $registry;
         $this->_reviewsColFactory = $collectionFactory;
+        $this->_objectReview = $reviewFactory;
         parent::__construct($context, $data);
 
         $this->setTabTitle();
@@ -117,5 +127,35 @@ class Review extends Template implements IdentityInterface
     public function getIdentities()
     {
         return [\Magento\Review\Model\Review::CACHE_TAG];
+    }
+
+    public function getAllStar($pid)
+    {
+        $review=$this->_objectReview->getCollection()
+                ->addFieldToFilter('main_table.status_id', 1)
+                ->addEntityFilter('product', $pid)          //$pid = > your current product ID
+                ->addStoreFilter($this->_storeManager->getStore()->getId())
+                ->addFieldToSelect('review_id');
+
+        $review->getSelect()->columns('detail.detail_id')->joinInner(
+            ['vote' => $review->getTable('rating_option_vote')], 'main_table.review_id = vote.review_id', array('review_value' => 'vote.value')
+        );
+
+        $review->getSelect()->order('review_value DESC');
+        $review->getSelect()->columns('count(vote.vote_id) as total_vote')->group('review_value');
+        for ($i = 5; $i >= 1; $i--) {
+            $arrRatings[$i]['value'] = 0;
+        }
+
+        foreach ($review as $_result) {
+            $arrRatings[$_result['review_value']]['value'] = $_result['total_vote'];
+        }
+        return $arrRatings;
+    }
+
+    public function getTotalRating()
+    {
+        $reviewCount = $this->getProductId()->getRatingSummary()->getReviewsCount();
+        return $reviewCount;
     }
 }

@@ -23,7 +23,16 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
         <ol class="items review-items">
         <?php foreach ($_items as $_review) : ?>
             <li class="item review-item" itemscope itemprop="review" itemtype="http://schema.org/Review">
-                <div class="review-title" itemprop="name"><?= $block->escapeHtml($_review->getTitle()) ?></div>
+            <div class="review-details">
+                    <p class="review-author">
+                        <span class="review-details-label"><?= $block->escapeHtml(__('Review by')) ?></span>
+                        <strong class="review-details-value" itemprop="author"><?= $block->escapeHtml($_review->getNickname()) ?></strong>
+                    </p>
+                </div> 
+            <div class="review-date">
+                <span class="review-details-label"><?= $block->escapeHtml(__('Posted on')) ?></span>
+                <time class="review-details-value" itemprop="datePublished" datetime="<?= $block->escapeHtmlAttr($block->formatDate($_review->getCreatedAt(), $format)) ?>"><?= $block->escapeHtml($block->formatDate($_review->getCreatedAt(), $format)) ?></time>
+            </div>
                 <?php if (count($_review->getRatingVotes())) : ?>
                     <div class="review-ratings">
                     <?php foreach ($_review->getRatingVotes() as $_vote) : ?>
@@ -39,20 +48,10 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
                     </div>
                     <?php endforeach; ?>
                     </div>
-                <?php endif; ?>
+                <?php endif; ?> 
                 <div class="review-content" itemprop="description">
                     <?= /* @noEscape */ nl2br($block->escapeHtml($_review->getDetail())) ?>
-                </div>
-                <div class="review-details">
-                    <p class="review-author">
-                        <span class="review-details-label"><?= $block->escapeHtml(__('Review by')) ?></span>
-                        <strong class="review-details-value" itemprop="author"><?= $block->escapeHtml($_review->getNickname()) ?></strong>
-                    </p>
-                    <p class="review-date">
-                        <span class="review-details-label"><?= $block->escapeHtml(__('Posted on')) ?></span>
-                        <time class="review-details-value" itemprop="datePublished" datetime="<?= $block->escapeHtmlAttr($block->formatDate($_review->getCreatedAt(), $format)) ?>"><?= $block->escapeHtml($block->formatDate($_review->getCreatedAt(), $format)) ?></time>
-                    </p>
-                </div>
+                </div>  
             </li>
         <?php endforeach; ?>
         </ol>
@@ -61,4 +60,9 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
         </div>
     </div>
 </div>
-<?php endif;?>
+<?php endif ;?>
+<?php  if(empty($_items)) :?>
+<div class="review-empty">This product has not received a written review yet.
+    Let others know what do you think and be the first to write a review.
+</div>
+<?php endif ;?>
