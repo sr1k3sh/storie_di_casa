@@ -25,43 +25,48 @@ if($_total_reviews>0){
 }
 ?>
 <div id="product-reviews-container">
-    <div id="average-rating">
-        <div class="rating-content">
-            <div class="rating-label"><?php echo $_avg?> su 5</div>
-            <div class="rating-result">
-                <span class="rating-span" style="width:<?php echo (($_avg*100)/5) ?>%"></span>
-            </div>
-        </div>
-        <div class="rating-total"><?php echo $_total_reviews ?> recensioni clienti</div>
-        <div class="rating-percent-container">
-            <?php   $i=1;
-                    foreach ($_rating_reverse as $_count):
-                        if($_total_reviews>0){
-                            $_rating_percent=($_count['value']*100)/$_total_reviews;
-                        }
-                        else{
-                            $_rating_percent=0;
-                        }
-            ?>
-            <div class="rating-percent">
-                <span><?php echo $i ?> stella</span>
-                <progress id="progressBar" value="<?php echo $_rating_percent ?>" max="100"></progress>
-                <span><?php echo $_rating_percent ?>%</span>
-            </div>
-            <?php $i++; 
-                endforeach; ?>
-        </div>
-
-
-        <div class="product-review-form-container">
-            <div class="review-form-title">Recensisci Questo Prodotto</div>
-            <div class="review-form-subtitle">Condividi i tuoi pensieri con altri clienti</div>
-            <button type="button" class="btn btn-review">SCRIVI UNA RECENSIONE</button> 
-        </div>  
+    <div class="block-title">
+        <strong>Recensioni dei clienti</strong>
     </div>
-<div id="product-review-container" data-role="product-review"></div>
-<?= $block->getChildHtml() ?>
-</div>
+    <div class="block-container">
+        <div id="average-rating">
+            <div class="rating-content">
+                <div class="rating-label"><?php echo $_avg?> su 5</div>
+                <div class="rating-result">
+                    <span class="rating-span" style="width:<?php echo (($_avg*100)/5) ?>%"></span>
+                </div>
+            </div>
+            <div class="rating-total"><?php echo $_total_reviews ?> recensioni clienti</div>
+            <div class="rating-percent-container">
+                <?php   $i=1;
+                        foreach ($_rating_reverse as $_count):
+                            if($_total_reviews>0){
+                                $_rating_percent=($_count['value']*100)/$_total_reviews;
+                            }
+                            else{
+                                $_rating_percent=0;
+                            }
+                ?>
+                <div class="rating-percent">
+                    <span><?php echo $i ?> stella</span>
+                    <progress id="progressBar" value="<?php echo $_rating_percent ?>" max="100"></progress>
+                    <span><?php echo $_rating_percent ?>%</span>
+                </div>
+                <?php $i++; 
+                    endforeach; ?>
+            </div>
+
+
+            <div class="product-review-form-container">
+                <div class="review-form-title">Recensisci Questo Prodotto</div>
+                <div class="review-form-subtitle">Condividi i tuoi pensieri con altri clienti</div>
+                <button type="button" class="btn btn-review">SCRIVI UNA RECENSIONE</button> 
+            </div>  
+        </div>
+        <div id="product-review-container" data-role="product-review"></div>
+        <?= $block->getChildHtml() ?>
+        </div>
+    </div>
 <script type="text/x-magento-init">
     {
         "*": {
