@@ -1281,6 +1281,7 @@ div.block.review-add{
     position: relative;
     display:flex;
     width:100%; 
+    display: none;
 }
 div.block.review-add .block-title{
     width:100%;
