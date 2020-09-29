@@ -1606,7 +1606,17 @@ progress[value]::-webkit-progress-value {
     color: #1A1A1A;
     float: left;
 }
-
+#product-review-container div.block-content li span.review-icon{
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 #product-review-container div.block-content li div.review-details{
     text-align:left;
     width:100%;
