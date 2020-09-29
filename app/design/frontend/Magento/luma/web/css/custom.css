@@ -1277,7 +1277,7 @@ div.product.info.detailed{
     width: 100%;
 }
 div.block.review-add{
-    order:5;
+    order:6;
     position: relative;
     display:flex;
     width:100%; 
@@ -1352,15 +1352,27 @@ div.price-box span.old-price{
     font-size: 2.25rem !important;
     font-weight: lighter;
 }
-.product-reviews-summary .reviews-actions,.product-info-main .stock.available{
+.product-reviews-summary .rating-summary{
     display: none;
+}
+.product-reviews-summary .reviews-actions,.product-info-main .stock.available{
+    
 }
 .product-info-main .product-info-price .price-box .old-price .price-container span.price-label{
     display:none;
     
 }
-.product-info-main .product-add-form{
-
+.product-reviews-summary .reviews-actions a:not(:last-child){
+    color:#666666;
+    font-size:16px;
+    font-weight: lighter;
+    margin-right: 2px;
+    text-transform: lowercase;
+}
+.product-reviews-summary .reviews-actions .action.add {
+    font-size: 16px;
+    color:#1A1A1A;
+    font-weight: bold;
 }
 .product-info-main .product-add-form div.box-tocart div.field.qty{
     display:inline-block;
@@ -1398,14 +1410,15 @@ div.price-box span.old-price{
     padding: 0;
     margin-left: 8px;    
 }
-.product-reviews-summary{
-    display:none;
+.product-reviews-summary div.reviews-actions a svg{
+    margin-right:10px;
 }
 .product-social-links a.towishlist span{
     font-size: 16px;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+    margin-left: 10px;
 }
 .product-social-links .action.towishlist:before{
     display:none;
@@ -1648,4 +1661,35 @@ progress[value]::-webkit-progress-value {
     height: 80px;
     width: 80px;
     scale:0.5;
+}
+div.block.related{
+    order:5;
+    width:100%;
+    text-align: center;
+    margin:55px 0;
+}
+div.block.related .block-title{
+    width:100%;
+}
+div.block.related .block-title strong{ 
+    color:#1A1A1A;
+    font-size: 36px;
+}
+div.block.related .block-content{
+    width:100%;
+}
+div.block.related .block-content .block-actions{
+    display:none;
+}
+div.block.related .product-image-container{
+    width:311px!important;
+}
+div.block.related .product-item-info.related-available{
+    width:311px;
+}
+div.block.related .item.product.product-item{
+    width:311px;
+}
+div.block.related .field.choice.related{
+    display:none;
 }

@@ -27,10 +27,11 @@ $urlForm = $block->getReviewsUrl() . '#review-form';
         <div class="reviews-actions">
             <a class="action view"
                href="<?= $block->escapeUrl($url) ?>">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20.387" height="19.035" viewBox="0 0 20.387 19.035"><defs><style>.a{fill:#666;}</style></defs><g transform="translate(0 -16.981)"><path class="a" d="M19.721,32.024a6.893,6.893,0,0,0,.667-2.978,7,7,0,0,0-6.663-6.96A6.991,6.991,0,0,0,0,23.949a6.893,6.893,0,0,0,.667,2.978L.012,30.2a.6.6,0,0,0,.7.7L4.03,30.25a6.87,6.87,0,0,0,2.635.658,6.98,6.98,0,0,0,9.694,4.439c3.632.718,3.348.667,3.432.667a.6.6,0,0,0,.586-.714ZM4.384,29.093A.6.6,0,0,0,4,29.039l-2.638.522.52-2.6a.6.6,0,0,0-.054-.389A5.712,5.712,0,0,1,1.2,23.949a5.8,5.8,0,0,1,11.3-1.815A6.977,6.977,0,0,0,6.442,29.7a5.688,5.688,0,0,1-2.058-.6ZM18.51,32.059l.52,2.6-2.638-.522A.6.6,0,0,0,16,34.19a5.712,5.712,0,0,1-2.625.629,5.774,5.774,0,1,1,5.813-5.774,5.711,5.711,0,0,1-.629,2.625A.6.6,0,0,0,18.51,32.059Z" transform="translate(0 0)"/></g></svg>
                 <span itemprop="reviewCount"><?= $block->escapeHtml($block->getReviewsCount()) ?></span>&nbsp;
                 <span><?= ($block->getReviewsCount() == 1) ? $block->escapeHtml(__('Review')) : $block->escapeHtml(__('Reviews')) ?></span>
             </a>
-            <a class="action add" href="<?= $block->escapeUrl($urlForm) ?>"><?= $block->escapeHtml(__('Add Your Review')) ?></a>
+            <a class="action add" href="<?= $block->escapeUrl($urlForm) ?>"><?= $block->escapeHtml(__('Lascia una recensione')) ?></a>
         </div>
     </div>
 <?php elseif ($block->isReviewEnabled() && $block->getDisplayIfEmpty()) : ?>
