@@ -819,7 +819,7 @@ form.form.subscribe div.actions button{
     display:none;
 }
 .block-title strong{
-    font-size: 1.75rem;
+    font-size: 3.25rem;
     text-transform: uppercase;
 }
 .catalog-category span.category{
@@ -1297,11 +1297,23 @@ div#product-reviews-container{
     order:4;
     position: relative;
     display: flex;
+    flex-direction: column;
     width:100vw;
     background: #E9E9E9;
     margin-left:-50vw;
     left:50%;
     padding: 50px 17%;
+}
+div#product-reviews-container .block-title{
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 2.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+div#product-reviews-container .block-container{
+    display: flex;
 }
 #product-reviews-container div#average-rating{
     width:30%;
@@ -1419,6 +1431,7 @@ div.price-box span.old-price{
     vertical-align: middle;
     line-height: normal;
     margin-left: 10px;
+    font-weight: lighter;
 }
 .product-social-links .action.towishlist:before{
     display:none;
