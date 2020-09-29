@@ -275,7 +275,7 @@ h2.section-title{
     margin-bottom: 0;
 }
 .review .reviewer .reviewer-name{
-    margin-left:16px;
+    margin-left:1rem;
 }
 /* Footer */
 
@@ -1097,7 +1097,7 @@ form.form.subscribe div.actions button{
     text-decoration: none;
     color:#fff;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -1398,7 +1398,7 @@ div.price-box span.old-price{
     text-decoration: none;
     color: #fff;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -1414,7 +1414,7 @@ div.price-box span.old-price{
     margin-right:10px;
 }
 .product-social-links a.towishlist span{
-    font-size: 16px;
+    font-size: 1rem;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
@@ -1483,10 +1483,10 @@ div.fotorama__nav.fotorama__nav--thumbs{
     -webkit-font-smoothing: antialiased;
     color: #c7c7c7;
     font-family: 'luma-icons';
-    font-size: 16px;
-    height: 16px;
+    font-size: 1rem;
+    height: 1rem;
     letter-spacing: 2px;
-    line-height: 16px;
+    line-height: 1rem;
     content: '\e605' '\e605' '\e605' '\e605' '\e605';
     display: block;
     font-style: normal;
@@ -1519,10 +1519,10 @@ div#average-rating div.rating-label{
     -webkit-font-smoothing: antialiased;
     color: #000;
     font-family: 'luma-icons';
-    font-size: 16px;
-    height: 16px;
+    font-size: 1rem;
+    height: 1rem;
     letter-spacing: 2px;
-    line-height: 16px;
+    line-height: 1rem;
     content: '\e605' '\e605' '\e605' '\e605' '\e605';
     display: block;
     font-style: normal;
@@ -1530,13 +1530,13 @@ div#average-rating div.rating-label{
     speak: none;
 }
 #product-reviews-container div.rating-total{
-    font-size: 16px;
+    font-size: 1rem;
     color:#666666;
 }
 
 div.rating-percent-container{
     margin:30px 0px;
-    font-size:16px; 
+    font-size:1rem; 
     color:#666666;
 }
 div.rating-percent-container .rating-percent{
@@ -1569,7 +1569,7 @@ progress[value]::-webkit-progress-value {
 }
 .product-review-form-container .review-form-subtitle{
     color:#666666;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 42px;
 }
 .product-review-form-container .btn-review{
@@ -1588,7 +1588,7 @@ progress[value]::-webkit-progress-value {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 16px;
+    font-size: 1rem;
     color: #1A1A1A;
     float: left;
 }
@@ -1610,7 +1610,7 @@ progress[value]::-webkit-progress-value {
 }
 #product-review-container div.review-date{
     float:left;
-    font-size: 14px;
+    font-size: 1rem;
     color:#666666;
     margin-right:30px;
 }
@@ -1626,7 +1626,7 @@ progress[value]::-webkit-progress-value {
 #product-review-container div.review-content{
     margin:0;
     text-align: left;
-    font-size: 16px;
+    font-size: 1rem;
     color:#1A1A1A;
     float: left;
     margin-top:10px;
