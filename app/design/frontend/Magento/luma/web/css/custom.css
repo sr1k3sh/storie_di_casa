@@ -1277,7 +1277,7 @@ div.product.info.detailed{
     width: 100%;
 }
 div.block.review-add{
-    order:6;
+    order:5;
     position: relative;
     display:flex;
     width:100%; 
