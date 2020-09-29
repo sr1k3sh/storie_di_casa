@@ -1305,7 +1305,7 @@ div#product-reviews-container{
     padding: 50px 17%;
 }
 div#product-reviews-container .block-title{
-    text-align: center;
+    text-align: left;
     font-weight: 300;
     line-height: 1.1;
     font-size: 2.6rem;
