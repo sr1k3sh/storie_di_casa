@@ -308,6 +308,13 @@ h2.section-title{
     .minicart-wrapper{
         margin-top:0;
     }
+    .header.content{
+        justify-content: space-between;
+        padding: 10px 10px 0 !important;
+    }
+    .header.content .logo{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px){
