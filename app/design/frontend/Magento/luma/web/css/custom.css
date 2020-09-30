@@ -1713,7 +1713,11 @@ div.block.related .product-item-info.related-available{
 }
 div.block.related .item.product.product-item{
     width:311px;
+    margin:5px 30px;
 }
 div.block.related .field.choice.related{
     display:none;
+}
+.slick-track .reviews-actions{
+    display: none;
 }
