@@ -294,9 +294,20 @@ h2.section-title{
 
 
 @media  screen and (max-width: 767px){
-.footer.content .links li{
-    font-size:13px;
-}
+    .footer.content .links li{
+        font-size:13px;
+    }
+    .panel.header{
+        padding:10px !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel.header .header-offer{
+        display: none;
+    }
+    .minicart-wrapper{
+        margin-top:0;
+    }
 }
 
 @media only screen and (max-width: 575px){
