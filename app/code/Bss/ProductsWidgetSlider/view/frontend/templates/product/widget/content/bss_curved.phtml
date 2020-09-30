@@ -112,6 +112,32 @@ else {
                                             }
                                     ?> 
                                     <?= $productImage->toHtml()?>
+                                    <div class="image-total">
+                                    <?php 
+                                        //Number of Images in Gallery
+                                        $imagess=$_product->getMediaGalleryEntries();
+                                        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+                                        $product = $objectManager->create('Magento\Catalog\Model\Product')->load($_product->getId());        
+                                        $images = $product->getMediaGalleryImages();
+                                        if(count($images)){
+                                            $total_images=count($images);
+                                            for ($i=1;$i<=$total_images;$i++){
+                                                if(fmod($i, 3)==0){
+                                                    $color="#6BC2D5";
+                                                }
+                                                else if(fmod($i, 3)==1){
+                                                    $color="#000000";
+                                                }
+                                                else {
+                                                    $color="#666666";
+                                                }
+                                    ?>
+                                                <span class="image-dot" style="background-color:<?php echo $color; ?>"></span>
+                                            <?php
+                                            }
+                                        }
+                                            ?>
+                                    </div>
                                 </a>
                                 <div class="product details product-item-details">
                                     <?php
