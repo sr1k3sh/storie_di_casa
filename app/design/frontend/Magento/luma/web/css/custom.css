@@ -95,7 +95,7 @@ div.minicart-wrapper a.action.showcart span.text{
     border-radius: 0 !important;
     border: none;
     padding: 0 20px 0 0;
-    margin: 0 0 0 -4px;
+    margin: 0 0 0 2px;
 }
 .toolbar-sorter>label{
     display: none;
@@ -1428,6 +1428,9 @@ div.price-box span.old-price{
 .product-reviews-summary div.reviews-actions a svg{
     margin-right:10px;
 }
+.catalog-product-view .product-social-links{
+    margin:0 !important;
+}
 .product-social-links a.towishlist span{
     font-size: 13px;
     display: inline-block;
@@ -1736,4 +1739,16 @@ div.block.related .field.choice.related{
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     border-radius: 50%;
+}
+.page-products .toolbar .limiter{
+    display: flex !important;
+    float: right;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.page-products .toolbar .limiter>label{
+    display: none;
+}
+.page-products .toolbar .limiter .control{
+    margin-left: 10px;
 }
