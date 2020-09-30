@@ -50,6 +50,7 @@
 .header.content{
     display: flex;
     align-items: center;
+    padding: 30px 50px 0 !important;
 }
 .block-search .action.search{
     top:15% !important;
@@ -1187,9 +1188,7 @@ button:not(.primary){
 
 
 /* qa verification */
-.header.content{
-    padding: 30px 50px 0 !important;
-}
+
 .nav-sections-item-content > .navigation{
     padding:0 30px;
 }
