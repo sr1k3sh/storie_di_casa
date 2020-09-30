@@ -309,11 +309,22 @@ h2.section-title{
         margin-top:0;
     }
     .header.content{
-        justify-content: space-between;
-        padding: 10px 10px 0 !important;
+        justify-content: flex-end;
+        padding: 10px!important;
     }
     .header.content .logo{
         display: none;
+    }
+    .block-search {
+        margin:0 !important;
+    }
+    .block-search .label{
+        position: absolute;
+        z-index: 11;
+    }
+    .block-search input{
+        position: relative !important;
+        left:0 !important;
     }
 }
 
