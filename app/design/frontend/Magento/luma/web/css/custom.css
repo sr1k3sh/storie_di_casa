@@ -1053,6 +1053,19 @@ form.form.subscribe div.actions button{
     .footer-margin-17{
         margin: 0 !important;
     }
+    .feature-product, .cms-home .widget.block-static-block{
+        padding:0;
+    }
+    .col-payment .icon-payment{
+        margin-right: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .col-payment .icon-payment .facebook-link{
+        order:3;
+    }
 } 
 
 @media only screen and (max-width: 450px) {
