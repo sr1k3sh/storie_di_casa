@@ -1672,6 +1672,7 @@ progress[value]::-webkit-progress-value {
     flex-direction: column;
     margin-top:10px;
     align-items: flex-start;
+    font-size: 14px;
 }
 .box-tocart .control{
     position: relative;
