@@ -318,13 +318,23 @@ h2.section-title{
     .block-search {
         margin:0 !important;
     }
+    .block-content .field.search{
+        position: relative;
+    }
+    .block-search .control{
+        padding:0 !important;
+    }
     .block-search .label{
         position: absolute;
         z-index: 11;
+        left: 0;
+        top: 24%;
     }
     .block-search input{
         position: relative !important;
         left:0 !important;
+        padding: 10px 20px 10px 36px !important;
+        margin:0 !important;
     }
 }
 
