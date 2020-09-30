@@ -121,14 +121,17 @@ else {
                                         if(count($images)){
                                             $total_images=count($images);
                                             for ($i=1;$i<=$total_images;$i++){
-                                                if(fmod($i, 3)==0){
-                                                    $color="#6BC2D5";
-                                                }
-                                                else if(fmod($i, 3)==1){
+                                                if($i==1){
                                                     $color="#000000";
                                                 }
-                                                else {
+                                                else if($i==2){
                                                     $color="#666666";
+                                                }
+                                                else if($i==3) {
+                                                    $color="#6BC2D5";
+                                                }
+                                                else{
+                                                    $color='#'.dechex(rand(0,10000000));
                                                 }
                                     ?>
                                                 <span class="image-dot" style="background-color:<?php echo $color; ?>"></span>
