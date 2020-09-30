@@ -1680,13 +1680,9 @@ progress[value]::-webkit-progress-value {
     font-size: 15px;
     cursor: pointer;
 }
-.fotorama__arr .fotorama__arr__arr {
-    left: 19% !important;
-    position: absolute;
-    top: 50%;
-    height: 80px;
-    width: 80px;
-    scale:0.5;
+.fotorama__arr{
+    width: 140px !important;
+    transform: scale(0.5);
 }
 div.block.related{
     order:5;
