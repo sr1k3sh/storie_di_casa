@@ -911,14 +911,6 @@ form.form.subscribe div.actions button{
     .footer.content ul {
         padding-right: 0px !important;
     }
-    .section-grid div.grid{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .section-grid div.grid div.grid-item{
-        width: 50%;
-    }
 
 }
 @media only screen and (max-width: 991px) {
@@ -979,6 +971,14 @@ form.form.subscribe div.actions button{
     }
     .evidenza-banner .evidenza-column .promobanner img{
         min-height: 230px;
+    }
+    .section-grid div.grid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .section-grid div.grid div.grid-item{
+        width: 50%;
     }
 }
 
