@@ -1720,6 +1720,6 @@ div.block.related .item.product.product-item{
 div.block.related .field.choice.related{
     display:none;
 }
-.slick-track .reviews-actions{
+.slick-track .reviews-actions,.page-products .reviews-actions{
     display: none;
 }
