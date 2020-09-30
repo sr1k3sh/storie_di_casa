@@ -53,6 +53,7 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
             </div>
             <div class="rev-3">
                 <div class="review-content" itemprop="description">
+                    <?= /* @noEscape */ nl2br($block->escapeHtml($_review->getTitle())) ?>
                     <?= /* @noEscape */ nl2br($block->escapeHtml($_review->getDetail())) ?>
                 </div>  
             </div>

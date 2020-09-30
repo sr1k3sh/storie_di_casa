@@ -1662,7 +1662,13 @@ progress[value]::-webkit-progress-value {
 }
 .review-item {
     border-bottom:none;
+    display: flex;
+    flex-direction: column;
 }
+.review-item .rev-1{
+    margin-bottom: 14px;
+}
+
 .box-tocart .control{
     position: relative;
 }
