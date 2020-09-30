@@ -52,8 +52,10 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
                 <?php endif; ?> 
             </div>
             <div class="rev-3">
+                <div class="review-title"><strong>
+                    <?= /* @noEscape */ nl2br($block->escapeHtml($_review->getTitle())) ?>\
+                </strong></div>
                 <div class="review-content" itemprop="description">
-                    <?= /* @noEscape */ nl2br($block->escapeHtml($_review->getTitle())) ?>
                     <?= /* @noEscape */ nl2br($block->escapeHtml($_review->getDetail())) ?>
                 </div>  
             </div>
