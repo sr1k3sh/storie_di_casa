@@ -1217,6 +1217,8 @@ svg{
     border-radius: 50%;
     font-size: 13px;
     border: 1px solid #707070;
+    position:absolute;
+    z-index: 11;
 }
 
 /* wish list */
