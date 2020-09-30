@@ -1719,3 +1719,9 @@ div.block.related .field.choice.related{
 .slick-track .reviews-actions,.page-products .reviews-actions{
     display: none;
 }
+.fotorama__arr__arr {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+}
