@@ -1718,3 +1718,22 @@ div.block.related .item.product.product-item{
 div.block.related .field.choice.related{
     display:none;
 }
+
+/* Image Slide in Home page */
+div.image-total{
+    height:14px;
+    width: 100%;
+    text-align: center;
+}
+div.image-total span.image-dot{
+    height:14px;
+    width: 14px;
+    border-radius: 50%;
+    display: inline-block;
+}
+div.product-item-info a.product-item-photo:hover{
+    text-decoration:none;
+}
+div.product-item-info div.product-item-details{
+    margin-top: 21px;
+}
