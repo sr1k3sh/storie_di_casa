@@ -1695,6 +1695,7 @@ div.block.related .block-title{
 }
 div.block.related .block-title strong{ 
     color:#1A1A1A;
+    font-weight: 100;
     font-size: 36px;
 }
 div.block.related .block-content{
