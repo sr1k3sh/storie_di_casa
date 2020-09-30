@@ -1655,7 +1655,6 @@ progress[value]::-webkit-progress-value {
     font-size: 13px;
     color:#1A1A1A;
     float: left;
-    margin-top:10px;
 }
 .rating-summary .rating-result > span:before {
     color:#000 !important;
@@ -1671,6 +1670,8 @@ progress[value]::-webkit-progress-value {
 .review-item .rev-3{
     display: flex;
     flex-direction: column;
+    margin-top:10px;
+    align-items: flex-start;
 }
 .box-tocart .control{
     position: relative;
