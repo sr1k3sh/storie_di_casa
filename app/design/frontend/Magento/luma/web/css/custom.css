@@ -298,6 +298,15 @@ h2.section-title{
     .footer.content .links li{
         font-size:13px;
     }
+    .hero-banner{
+        height: 433px;
+    }
+    .hero-banner img {
+        min-height: 230px;
+        height: 100%;
+        object-fit: cover;
+        object-position: 76%;
+    }
     .panel.header{
         padding:10px !important;
         justify-content: space-between;
@@ -944,7 +953,8 @@ form.form.subscribe div.actions button{
         font-size: 1.2rem;
     }
     .hero-banner .banner-content .header-title {
-        font-size: 2.0rem;
+        font-size: 48px;
+        width: 80%;
     }
     .hero-banner button {
         border: 1px solid #fff;
@@ -954,6 +964,13 @@ form.form.subscribe div.actions button{
     .copyright-section .col-copyright1 {
         text-align: center;
         margin-bottom:10px;
+    }
+    .evidenza-column {
+        max-width: 50%;
+        padding: 10px;
+    }
+    .evidenza-banner .evidenza-column .promobanner img{
+        min-height: 230px;
     }
 }
 
