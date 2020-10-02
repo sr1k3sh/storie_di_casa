@@ -732,7 +732,7 @@ border:1px solid #000;
     /* grid-template-rows: 260px; */
 }
 p.testimonial{
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
 }
 .yereone-testimonial-meta .yereone-testimonial-date {
     font-size: 1.4rem;
@@ -742,6 +742,7 @@ p.testimonial{
 }
 .yereone-testimonial-content span {
     font-size: 1.4rem;
+    color: #707070;
 }
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-author span {
     font-size:  1.4rem;
