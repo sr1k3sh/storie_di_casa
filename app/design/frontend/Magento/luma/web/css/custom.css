@@ -888,7 +888,21 @@ form.form.subscribe div.actions button{
 .catalog-category >:last-child{
     margin-bottom:50px;
 }
-
+.catalog-subcategory span.subcategory{
+    display: block;
+}
+.catalog-subcategory span.subcategory a{
+    font-size:14px;
+    color:#666666;
+    line-height:1.7;
+    text-transform: uppercase;
+}
+.catalog-subcategory >:first-child{
+    margin-top:10px;
+}
+.catalog-subcategory >:last-child{
+    margin-bottom:50px;
+}
 
 
 @media only screen and (min-width:768px){

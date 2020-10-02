@@ -4,9 +4,11 @@
 	$title = $block->getTitle() ? __($block->getTitle()) : 'Naviga';
 ?>
 <?php if ($title):?>
+    <?php if(count($subcategory)):?>
 <div class="block-title">
 	<strong><?php echo $block->escapeHtml($title) ?></strong>
 </div>
+<?php endif ?>
 <?php endif ?>
 <?php if(count($subcategory)):?>
     <div class="block-content catalog-subcategory">
