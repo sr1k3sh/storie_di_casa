@@ -422,12 +422,12 @@ h2.section-title{
     padding-bottom: 20px;
 }
 .page-footer .h4-font{
-    font-size: 1.225rem !important;
+    font-size: 1.5rem !important;
     font-weight: 500;
     text-transform: uppercase;
 }
 .footer.content .links li{
-    font-size: 1.125rem !important;
+    font-size: 1.4rem !important;
     color:#707070;
     text-transform: capitalize;
 }
@@ -700,6 +700,7 @@ border:1px solid #000;
 .promobanner .banner-subtitle{
     font-style: normal;
     margin-bottom: 12px;
+    font-size: 1.5rem;
 }
 
 .promobanner .btn-promo-banner{
@@ -729,6 +730,24 @@ border:1px solid #000;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     /* grid-template-rows: 260px; */
+}
+p.testimonial{
+    font-size: 1.4rem;
+}
+.yereone-testimonial-meta .yereone-testimonial-date {
+    font-size: 1.4rem;
+}
+.yereone-testimonials .yereone-testimonial-item .yereone-testimonial-title span {
+    font-size: 1.4rem;
+}
+.yereone-testimonial-content span {
+    font-size: 1.4rem;
+}
+.yereone-testimonials .yereone-testimonial-item .yereone-testimonial-author span {
+    font-size:  1.4rem;
+}
+.yereone-testimonial-jobandcompany{
+    font-size:  1.4rem;
 }
 
 .section-grid div.grid div.grid-item{
