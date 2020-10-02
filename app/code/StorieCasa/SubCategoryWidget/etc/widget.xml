@@ -1,0 +1,12 @@
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="StorieCasa\SubCategoryWidget\Block\Widget\SubCategoryWidget" id="storiecasa_subcatgory_widget">
+        <label>SubCategory</label>
+        <description>Display SubCategory</description>
+        <parameters>
+            <parameter name="title" xsi:type="text" required="true" visible="true" sort_order="10">
+                <label>Label</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
