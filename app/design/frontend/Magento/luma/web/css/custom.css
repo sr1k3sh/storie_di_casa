@@ -1102,6 +1102,18 @@ form.form.subscribe div.actions button{
     .page-header{
         margin-bottom: 0 !important;
     }
+    div.minicart-wrapper a.action.showcart span.text{
+        display: none;
+    }
+    .header.panel > .header.links{
+        display: block !important;
+    }
+    .header.links > li{
+        display: none;
+    }
+    .header.links > li.authorization-link > a > svg{
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 600px) {
