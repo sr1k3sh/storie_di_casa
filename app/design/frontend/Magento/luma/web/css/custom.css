@@ -991,11 +991,15 @@ form.form.subscribe div.actions button{
 @media only screen and (max-width: 767px) {
     /* Hero banner */
     .hero-banner .banner-content .header-sub-title {
-        font-size: 1.2rem;
+        font-size: 18px;
+        order: 3;
+        margin-top: 20px;
     }
     .hero-banner .banner-content .header-title {
         font-size: 48px;
         width: 80%;
+        line-height: 1;
+        margin-bottom: 20px;
     }
     .hero-banner button {
         border: 1px solid #fff;
