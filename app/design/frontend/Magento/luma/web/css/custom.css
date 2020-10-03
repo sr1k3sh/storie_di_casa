@@ -1120,7 +1120,7 @@ form.form.subscribe div.actions button{
         font-size: 20px;
     }
     div.newsletter-content .newsletter-subtitle {
-        font-size: 12px;
+        font-size: 14px;
         color: #fff;
     }
     .block.newsletter .actions {
@@ -1229,9 +1229,6 @@ form.form.subscribe div.actions button{
     .newsletter-content div:nth-child(2) {
         padding: 5px;
     }
-    div.newsletter-content .newsletter-subtitle {
-        font-size: 10px;
-    }
     div.newsletter-content div.block.newsletter {
         margin-top:2px;
     }
@@ -1277,9 +1274,6 @@ form.form.subscribe div.actions button{
     }
     .newsletter-content div:nth-child(2) {
         padding: 0px;
-    }
-    div.newsletter-content .newsletter-subtitle {
-        font-size: 10px;
     }
     div.newsletter-content div.block.newsletter {
         margin-top:2px;
