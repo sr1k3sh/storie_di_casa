@@ -969,6 +969,15 @@ form.form.subscribe div.actions button{
         width: 48px;
         height: 48px;
     }
+    .promobanner .banner-title{
+        font-size: 21px;
+    }
+    .promobanner .banner-subtitle{
+        font-size-adjust: 14px;
+    }
+    .promo-banner .banner-button{
+        display: none;
+    }
 }
 @media only screen and (max-width: 991px) {
     /* Hero banner */
