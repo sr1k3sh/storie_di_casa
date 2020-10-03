@@ -1222,10 +1222,6 @@ form.form.subscribe div.actions button{
     .newsletter-content div:nth-child(2){
         padding:10px
     }
-    /* Newsletter */
-    div.newsletter-content .newsletter-title {
-        font-size: 15px;
-    }
     .newsletter-content div:nth-child(2) {
         padding: 5px;
     }
@@ -1269,9 +1265,6 @@ form.form.subscribe div.actions button{
     }
     
     /* Newsletter */
-    div.newsletter-content .newsletter-title {
-        font-size: 15px;
-    }
     .newsletter-content div:nth-child(2) {
         padding: 0px;
     }
