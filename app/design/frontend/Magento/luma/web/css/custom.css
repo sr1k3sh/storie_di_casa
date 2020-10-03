@@ -990,6 +990,10 @@ form.form.subscribe div.actions button{
 
 @media only screen and (max-width: 767px) {
     /* Hero banner */
+    .hero-banner .banner-content{
+        display: flex;
+        flex-direction: column;
+    }
     .hero-banner .banner-content .header-sub-title {
         font-size: 18px;
         order: 3;
