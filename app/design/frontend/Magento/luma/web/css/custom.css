@@ -109,6 +109,7 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 #search_mini_form .control input#search{
     padding:0 25px;
+    font-size: 16px;
     background:#E9E9E9;
     border:none;
 }
@@ -1302,7 +1303,7 @@ button:not(.primary){
 }
 .panel.header .header-offer{
     margin-left: 22px;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .product-item-name{
@@ -1319,7 +1320,7 @@ button:not(.primary){
     height: auto;
 }
 svg{
-    width:2rem;
+    width:24px;
 }
 .slick-arrow{
     background-color: #fff !important;
