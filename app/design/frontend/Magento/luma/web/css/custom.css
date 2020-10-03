@@ -1055,9 +1055,9 @@ form.form.subscribe div.actions button{
         font-size: 21px;
     }
     .promobanner .banner-subtitle{
-        font-size-adjust: 14px;
+        font-size: 14px;
     }
-    .promo-banner .banner-button{
+    .evidenza-column .banner-button{
         display: none;
     }
 }
