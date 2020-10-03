@@ -999,6 +999,9 @@ form.form.subscribe div.actions button{
         order: 3;
         margin-top: 20px;
     }
+    .hero-banner .banner-content button{
+        width: fit-content;
+    }
     .hero-banner .banner-content .header-title {
         font-size: 48px;
         width: 80%;
