@@ -943,6 +943,9 @@ form.form.subscribe div.actions button{
     .footer.content ul {
         padding-right: 0px !important;
     }
+    .columns .column.main{
+        padding: 10px;
+    }
 
 }
 @media only screen and (max-width: 991px) {
