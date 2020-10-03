@@ -367,9 +367,9 @@ button:not(.primary){
 
 /* qa verification */
 
-.nav-sections-item-content > .navigation{
+/* .nav-sections-item-content > .navigation{
     padding:0 30px;
-}
+} */
 .header.panel > .header.links > .authorization-link::after{
     margin:0 !important;
 }
