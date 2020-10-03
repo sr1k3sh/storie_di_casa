@@ -105,11 +105,8 @@ div.minicart-wrapper a.action.showcart span.text{
 .toolbar-sorter>label{
     display: none;
 }
-@media (min-width: 768px){
-.header.panel > .header.links {
-    display: flex;
-    align-items: center;
-}
+.cms-home .page-main{
+    padding:0 !important;
 }
 #search_mini_form .control input#search{
     padding:0 25px;
@@ -302,7 +299,12 @@ h2.section-title{
 
 }
 
-
+@media (min-width: 768px){
+    .header.panel > .header.links {
+        display: flex;
+        align-items: center;
+    }
+}
 @media  screen and (max-width: 767px){
     .footer.content .links li{
         font-size:14px;
@@ -1414,9 +1416,6 @@ a.action.towishlist span{
 }
 .sidebar.sidebar-additional .block.block-reorder{
     display: none;
-}
-.cms-home .page-main{
-    padding:0 !important;
 }
 .sidebar #layered-filter-block{
     display: none !important;
