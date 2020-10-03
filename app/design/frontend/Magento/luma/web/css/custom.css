@@ -58,6 +58,9 @@
     right:unset;
     left:22px;
 }
+.mobile-logo svg{
+    display: none;
+}
 .minicart-wrapper .action.showcart:before{
     color: #ffffff;
     display: flex;
@@ -1335,9 +1338,7 @@ button:not(.primary){
 svg{
     width:24px;
 }
-.mobile-logo svg{
-    display: none;
-}
+
 .slick-arrow{
     background-color: #fff !important;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16) !important;
