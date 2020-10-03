@@ -287,6 +287,10 @@ h2.section-title{
 .footer-list{
     text-align:left;
 }
+.panel.header{
+    display: flex;
+    padding: 10px 50px !important;
+}
 @media (min-width: 1400px){
     .footer.content, .footer div.container{
     max-width:100% !important;
@@ -348,6 +352,12 @@ h2.section-title{
         padding: 10px 20px 10px 36px !important;
         margin:0 !important;
         background: transparent;
+    }
+    .mobile-logo svg{
+        display: block;
+        width: 100%;
+        margin-left: 26px;
+        margin-top: 7px;    
     }
 }
 
@@ -1290,10 +1300,6 @@ button:not(.primary){
 .header.panel > .header.links > li{
     margin:0 0 0 4px !important;
 }
-.panel.header{
-    display: flex;
-    padding: 10px 50px !important;
-}
 .panel.header .instagram-link{
     margin-left:14px;
 }
@@ -1321,6 +1327,9 @@ button:not(.primary){
 }
 svg{
     width:24px;
+}
+.mobile-logo svg{
+    display: none;
 }
 .slick-arrow{
     background-color: #fff !important;
