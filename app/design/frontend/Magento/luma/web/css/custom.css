@@ -376,7 +376,7 @@ h2.section-title{
         margin-top: 0px;    
     }
     .cms-home .page-main{
-        padding: 10px !important;
+        padding:0 20px !important;
     }
     .footer.content .links a{
         padding: 0 !important;
