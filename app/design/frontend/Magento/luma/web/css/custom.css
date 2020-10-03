@@ -1164,7 +1164,7 @@ form.form.subscribe div.actions button{
         display: none;
     }
     .footer-margin-17{
-        margin: 0 !important;
+        margin-bottom: 17px !important;
     }
     .feature-product, .cms-home .widget.block-static-block{
         padding:0 !important;
