@@ -678,7 +678,9 @@ div.product.media .top-header-links{
 div.fotorama__nav.fotorama__nav--thumbs{
     display: none;
 }
-
+.page-products .product-reviews-summary{
+    display: none;
+}
 /* Product detail tabs */
 .product.info.detailed div.data.item.title a.data{
     border: 0px;
