@@ -1334,6 +1334,7 @@ svg{
 }
 .product-item-name, .product.name a{
     font-weight: 600 !important;
+    font-size: 24px;
 }
 .product-item .price-box .price{
     font-weight: lighter !important;
@@ -1489,10 +1490,12 @@ div#product-reviews-container .block-container{
 div.price-box span.special-price{
     margin:0;
     display:inline-block;
+    font-size: 21px;
 }
 div.price-box span.old-price{
     margin-left:14px;
     display:inline-block;
+    font-size: 18px;
     font-weight: lighter !important;
 }
 .product-info-main .price-box .price-container .price{
