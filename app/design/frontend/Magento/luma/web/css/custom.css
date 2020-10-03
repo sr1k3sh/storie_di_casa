@@ -294,7 +294,7 @@ h2.section-title{
 }
 .footer.content .links li{
     font-size: 16px !important;
-    color:#707070;
+    color:#707070 !important;
     text-transform: capitalize;
 }
 @media (min-width: 1400px){
