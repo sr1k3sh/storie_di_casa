@@ -1487,12 +1487,12 @@ div#product-reviews-container .block-container{
 .product-info-main .product-info-price .price-box {
     width:auto;
 }
-div.price-box span.special-price{
+div.price-box span.special-price span.price{
     margin:0;
     display:inline-block;
     font-size: 21px;
 }
-div.price-box span.old-price{
+div.price-box span.old-price span.price{
     margin-left:14px;
     display:inline-block;
     font-size: 18px;
