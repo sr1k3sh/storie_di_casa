@@ -368,7 +368,10 @@ h2.section-title{
         display: block;
         width: 100%;
         margin-left: 26px;
-        margin-top: 7px;    
+        margin-top: 0px;    
+    }
+    .cms-home .page-main{
+        padding: 10px !important;
     }
 }
 
@@ -953,9 +956,7 @@ form.form.subscribe div.actions button{
     .footer.content ul {
         padding-right: 0px !important;
     }
-    .columns .column.main{
-        padding: 10px;
-    }
+
 
 }
 @media only screen and (max-width: 991px) {
