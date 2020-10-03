@@ -960,7 +960,10 @@ form.form.subscribe div.actions button{
     }
      /* Bottom banner newsletter */
      h2.section-title {
-        font-size: 1.25rem;
+        font-size: 21px;
+    }
+    p.testimonial{
+        font-size: 14px;
     }
     .bottom-banner .newsletter-content{
         left:0px;
