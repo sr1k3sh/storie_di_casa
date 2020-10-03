@@ -956,8 +956,19 @@ form.form.subscribe div.actions button{
     .footer.content ul {
         padding-right: 0px !important;
     }
-
-
+    .section-grid{
+        padding:20px;
+    }
+    .section-grid h2{
+        font-size: 18px;
+    }
+    .section-grid div.sub-title{
+        font-size: 14px;
+    }
+    .section-grid img{
+        width: 48px;
+        height: 48px;
+    }
 }
 @media only screen and (max-width: 991px) {
     /* Hero banner */
