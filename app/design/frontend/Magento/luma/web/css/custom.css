@@ -378,6 +378,9 @@ h2.section-title{
     .cms-home .page-main{
         padding: 10px !important;
     }
+    .footer.content .links a{
+        padding: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 575px){
