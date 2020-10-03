@@ -1074,6 +1074,22 @@ form.form.subscribe div.actions button{
         padding:24px 40px;
         width: fit-content;
     }
+    div.newsletter-content .newsletter-title{
+        font-size: 21px;
+    }
+    div.newsletter-content .newsletter-subtitle{
+        font-size: 14px;
+    }
+    .storie-newsletter div.newsletter-content{
+        padding:28px;
+    }
+    .block.newsletter input{
+        width: 230px;
+        margin-right: 0px;
+        text-align: left;
+        padding: 24px;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
