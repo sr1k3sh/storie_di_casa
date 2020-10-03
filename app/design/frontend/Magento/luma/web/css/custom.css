@@ -165,7 +165,7 @@ div.minicart-wrapper a.action.showcart span.text{
     border-color: #fff;
 }
 h2.section-title{
-    font-size:2.25rem;
+    font-size:36px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -422,12 +422,12 @@ h2.section-title{
     padding-bottom: 20px;
 }
 .page-footer .h4-font{
-    font-size: 1.5rem !important;
+    font-size: 16px !important;
     font-weight: 500;
     text-transform: uppercase;
 }
 .footer.content .links li{
-    font-size: 1.4rem !important;
+    font-size: 16px !important;
     color:#707070;
     text-transform: capitalize;
 }
@@ -732,23 +732,23 @@ border:1px solid #000;
     /* grid-template-rows: 260px; */
 }
 p.testimonial{
-    font-size: 1.4rem !important;
+    font-size: 18px !important;
 }
 .yereone-testimonial-meta .yereone-testimonial-date {
-    font-size: 1.4rem;
+    font-size: 14px;
 }
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-title span {
-    font-size: 1.4rem;
+    font-size: 16px;
 }
 .yereone-testimonial-content span {
-    font-size: 1.4rem;
+    font-size: 16px;
     color: #707070;
 }
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-author span {
-    font-size:  1.4rem;
+    font-size:  18px;
 }
 .yereone-testimonial-jobandcompany{
-    font-size:  1.4rem;
+    font-size:  16px;
 }
 
 .section-grid div.grid div.grid-item{
@@ -799,13 +799,13 @@ p.testimonial{
     width: 100%;
 }
 div.newsletter-content .newsletter-title{
-    font-size: 27px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
     color:#fff;
 }
 div.newsletter-content .newsletter-subtitle{
-    font-size: 14px;
+    font-size: 18px;
     color:#fff;
     text-align: center;
 }
@@ -855,7 +855,7 @@ form.form.subscribe div.actions button{
 }
 
 .storie-newsletter-sidebar div.newsletter-content .newsletter-title {
-    font-size: 27px;
+    font-size: 36px;
     font-weight: bold;
     text-align: left;
     color: #fff;
