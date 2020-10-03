@@ -14,6 +14,6 @@ if ($block->isLoggedIn()) {
 <li class="authorization-link" data-label="<?= $block->escapeHtmlAttr(__('/')) ?>">
     <a <?= /* @noEscape */ $block->getLinkAttributes() ?><?= /* @noEscape */ $dataPostParam ?>>
         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20"><g><g><path fill="#fff" d="M16.822 13.807l-3.018-1.006a.708.708 0 0 0-.225-.037H7.907a.707.707 0 0 0-.225.037l-3.018 1.006a5.62 5.62 0 0 0-3.849 5.34c0 .39.318.708.71.708h18.437a.71.71 0 0 0 .709-.709 5.62 5.62 0 0 0-3.849-5.339z"/></g><g><path fill="#fff" d="M10.743 0a4.255 4.255 0 0 0-4.255 4.255V7.09a4.259 4.259 0 0 0 4.255 4.255 4.259 4.259 0 0 0 4.255-4.255V4.255A4.255 4.255 0 0 0 10.743 0z"/></g></g></svg>
-        <?= $block->escapeHtml($block->getLabel()) ?>
+        <span class="text"><?= $block->escapeHtml($block->getLabel()) ?><span>
     </a>
 </li>
