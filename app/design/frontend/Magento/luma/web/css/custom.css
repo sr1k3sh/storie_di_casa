@@ -1557,6 +1557,28 @@ div.price-box span.old-price{
 .catalog-product-view .product-social-links{
     margin:0 !important;
 }
+
+#product-options-wrapper div.field  label:first-child span{
+    font-size:  16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#product-options-wrapper div.field  label:after{
+    content:'';
+}
+#product-options-wrapper div.field  div.control #options-1-list div.field.choice{
+    font-size:  16px;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-right: 7px;
+}
+#product-options-wrapper div.field  div.control #options-1-list div.field.choice input{
+    vertical-align: inherit;
+    margin-right:7px;
+}
+#product-options-wrapper  #options-1-list div.field.choice label span.price-notice{
+    display: none;
+}
 .product-social-links a.towishlist span{
     font-size: 13px;
     display: inline-block;
