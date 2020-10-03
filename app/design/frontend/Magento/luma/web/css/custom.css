@@ -322,7 +322,12 @@ h2.section-title{
         align-items: center;
     }
     .panel.header .header-offer{
-        display: none;
+        display: block;
+        position: absolute;
+        top: 160px;
+        z-index: 11;
+        width: 150px;
+        left: 16px;
     }
     .minicart-wrapper{
         margin-top:0;
