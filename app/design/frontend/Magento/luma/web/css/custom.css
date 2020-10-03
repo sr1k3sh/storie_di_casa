@@ -312,7 +312,7 @@ h2.section-title{
 }
 @media  screen and (max-width: 767px){
     .footer.content .links li{
-        font-size:14px;
+        font-size:14px !important;
     }
     .hero-banner{
         height: 433px;
