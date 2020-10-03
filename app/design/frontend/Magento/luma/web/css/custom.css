@@ -1060,6 +1060,9 @@ form.form.subscribe div.actions button{
     .evidenza-column .banner-button{
         display: none;
     }
+    .page-footer .h4-font{
+        font-size:14px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
