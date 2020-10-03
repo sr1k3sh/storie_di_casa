@@ -2084,3 +2084,6 @@ form.form.subscribe div.actions button{
         padding-bottom:0px!important;
     }
 }
+/* .columns:after {
+    clear:none;
+} */
