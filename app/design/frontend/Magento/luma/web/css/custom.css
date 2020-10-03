@@ -1093,6 +1093,12 @@ form.form.subscribe div.actions button{
         padding: 24px;
         height: auto;
     }
+    .footer.content{
+        background: #E9E9E9;
+    }
+    #search_mini_form .control input#search{
+        background: transparent;
+    }
 }
 
 @media only screen and (max-width: 600px) {
