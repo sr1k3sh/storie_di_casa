@@ -381,6 +381,15 @@ h2.section-title{
     .footer.content .links a{
         padding: 0 !important;
     }
+    .product-item-name, .product.name a{
+        font-size:18px;
+    }
+    div.price-box span.special-price span.price{
+        font-size:16px;
+    }
+    div.price-box span.old-price span.price{
+        font-size:13px;
+    }
 }
 
 @media only screen and (max-width: 575px){
