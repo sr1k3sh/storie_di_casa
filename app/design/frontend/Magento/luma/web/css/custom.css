@@ -1808,7 +1808,13 @@ form.form.subscribe div.actions button{
     .fotorama__arr--next{
         right:-45px !important;
     }
-
+    .product-info-main .product-add-form div.box-tocart div.field.qty input{
+        height: 64px;
+    }
+    .product-info-main .product-add-form div.box-tocart button{
+        height: 64px;
+        padding: 12px 18px !important;
+    }
 }
 
 @media only screen and (max-width: 575px){
