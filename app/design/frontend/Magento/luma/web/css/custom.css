@@ -1720,6 +1720,12 @@ form.form.subscribe div.actions button{
         margin: 0;
         overflow-y: scroll;
     }
+    .product.info.detailed div.data.item.title{
+        margin: 0;
+    }
+    .product.info.detailed{
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width: 575px){
