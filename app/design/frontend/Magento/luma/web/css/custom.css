@@ -1809,6 +1809,9 @@ form.form.subscribe div.actions button{
     .product-info-main .price-box .price-container .price{
         font-size: 18px !important;
     }
+    .product-info-main .price-box .price-container .old-price .price{
+        font-size: 14px !important;
+    }
     .product-info-main .stock.available{
         position: absolute;
         top: -100%;
