@@ -1775,6 +1775,9 @@ form.form.subscribe div.actions button{
     svg{
         width: 20px;
     }
+    .product-info-main .product-info-price{
+        padding: 10px !important;
+    }
 }
 
 @media only screen and (max-width: 575px){
