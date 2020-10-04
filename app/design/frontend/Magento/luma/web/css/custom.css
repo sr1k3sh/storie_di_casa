@@ -1778,6 +1778,10 @@ form.form.subscribe div.actions button{
     .product-info-main .product-info-price{
         padding: 10px !important;
     }
+    .whatsapp-link{
+        right: 10px;
+        bottom: 21px;
+    }
 }
 
 @media only screen and (max-width: 575px){
