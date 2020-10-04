@@ -1139,6 +1139,12 @@ div.product-item-info div.product-item-details{
     .page-products .panel.header .header-offer{
         display: none;
     }
+    .page-products .columns{
+        padding:0 !important;
+    }
+    .page-with-filter .toolbar-amount{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px){
