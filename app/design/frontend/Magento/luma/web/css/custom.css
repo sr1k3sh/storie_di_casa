@@ -29,11 +29,11 @@ padding:2px
     display: none;
 }
 .opc-progress-bar-item._active:before{
-    background: #333333;
-    border-color: #333333;
+    background: #333333 !important;
+    border-color: #333333 !important;
 }
 .opc-progress-bar-item._active > span:after{
-    border-color: #333333;
+    border-color: #333333 !important;
 }
 .feature-product{
     text-align:center;
