@@ -28,7 +28,7 @@ padding:2px
 .page-title-wrapper{
     display: none;
 }
-.opc-progress-bar-item._active:before{
+.opc-progress-bar-item._active:before,.opc-progress-bar-item._active > span:before{
     background: #333333 !important;
     border-color: #333333 !important;
 }
