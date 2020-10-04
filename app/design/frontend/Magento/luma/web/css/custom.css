@@ -1782,6 +1782,12 @@ form.form.subscribe div.actions button{
         right: 10px;
         bottom: 21px;
     }
+    .product-info-main .product.attribute.sku .value{
+        font-size: 18px;
+    }
+    .product-info-main .price-box .price-container .price{
+        font-size: 18px !important;
+    }
 }
 
 @media only screen and (max-width: 575px){
