@@ -1658,7 +1658,7 @@ form.form.subscribe div.actions button{
     .page-with-filter .columns .sidebar-main{
         order:2;
     }
-    .page-products .panel.header .header-offer{
+    .page-products .panel.header .header-offer,.catalog-product-view .panel.header .header-offer{
         display: none;
     }
     .page-products .columns{
