@@ -1806,10 +1806,10 @@ form.form.subscribe div.actions button{
     .product-info-main .product.attribute.sku .value{
         font-size: 18px;
     }
-    .product-info-main .price-box .price-container .special-price .price{
+    .product-info-main .price-box .special-price .price-container .price{
         font-size: 18px !important;
     }
-    .product-info-main .price-box .price-container .old-price .price{
+    .product-info-main .price-box .old-price .price-container .price{
         font-size: 14px !important;
     }
     .product-info-main .stock.available{
