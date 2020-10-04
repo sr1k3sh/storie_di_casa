@@ -1788,6 +1788,11 @@ form.form.subscribe div.actions button{
     .product-info-main .price-box .price-container .price{
         font-size: 18px !important;
     }
+    .product-info-main .stock.available{
+        position: absolute;
+        top: -100%;
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 575px){
