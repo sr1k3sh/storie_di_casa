@@ -1150,7 +1150,7 @@ div.product-item-info div.product-item-details{
         display: none;
     }
     .page-products .toolbar .limiter{
-        display: none;
+        display: none !important;
     }
     .page-products .sorter{
         position: relative;
