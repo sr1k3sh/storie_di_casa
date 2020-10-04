@@ -1716,6 +1716,9 @@ form.form.subscribe div.actions button{
     }
     #product-reviews-container div#product-review-container{
         max-height: 500px;
+        height: 500px;
+        margin: 0;
+        overflow-y: scroll;
     }
 }
 
