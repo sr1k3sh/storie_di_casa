@@ -1694,6 +1694,29 @@ form.form.subscribe div.actions button{
     .storie-newsletter-sidebar div.newsletter-content .newsletter-title,.storie-newsletter-sidebar div.newsletter-content .newsletter-subtitle{
         text-align: center;
     }
+    /* detail page */
+    div#product-reviews-container .block-container{
+        flex-direction: column;
+    }
+    #product-reviews-container div#average-rating{
+        width:100%;
+    }
+    #product-reviews-container div#product-review-container{
+        width:100%;
+        text-align: left;
+    }
+    div#product-reviews-container{
+        padding: 30px 20px;
+    }
+    #product-reviews-container div#product-review-container div.review-empty{
+        position: relative;
+        left:0;
+        top: 0;
+        transform: none;
+    }
+    #product-reviews-container div#product-review-container{
+        max-height: 500px;
+    }
 }
 
 @media only screen and (max-width: 575px){
