@@ -15,15 +15,25 @@ input[type="radio"] {
     border: 1.5px solid #635252;
     background-color: #ffffff14;
     border-radius: 50%;
-  }
+}
   
 /* appearance for checked radiobutton */
 input[type="radio"]:checked {
 background-color: #333333;
 padding:2px
 }
+.fieldset > .field > .label, .fieldset > .fields > .field > .label,.opc-wrapper .form-login .fieldset .field .label, .opc-wrapper .form-shipping-address .fieldset .field .label{
+    font-size: 16px;
+}
 .page-title-wrapper{
     display: none;
+}
+.opc-progress-bar-item._active:before{
+    background: #333333;
+    border-color: #333333;
+}
+.opc-progress-bar-item._active > span:after{
+    border-color: #333333;
 }
 .feature-product{
     text-align:center;
