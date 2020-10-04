@@ -1156,6 +1156,23 @@ div.product-item-info div.product-item-details{
         position: relative;
         float: left;
     }
+    .storie-newsletter-sidebar form.subscribe input{
+        display: block;
+    }
+    .storie-newsletter-sidebar div.newsletter-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .storie-newsletter-sidebar div.newsletter-content .newsletter-title{
+        font-size: 21px;
+    }
+    .storie-newsletter-sidebar div.newsletter-content .newsletter-subtitle{
+        font-size: 13px;
+    }
+    .storie-newsletter-sidebar div.newsletter-content .newsletter-title,.storie-newsletter-sidebar div.newsletter-content .newsletter-subtitle{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 575px){
