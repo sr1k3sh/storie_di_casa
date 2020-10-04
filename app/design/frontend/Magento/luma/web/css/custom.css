@@ -840,7 +840,12 @@ progress[value]::-webkit-progress-value {
 .catalog-subcategory >:last-child{
     margin-bottom:50px;
 }
-
+.fotorama__dot{
+    width: 14px !important;
+    height: 14px !important;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
 
 @media only screen and (min-width:768px){
     .nav-sections-item-content > .navigation{
