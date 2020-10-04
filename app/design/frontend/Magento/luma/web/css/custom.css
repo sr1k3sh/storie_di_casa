@@ -607,6 +607,7 @@ div#product-reviews-container .block-container{
 }
 .product-info-main .product-info-price .price-box {
     width:auto;
+    display: flex!important;
 }
 div.price-box span.special-price span.price{
     margin:0;
