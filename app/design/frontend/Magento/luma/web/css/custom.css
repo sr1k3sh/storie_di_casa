@@ -8,7 +8,9 @@
 .feature-product{
     text-align:center;
 }
-
+.navigation .level0.active > .level-top,.minicart-wrapper .action.showcart .counter.qty{
+    color: #333333 !important;
+}
 .margin-top-gap{
     margin-top: 6.25rem !important;
 }
@@ -88,8 +90,14 @@ div.minicart-wrapper a.action.showcart span.text{
 .page-wrapper > .breadcrumbs{
     margin-top:1.625rem;
 }
+.breadcrumbs .items{
+    font-size: 16px !important;
+}
 .breadcrumbs .item:not(:last-child)::after{
     margin:0 !important;
+}
+.page-with-filter .toolbar-amount{
+    font-size: 16px !important;
 }
 .modes{
     display:none !important;
@@ -453,7 +461,7 @@ a.action.towishlist span{
 }
 /* custom h3 */
 .widget.block.block-static-block h3{
-    font-size: 1.5rem !important;
+    font-size: 16px !important;
 }
 .storie-newsletter-sidebar::before {
     position: absolute;
@@ -1021,6 +1029,12 @@ div.product-item-info div.product-item-details{
     float: right;
     flex-direction: row-reverse;
     align-items: center;
+    font-size: 16px;
+    color:#666666;
+}
+.page-products .sorter{
+    font-size: 16px;
+    color:#666666;
 }
 .page-products .toolbar .limiter>label{
     display: none;
@@ -1653,13 +1667,13 @@ form.form.subscribe div.actions button{
 }
 
 .storie-newsletter-sidebar div.newsletter-content .newsletter-title {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     text-align: left;
     color: #fff;
 }
 .storie-newsletter-sidebar div.newsletter-content .newsletter-subtitle{
-    font-size: 14px;
+    font-size: 16px;
     color:#fff;
     text-align: left;
 }
@@ -1680,8 +1694,9 @@ form.form.subscribe div.actions button{
     width:180px;
 }
 .storie-newsletter-sidebar div.newsletter-content div.block.newsletter {
-    margin-top:160px;
+    margin-top:30px;
     margin-bottom:0px;
+    justify-content: flex-start;
 }
  /* Sidebar Categories Anchor */
 .sidebar-additional div.block-compare, div.block-wishlist{
