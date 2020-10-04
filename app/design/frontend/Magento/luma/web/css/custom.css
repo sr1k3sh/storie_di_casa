@@ -20,6 +20,7 @@ input[type="radio"] {
   /* appearance for checked radiobutton */
   input[type="radio"]:checked {
     background-color: #333333;
+    padding:2px
   }
 .page-title-wrapper{
     display: none;
