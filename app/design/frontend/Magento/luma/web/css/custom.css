@@ -1726,6 +1726,18 @@ form.form.subscribe div.actions button{
     .product.info.detailed{
         padding: 20px;
     }
+    .product-options-bottom .box-tocart .fieldset{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .product-options-bottom .box-tocart .field.qty{
+        margin: 0 !important;
+    }
+    .product-info-main .product-add-form div.box-tocart button{
+        margin:0;
+    }
 }
 
 @media only screen and (max-width: 575px){
