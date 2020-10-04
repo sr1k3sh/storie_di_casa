@@ -1676,6 +1676,9 @@ form.form.subscribe div.actions button{
     }
     .storie-newsletter-sidebar form.subscribe input{
         display: block;
+        width: 286px;
+        padding: 24px 40px;
+        height: auto;
     }
     .storie-newsletter-sidebar div.newsletter-content{
         display: flex;
