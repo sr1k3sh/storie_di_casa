@@ -618,6 +618,7 @@ div.price-box span.old-price span.price{
     display:inline-block;
     font-size: 18px;
     font-weight: lighter !important;
+    text-decoration: line-through;
 }
 .product-info-main .price-box .price-container .price{
     font-size: 2.25rem !important;
