@@ -8,8 +8,12 @@
 .feature-product{
     text-align:center;
 }
-.navigation .level0.active > .level-top,.minicart-wrapper .action.showcart .counter.qty{
+.navigation .level0.active > .level-top{
     color: #333333 !important;
+}
+.minicart-wrapper .action.showcart .counter.qty{
+    background: #333333 !important;
+    color: #ffff;
 }
 .margin-top-gap{
     margin-top: 6.25rem !important;
