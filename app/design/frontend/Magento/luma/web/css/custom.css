@@ -17,11 +17,11 @@ input[type="radio"] {
     border-radius: 50%;
   }
   
-  /* appearance for checked radiobutton */
-  input[type="radio"]:checked {
-    background-color: #333333;
-    padding:2px
-  }
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+background-color: #333333;
+padding:2px
+}
 .page-title-wrapper{
     display: none;
 }
@@ -1757,6 +1757,20 @@ form.form.subscribe div.actions button{
     }
     .product-info-main .product-add-form div.box-tocart button{
         margin:0;
+    }
+    .product-reviews-summary .reviews-actions{
+        display: none !important;
+    }
+    div.product-info-main{
+        position: relative;
+    }
+    .catalog-product-view .product-social-links{
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+    .product-social-links a.towishlist span{
+        display: none;
     }
 }
 
