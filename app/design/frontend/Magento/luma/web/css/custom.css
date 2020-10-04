@@ -1136,7 +1136,7 @@ div.product-item-info div.product-item-details{
     .page-with-filter .columns .sidebar-main{
         order:2;
     }
-    .page-products .header-offer{
+    .page-products .panel.header .header-offer{
         display: none;
     }
 }
