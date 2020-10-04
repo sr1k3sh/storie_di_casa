@@ -9,7 +9,7 @@
     text-align:center;
 }
 .navigation .level0.active > .level-top{
-    color: #333333 !important;
+    border-color: #333333 !important;
 }
 .minicart-wrapper .action.showcart .counter.qty{
     background: #333333 !important;
