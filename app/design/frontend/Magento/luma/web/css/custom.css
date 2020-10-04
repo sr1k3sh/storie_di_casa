@@ -1149,6 +1149,13 @@ div.product-item-info div.product-item-details{
     .page-with-filter .toolbar-amount{
         display: none;
     }
+    .page-products .toolbar .limiter{
+        display: none;
+    }
+    .page-products .sorter{
+        position: relative;
+        float: left;
+    }
 }
 
 @media only screen and (max-width: 575px){
