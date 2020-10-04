@@ -1766,7 +1766,7 @@ form.form.subscribe div.actions button{
     }
     .catalog-product-view .product-social-links{
         position: absolute;
-        top: 40px;
+        top: 20px;
         right: 0;
     }
     .product-social-links a.towishlist span{
