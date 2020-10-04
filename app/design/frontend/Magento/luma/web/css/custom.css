@@ -1753,7 +1753,7 @@ form.form.subscribe div.actions button{
         margin: 0;
     }
     .product.info.detailed{
-        padding: 20px;
+        padding: 0 20px;
     }
     .product-options-bottom .box-tocart .fieldset{
         display: flex;
