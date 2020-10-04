@@ -1132,6 +1132,13 @@ div.product-item-info div.product-item-details{
     div.price-box span.old-price span.price{
         font-size:13px;
     }
+    /* mobile version for category */
+    .page-with-filter .columns .sidebar-main{
+        order:2;
+    }
+    .page-products .header-offer{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px){
