@@ -2281,6 +2281,6 @@ form.form.subscribe div.actions button{
         padding-bottom:0px!important;
     }
 }
-block-collapsible-nav .item.current > strong {
+.block-collapsible-nav .item.current > strong {
     border-color: #333333 !important;
 }
