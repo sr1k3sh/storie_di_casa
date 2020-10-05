@@ -1531,6 +1531,8 @@ p.testimonial{
     border:none;
     font-size: 13px !important;
     columns: #666666 !important;
+    text-align: left;
+    padding-left: 0 !important;
 }
 .block-minicart .subtotal{
     color:#000000 !important;
