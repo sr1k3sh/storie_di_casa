@@ -1534,7 +1534,7 @@ p.testimonial{
     text-align: left;
     padding-left: 0 !important;
 }
-.minicart-items .product-item-details .details-qty{
+.minicart-items .product-item-details .details-qty,.minicart-items .product-item-details .price-excluding-tax{
     margin: 0 !important;
 }
 .block-minicart .subtotal{
