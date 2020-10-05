@@ -95,11 +95,11 @@ class Link extends \Magento\Framework\View\Element\Html\Link
     protected function _createLabel($count)
     {
         if ($count == 1) {
-            return __('My Cart (1 item)');
+            return __('RIEPILOGO CARRELLO (1 item)');
         } elseif ($count > 0) {
-            return __('My Cart (%1 items)', $count);
+            return __('RIEPILOGO CARRELLO (%1 items)', $count);
         } else {
-            return __('My Cart');
+            return __('RIEPILOGO CARRELLO');
         }
     }
 }
