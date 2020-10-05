@@ -41,7 +41,7 @@ if($_total_reviews>0){
                 <?php   $i=1;
                         foreach ($_rating_reverse as $_count):
                             if($_total_reviews>0){
-                                $_rating_percent=($_count['value']*100)/$_total_reviews;
+                                $_rating_percent=round(($_count['value']*100)/$_total_reviews,1);
                             }
                             else{
                                 $_rating_percent=0;

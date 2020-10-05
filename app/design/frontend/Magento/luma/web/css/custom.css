@@ -855,12 +855,10 @@ progress[value]::-webkit-progress-value {
 .fotorama__dot{
     width: 14px !important;
     height: 14px !important;
+}
+.fotorama__active .fotorama__dot{
     background-color: #000000 !important;
     border-color: #000000 !important;
-}
-.fotorama__nav--dots .fotorama__nav__frame .fotorama__dot:nth-child(1){
-    background-color: #666666 !important;
-    border-color: #666666 !important;
 }
 
 @media only screen and (min-width:768px){
@@ -1911,6 +1909,12 @@ form.form.subscribe div.actions button{
     .col-copyright1{
         text-align:center;
     }
+    .header.panel > .header.links {
+        margin-left:2px;
+    }
+    .mobile-logo{
+        margin:0 auto;
+    }
 }
 .copyright{
     display: none;
@@ -2314,6 +2318,6 @@ form.form.subscribe div.actions button{
         padding-bottom:0px!important;
     }
 }
-/* .columns:after {
-    clear:none;
-} */
+.block-collapsible-nav .item.current > strong {
+    border-color: #333333 !important;
+}
