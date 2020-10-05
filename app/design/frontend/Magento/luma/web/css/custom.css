@@ -1876,7 +1876,7 @@ form.form.subscribe div.actions button{
         margin-left:2px;
     }
     .mobile-logo{
-        margin:0;
+        margin:0 auto;
     }
 }
 .copyright{
