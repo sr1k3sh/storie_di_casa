@@ -1502,6 +1502,11 @@ p.testimonial{
 .minicart-wrapper .product .actions > .secondary{
     display: none !important;
 }
+.minicart-items .product-item-details .price{
+    font-weight: 100 !important;
+    color: #4C4D4F;
+    font-size: 14px;
+}
 /* Newsletter */
 .storie-newsletter{
     width: 100vw;
