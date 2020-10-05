@@ -1487,6 +1487,8 @@ p.testimonial{
     border-color: #707070 !important;
     overflow: hidden;
     order:0;
+    margin: 12px 0;
+    padding:0 !important;
 }
 .block-minicart .block-content > .actions{
     order:2;
