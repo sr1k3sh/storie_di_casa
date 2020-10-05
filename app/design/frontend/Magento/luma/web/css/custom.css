@@ -855,12 +855,10 @@ progress[value]::-webkit-progress-value {
 .fotorama__dot{
     width: 14px !important;
     height: 14px !important;
+}
+.fotorama__active .fotorama__dot{
     background-color: #000000 !important;
     border-color: #000000 !important;
-}
-.fotorama__nav--dots .fotorama__nav__frame .fotorama__dot:nth-child(1){
-    background-color: #666666 !important;
-    border-color: #666666 !important;
 }
 
 @media only screen and (min-width:768px){
