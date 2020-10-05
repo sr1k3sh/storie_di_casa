@@ -1534,6 +1534,9 @@ p.testimonial{
     text-align: left;
     padding-left: 0 !important;
 }
+.minicart-items .product-item-details .details-qty{
+    margin: 0 !important;
+}
 .block-minicart .subtotal{
     color:#000000 !important;
     font-size: 14px !important;
