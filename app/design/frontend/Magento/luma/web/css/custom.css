@@ -1466,7 +1466,44 @@ p.testimonial{
     margin-bottom: 10px;
     font-size:16px;
 }
-
+/* mini cart  */
+.minicart-wrapper .block-minicart{
+    max-width: 259px;
+}
+.minicart-wrapper.active .block-minicart{
+    border: 1px solid #707070;
+}
+.block-minicart .block-content > .actions .paypal-logo{
+    display: none !important;
+}
+.minicart-wrapper.active .block-content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.minicart-wrapper.active .block-content .actions .secondary{
+    display: none;
+}
+.minicart-items-wrapper{
+    border-top: none !important;
+    border-color: #707070 !important;
+    overflow: hidden;
+}
+.block-minicart .block-content > .actions > .primary .action.primary{
+    background: #1A1A1A !important;
+}
+.minicart-items .product-item-name a{
+    font-size: 16px !important;
+    color:#4C4D4F !important;
+    text-decoration: none;
+}
+.minicart-items .product-item-details{
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.minicart-wrapper .product .actions > .secondary{
+    display: none !important;
+}
 /* Newsletter */
 .storie-newsletter{
     width: 100vw;
