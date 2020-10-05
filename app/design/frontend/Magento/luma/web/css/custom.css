@@ -1464,7 +1464,95 @@ p.testimonial{
     margin-bottom: 10px;
     font-size:16px;
 }
-
+/* mini cart  */
+.minicart-wrapper .block-minicart{
+    max-width: 259px;
+}
+.minicart-wrapper.active .block-minicart{
+    border: 1px solid #707070;
+    top:62px;
+}
+.block-minicart .block-content > .actions .paypal-logo{
+    display: none !important;
+}
+.minicart-wrapper.active .block-content{
+    display: flex;
+    flex-direction: column;
+}
+.minicart-wrapper.active .block-content .actions .secondary{
+    display: none;
+}
+.minicart-items-wrapper{
+    border-top: none !important;
+    border-color: #707070 !important;
+    overflow: hidden;
+    order:0;
+    margin: 12px 0;
+    padding:0 !important;
+}
+.block-minicart .block-content > .actions{
+    order:2;
+}
+.block-minicart .block-content > .actions > .primary .action.primary{
+    background: #1A1A1A !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.block-minicart .block-content > .actions > .primary{
+    margin:0 !important;
+}
+.minicart-items .product-item-name a{
+    font-size: 16px !important;
+    color:#4C4D4F !important;
+    text-decoration: none;
+}
+.minicart-items .product-item-details{
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.minicart-wrapper .product .actions > .secondary{
+    display: none !important;
+}
+.minicart-items .product-item-details .price{
+    font-weight: 100 !important;
+    color: #4C4D4F;
+    font-size: 14px;
+}
+.minicart-wrapper .action.close{
+    display: none;
+}
+.minicart-wrapper .block-minicart:before,.minicart-wrapper .block-minicart:after{
+    display: none;
+}
+.minicart-items .product-item-pricing .label{
+    color:#666666 !important;
+    font-size: 13px !important;
+}
+.minicart-items .item-qty{
+    border:none;
+    font-size: 13px !important;
+    columns: #666666 !important;
+    text-align: left;
+    padding-left: 0 !important;
+}
+.minicart-items .product-item-details .details-qty,.minicart-items .product-item-details .price-excluding-tax{
+    margin: 0 !important;
+}
+.block-minicart .subtotal{
+    color:#000000 !important;
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 0 0 !important;
+    order:1
+}
+.minicart-wrapper .action.showcart.active:hover:before{
+    display: none;
+}
 /* Newsletter */
 .storie-newsletter{
     width: 100vw;
