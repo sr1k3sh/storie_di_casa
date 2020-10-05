@@ -1489,6 +1489,7 @@ p.testimonial{
 }
 .block-minicart .block-content > .actions > .primary .action.primary{
     background: #1A1A1A !important;
+    margin:0 !important;
 }
 .minicart-items .product-item-name a{
     font-size: 16px !important;
@@ -1522,6 +1523,16 @@ p.testimonial{
     border:none;
     font-size: 13px !important;
     columns: #666666 !important;
+}
+.block-minicart .subtotal{
+    color:#000000 !important;
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 0 0 !important;
 }
 /* Newsletter */
 .storie-newsletter{
