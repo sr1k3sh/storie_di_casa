@@ -1470,6 +1470,7 @@ p.testimonial{
 }
 .minicart-wrapper.active .block-minicart{
     border: 1px solid #707070;
+    top:62px;
 }
 .block-minicart .block-content > .actions .paypal-logo{
     display: none !important;
@@ -1506,6 +1507,12 @@ p.testimonial{
     font-weight: 100 !important;
     color: #4C4D4F;
     font-size: 14px;
+}
+.minicart-wrapper .action.close{
+    display: none;
+}
+.minicart-wrapper .block-minicart:before,.minicart-wrapper .block-minicart:after{
+    display: none;
 }
 /* Newsletter */
 .storie-newsletter{
