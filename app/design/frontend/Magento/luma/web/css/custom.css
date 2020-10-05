@@ -1876,8 +1876,9 @@ form.form.subscribe div.actions button{
         margin-left:2px;
     }
     .mobile-logo{
-        margin:0 auto;
+        margin:0;
     }
+}
 .copyright{
     display: none;
 }
