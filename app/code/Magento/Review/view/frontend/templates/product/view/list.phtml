@@ -27,26 +27,6 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
                         <span class="review-details-label"><?= $block->escapeHtml(__('Review by')) ?></span>
                         <strong class="review-details-value" itemprop="author"><?= $block->escapeHtml($_review->getNickname()) ?></strong>
                     </p>
-                    <?php 
-                    // getting customer address;
-                    if($_review["customer_id"]):
-                    $customerId=$_review["customer_id"];
-                    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-                    $customerObj = $objectManager->create('Magento\Customer\Model\Customer')->load($customerId);
-                    $customerAddress = array();
-                    foreach ($customerObj->getAddresses() as $address){
-                        $customerAddress[] = $address->toArray();
-                    }
-                    foreach ($customerAddress as $customerAddres) {
-                        $address= $customerAddres['city'];
-                    }
-                    endif
-                    ?>
-                    <?php if($address):?>
-                    <p class="review-author-city">
-                        <strong class="review-details-value" itemprop="author"><?php echo ($address); ?></strong>
-                    </p>
-                    <?php endif?>
                 </div> 
             </div>
             <div class="rev-2">
