@@ -1514,6 +1514,15 @@ p.testimonial{
 .minicart-wrapper .block-minicart:before,.minicart-wrapper .block-minicart:after{
     display: none;
 }
+.minicart-items .product-item-pricing .label{
+    color:#666666 !important;
+    font-size: 13px !important;
+}
+.minicart-items .item-qty{
+    border:none;
+    font-size: 13px !important;
+    columns: #666666 !important;
+}
 /* Newsletter */
 .storie-newsletter{
     width: 100vw;
