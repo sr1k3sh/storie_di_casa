@@ -1872,7 +1872,12 @@ form.form.subscribe div.actions button{
     .col-copyright1{
         text-align:center;
     }
-}
+    .header.panel > .header.links {
+        margin-left:2px;
+    }
+    .mobile-logo{
+        margin:0 auto;
+    }
 .copyright{
     display: none;
 }
