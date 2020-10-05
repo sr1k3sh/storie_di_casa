@@ -1477,7 +1477,7 @@ p.testimonial{
 }
 .minicart-wrapper.active .block-content{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 .minicart-wrapper.active .block-content .actions .secondary{
     display: none;
@@ -1486,9 +1486,17 @@ p.testimonial{
     border-top: none !important;
     border-color: #707070 !important;
     overflow: hidden;
+    order:0;
+}
+.block-minicart .block-content > .actions{
+    order:2;
 }
 .block-minicart .block-content > .actions > .primary .action.primary{
     background: #1A1A1A !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.block-minicart .block-content > .actions > .primary{
     margin:0 !important;
 }
 .minicart-items .product-item-name a{
@@ -1533,6 +1541,7 @@ p.testimonial{
     font-weight: 700;
     text-transform: uppercase;
     margin: 20px 0 0 0 !important;
+    order:1
 }
 /* Newsletter */
 .storie-newsletter{
