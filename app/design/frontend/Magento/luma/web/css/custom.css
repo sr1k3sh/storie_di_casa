@@ -2373,5 +2373,28 @@ form.form.subscribe div.actions button{
     border-color: #333333 !important;
 }
 .navigation .level0.active > .level-top, .navigation .level0.has-active > .level-top {
-    border-color: #ff5501;
+    border-color: #333333 !important;
+}
+#ajaxcart_cancel{
+    color: #1A1A1A!important;
+    background-color: #E9E9E9!important;
+    border-color: #E9E9E9!important;
+}
+#ajaxcart_checkout{
+    color: #FFFFFF!important;
+    background-color: #1A1A1A!important;
+    border-color: #1A1A1A!important;
+}
+.mb-message-successs{
+    color: #000000!important;
+    font-size: 20px!important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+}
+#mb-ajaxcart-wrapper .product-name {
+    font-size: 17px!important;
+}
+div#mb-ajaxsuite-popup{
+    background: white;
+    background-color: white;
 }
