@@ -1,0 +1,41 @@
+<?php /* <div class="ajax-cart-container" id="ajax-cart-container" data-block='ajaxcartform' data-bind="scope: 'ajaxcart_content'" style="display:none;">
+	<!-- ko template: getTemplate() --><!-- /ko -->
+</div> */ ?>
+<script type="text/x-magento-init">
+{
+	"[data-block='footer_minicart']": {
+		"Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout();?>
+	},
+	"*": {
+		"Magento_Ui/js/block-loader": "<?php /* @escapeNotVerified */ echo $block->getViewFileUrl('images/loader-1.gif'); ?>"
+	}
+}
+</script>
+<?php
+$qsHelper = $this->helper('Magetop\AjaxCartPro\Helper\Data');
+$itemClass = $qsHelper->getConfig('ajaxcartpro/quickshop/item_class');
+$target = $qsHelper->getConfig('ajaxcartpro/quickshop/target');
+$autoAddButtons = $qsHelper->getConfig('ajaxcartpro/quickshop/auto_add_buttons');
+$options = [
+    'baseUrl'        => $qsHelper->getBaseUrl(),
+    'qsLabel'        => $qsHelper->getQuickShopLabel(),
+    'itemClass'      => $itemClass,
+    'autoAddButtons' => ($autoAddButtons==1)?true:false,
+    'target'         => (!empty($target))?$target:".product-item-info"
+]
+?>
+<div id="quickshop" class="quickshop-modal">
+    <div class="content-wrap">
+        <div class="qs-loading-wrap" style="display:none;">
+            <div class="qs-loader"><img src="<?php echo $block->getViewFileUrl('images/loader-1.gif'); ?>" alt="<?php echo __('Loading...') ?>" /></div>
+        </div>
+        <div class="qs-content qs-main" style="display:none;"></div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+{
+    "body": {
+        "Magetop_AjaxCartPro/js/quickshop": <?php echo json_encode($options) ?>
+    }
+}
+</script>

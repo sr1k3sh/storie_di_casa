@@ -1,0 +1,23 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="empty" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">	
+    <update handle="catalog_product_view"/>
+    <body>
+        <referenceBlock name="ajax_cart_sidebar" remove="true"/>
+        <referenceBlock name="ajaxcart_head_components" remove="true"/>
+        <referenceBlock name="ajax_cart_form" remove="true"/>
+        <referenceBlock name="catalog.product.related" remove="true"/>
+        <referenceBlock name="product.info.upsell" remove="true"/>
+        <referenceBlock name="header.container" remove="true"/>
+        <referenceBlock name="footer-container" remove="true"/>
+        <referenceBlock name="page.top" remove="true" />
+        <referenceBlock name="copyright" remove="true" />
+        <referenceBlock name="authentication-popup" remove="true" />
+        <referenceContainer name="page.messages" remove="true" />
+        <referenceContainer name="product.info.social" remove="true"/>
+        <referenceBlock name="product.info.details" remove="true"/>
+        <!-- for enterprise GTM activated -->
+        <referenceBlock name="related_products_impression" remove="true"/>
+        <referenceBlock name="upsell_products_impression" remove="true"/>
+        <referenceBlock name="related_products_impression" remove="true"/>
+        <!-- for enterprise GTM activated -->
+    </body>
+</page>
