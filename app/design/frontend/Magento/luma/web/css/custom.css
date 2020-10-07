@@ -132,6 +132,7 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 .breadcrumbs a:visited,.breadcrumbs a,.breadcrumbs a:hover{
     color: #333333;
+    text-decoration: none;
 }
 .breadcrumbs .item:not(:last-child)::after{
     margin:0 !important;
