@@ -156,7 +156,10 @@ div.minicart-wrapper a.action.showcart span.text{
     width: 10px;
 }
 .cms-home .page-main{
-    padding:0 32px!important;
+    padding:0 !important;
+}
+.page-products .page-main{
+    padding: 0 32px !important;
 }
 #search_mini_form .control input#search{
     padding:0 25px;
