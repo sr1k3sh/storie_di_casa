@@ -887,6 +887,9 @@ progress[value]::-webkit-progress-value {
     .footer.content ul {
         padding-right: 0px !important;
     }
+    .cms-home .product-reviews-summary{
+        margin-bottom: 0!important;
+    }
 }
 /* progress[value]::-moz-progress-bar {
     background-color: #000;
@@ -1361,13 +1364,13 @@ border:1px solid #000;
 
 .promobanner .banner-title{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .promobanner .banner-subtitle{
     font-style: normal;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .promobanner .btn-promo-banner{
