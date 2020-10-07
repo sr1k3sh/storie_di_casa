@@ -77,7 +77,7 @@ padding:2px
     height: 460px;
     width: 100%;
 }
-.navigation ul{
+.nav-sections-item-content > .navigation{
     padding:0 24px !important;
 }
 /* .logo{
