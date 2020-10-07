@@ -509,7 +509,7 @@ a.action.towishlist span{
     display: none !important;
 }
 .feature-product,.cms-home .widget.block-static-block{
-    padding:0 20px;
+    padding:0 40px;
 }
 /* Bss ProductWidget */
 .slick-dots{
