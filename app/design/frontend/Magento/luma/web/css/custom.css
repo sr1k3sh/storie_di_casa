@@ -344,6 +344,9 @@ h2.section-title{
     text-transform: uppercase;
     font-size: 16px;
 }
+.navigation .level0 .submenu .active > a{
+    border-color: #333333 !important;
+}
 .product-item-info .float-cart{
     position: absolute;
     top: 34%;
