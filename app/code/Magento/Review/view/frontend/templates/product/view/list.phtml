@@ -40,13 +40,13 @@ $format = $block->getDateFormat() ?: \IntlDateFormatter::SHORT;
                     foreach ($customerAddress as $customerAddres) {
                         $address= $customerAddres['city'];
                     }
-                    endif
                     ?>
                     <?php if($address):?>
                     <p class="review-author-city">
                         <strong class="review-details-value" itemprop="author"><?php echo ($address); ?></strong>
                     </p>
-                    <?php endif?>
+                    <?php endif;?>
+                    <?php endif;?>
                 </div> 
             </div>
             <div class="rev-2">

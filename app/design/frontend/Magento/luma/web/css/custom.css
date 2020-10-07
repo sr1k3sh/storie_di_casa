@@ -341,7 +341,7 @@ h2.section-title{
 }
 .navigation .level0 > .level-top{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
 }
 .product-item-info .float-cart{
     position: absolute;
@@ -1917,7 +1917,11 @@ form.form.subscribe div.actions button{
         padding: 12px 18px !important;
     }
 }
-
+@media only screen and (max-width: 1366px){
+    .hero-banner .banner-content{
+        top:15%;
+    }
+}
 @media only screen and (max-width: 575px){
     .footer-list{
         text-align:center;
@@ -2371,4 +2375,30 @@ form.form.subscribe div.actions button{
 }
 .block-collapsible-nav .item.current > strong {
     border-color: #333333 !important;
+}
+.navigation .level0.active > .level-top, .navigation .level0.has-active > .level-top {
+    border-color: #333333 !important;
+}
+#ajaxcart_cancel{
+    color: #1A1A1A!important;
+    background-color: #E9E9E9!important;
+    border-color: #E9E9E9!important;
+}
+#ajaxcart_checkout{
+    color: #FFFFFF!important;
+    background-color: #1A1A1A!important;
+    border-color: #1A1A1A!important;
+}
+.mb-message-successs{
+    color: #000000!important;
+    font-size: 20px!important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+}
+#mb-ajaxcart-wrapper .product-name {
+    font-size: 17px!important;
+}
+div#mb-ajaxsuite-popup{
+    background: white;
+    background-color: white;
 }
