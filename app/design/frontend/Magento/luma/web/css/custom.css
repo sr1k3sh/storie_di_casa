@@ -1401,9 +1401,6 @@ border:1px solid #000;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     /* grid-template-rows: 260px; */
 }
-p.testimonial{
-    font-size: 18px !important;
-}
 .yereone-testimonial-meta .yereone-testimonial-date {
     font-size: 14px;
 }
