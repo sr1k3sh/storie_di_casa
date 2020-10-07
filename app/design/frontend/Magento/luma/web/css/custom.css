@@ -485,7 +485,7 @@ svg{
     z-index: 11;
 }
 p.testimonial{
-    font-size: 14px;
+    font-size: 14px !important;
 }
 /* wish list */
 a.action.towishlist span{
