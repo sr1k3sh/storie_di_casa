@@ -77,11 +77,15 @@ padding:2px
     height: 460px;
     width: 100%;
 }
+.nav-sections-item-content > .navigation{
+    padding:0 12px !important;
+}
 /* .logo{
     left:22vw;
 } */
 .logo{
     left:8px;
+    top:14px;
 }
 .block-search input{
     height:48px;
@@ -89,7 +93,7 @@ padding:2px
 .header.content{
     display: flex;
     align-items: center;
-    padding: 10px 8px!important;
+    padding: 10px 24px!important;
     margin-right: 20px;
 }
 .block-search .action.search{
@@ -153,6 +157,9 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 .cms-home .page-main{
     padding:0 !important;
+}
+.page-products .page-main,.page-wrapper > .breadcrumbs{
+    padding: 0 32px !important;
 }
 #search_mini_form .control input#search{
     padding:0 25px;
@@ -337,7 +344,7 @@ h2.section-title{
 }
 .panel.header{
     display: flex;
-    padding: 10px 8px !important;
+    padding: 10px 24px !important;
 }
 .footer.content .links li{
     font-size: 16px !important;
@@ -1353,7 +1360,7 @@ border:1px solid #000;
 .evidenza-banner .evidenza-column .promobanner img{
     object-fit: cover;
     min-height: 300px;
-    max-height: 300px;
+    height: 400px;
     width: 100%;
 }
 .evidenza-column {

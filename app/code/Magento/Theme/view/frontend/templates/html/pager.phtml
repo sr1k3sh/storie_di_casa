@@ -22,9 +22,9 @@
             <?php if ($block->getLastPageNum()>1) : ?>
                 <?= $block->escapeHtml(__('Items %1 to %2 of %3 total', $block->getFirstNum(), $block->getLastNum(), $block->getTotalNum())) ?>
             <?php elseif ($block->getTotalNum() == 1) : ?>
-                <?= $block->escapeHtml(__('%1 risultatis', $block->getTotalNum())) ?>
+                <?= $block->escapeHtml(__('%1 risultati', $block->getTotalNum())) ?>
             <?php else : ?>
-                <?= $block->escapeHtml(__('%1 risultatis(s)', $block->getTotalNum())) ?>
+                <?= $block->escapeHtml(__('%1 risultati', $block->getTotalNum())) ?>
             <?php endif; ?>
             </span>
         </p>
