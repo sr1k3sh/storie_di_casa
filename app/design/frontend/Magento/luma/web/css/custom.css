@@ -80,13 +80,16 @@ padding:2px
 /* .logo{
     left:22vw;
 } */
+.logo{
+    left:8px;
+}
 .block-search input{
     height:48px;
 }
 .header.content{
     display: flex;
     align-items: center;
-    padding: 10px 0px!important;
+    padding: 10px 8px!important;
     margin-right: 20px;
 }
 .block-search .action.search{
@@ -127,6 +130,10 @@ div.minicart-wrapper a.action.showcart span.text{
 .breadcrumbs .items{
     font-size: 16px !important;
 }
+.breadcrumbs a:visited,.breadcrumbs a,.breadcrumbs a:hover{
+    color: #333333;
+    text-decoration: none;
+}
 .breadcrumbs .item:not(:last-child)::after{
     margin:0 !important;
 }
@@ -165,10 +172,11 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 .hero-banner img{
     min-height:230px;
+    width: 100%;
 }
 .hero-banner .banner-content{
     position: absolute;
-    top:30%;
+    top:calc(100vw/15);
     left:10%;
 }
 .hero-banner .banner-content .header-sub-title{
@@ -206,7 +214,7 @@ div.minicart-wrapper a.action.showcart span.text{
     border-color: #fff;
 }
 h2.section-title{
-    font-size:36px;
+    font-size:24px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -329,7 +337,7 @@ h2.section-title{
 }
 .panel.header{
     display: flex;
-    padding: 10px 50px !important;
+    padding: 10px 8px !important;
 }
 .footer.content .links li{
     font-size: 16px !important;
@@ -341,7 +349,10 @@ h2.section-title{
 }
 .navigation .level0 > .level-top{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
+}
+.navigation .level0 .submenu .active > a{
+    border-color: #333333 !important;
 }
 .product-item-info .float-cart{
     position: absolute;
@@ -457,7 +468,7 @@ svg{
 }
 .product-item-name, .product.name a{
     font-weight: 600 !important;
-    font-size: 24px;
+    font-size: 20px;
     max-width:200px;
 }
 .product-item .price-box .price{
@@ -477,7 +488,9 @@ svg{
     position:absolute;
     z-index: 11;
 }
-
+p.testimonial{
+    font-size: 14px !important;
+}
 /* wish list */
 a.action.towishlist span{
     display: none;
@@ -508,7 +521,7 @@ a.action.towishlist span{
     display: none !important;
 }
 .feature-product,.cms-home .widget.block-static-block{
-    padding:0 20px;
+    padding:0 40px;
 }
 /* Bss ProductWidget */
 .slick-dots{
@@ -612,12 +625,12 @@ div#product-reviews-container .block-container{
 div.price-box span.special-price span.price{
     margin:0;
     display:inline-block;
-    font-size: 21px;
+    font-size: 18px;
 }
 div.price-box span.old-price span.price{
     margin-left:14px;
     display:inline-block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter !important;
     text-decoration: line-through;
 }
@@ -860,8 +873,13 @@ progress[value]::-webkit-progress-value {
     background-color: #000000 !important;
     border-color: #000000 !important;
 }
-
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main{
+    max-width: 100% !important;
+}
 @media only screen and (min-width:768px){
+    .navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main{
+        max-width: 100% !important;
+    }
     .nav-sections-item-content > .navigation{
         background:#ffffff;
     }
@@ -880,6 +898,9 @@ progress[value]::-webkit-progress-value {
     }
     .footer.content ul {
         padding-right: 0px !important;
+    }
+    .cms-home .product-reviews-summary{
+        margin-bottom: 0!important;
     }
 }
 /* progress[value]::-moz-progress-bar {
@@ -1355,13 +1376,13 @@ border:1px solid #000;
 
 .promobanner .banner-title{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .promobanner .banner-subtitle{
     font-style: normal;
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .promobanner .btn-promo-banner{
@@ -1391,9 +1412,6 @@ border:1px solid #000;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     /* grid-template-rows: 260px; */
-}
-p.testimonial{
-    font-size: 18px !important;
 }
 .yereone-testimonial-meta .yereone-testimonial-date {
     font-size: 14px;
@@ -1456,13 +1474,13 @@ p.testimonial{
 .section-grid h2{
     color:#ffffff;
     margin-bottom: 10px;
-    font-size:32px;
+    font-size:24px;
     font-weight: bold;
 }
 .section-grid div.sub-title{
     color:#D9D9D9;
     margin-bottom: 10px;
-    font-size:16px;
+    font-size:14px;
 }
 /* mini cart  */
 .minicart-wrapper .block-minicart{
@@ -1917,7 +1935,11 @@ form.form.subscribe div.actions button{
         padding: 12px 18px !important;
     }
 }
-
+@media only screen and (max-width: 1366px){
+    .hero-banner .banner-content{
+        top:15%;
+    }
+}
 @media only screen and (max-width: 575px){
     .footer-list{
         text-align:center;
