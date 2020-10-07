@@ -165,6 +165,7 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 .hero-banner img{
     min-height:230px;
+    width: 100%;
 }
 .hero-banner .banner-content{
     position: absolute;
@@ -860,8 +861,13 @@ progress[value]::-webkit-progress-value {
     background-color: #000000 !important;
     border-color: #000000 !important;
 }
-
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main{
+    max-width: 100% !important;
+}
 @media only screen and (min-width:768px){
+    .navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main{
+        max-width: 100% !important;
+    }
     .nav-sections-item-content > .navigation{
         background:#ffffff;
     }
