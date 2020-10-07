@@ -168,7 +168,7 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 .hero-banner .banner-content{
     position: absolute;
-    top:30%;
+    top:calc(100vw/15);
     left:10%;
 }
 .hero-banner .banner-content .header-sub-title{
