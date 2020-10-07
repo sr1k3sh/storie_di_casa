@@ -80,13 +80,16 @@ padding:2px
 /* .logo{
     left:22vw;
 } */
+.logo{
+    left:8px;
+}
 .block-search input{
     height:48px;
 }
 .header.content{
     display: flex;
     align-items: center;
-    padding: 10px 0px!important;
+    padding: 10px 8px!important;
     margin-right: 20px;
 }
 .block-search .action.search{
@@ -330,7 +333,7 @@ h2.section-title{
 }
 .panel.header{
     display: flex;
-    padding: 10px 50px !important;
+    padding: 10px 8px !important;
 }
 .footer.content .links li{
     font-size: 16px !important;
