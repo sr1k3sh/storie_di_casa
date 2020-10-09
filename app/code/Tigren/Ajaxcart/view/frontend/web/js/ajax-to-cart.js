@@ -278,7 +278,7 @@ define([
                 isWishlist = false,
                 additionUrl = '';
 
-            if (inputItemWishlist.length && inputItemWishlist.val()) {
+            if (inputItemWishlist.length && inputItemWishlist.val()>0) {
                 isWishlist = true;
                 if (actionUrl.search('checkout/cart/add') != -1) {
                     additionUrl = actionUrl.replace(self.options.ajaxCart.checkoutCartUrl, "");
@@ -395,6 +395,19 @@ define([
         },
 
         showMessagePopup: function (params, isSuccess, additionUrl, isWishlist) {
+            var qty;
+            try{
+                let paramsobj = new URLSearchParams(params);
+                if(paramsobj.has("qty")){
+                    qty=paramsobj.get("qty");
+                }
+                else{
+                    qty='1'
+                }
+            }
+            catch (err){
+                qty='';
+            }
             var self = this,
                 actionUrl = '';
             additionUrl = additionUrl || '';
@@ -425,13 +438,16 @@ define([
             } else {
                 var productWrapper = self.options.cartWrapper;
             }
+            var formatoId = productWrapper.find('.swatch-attribute.formato .swatch-option.selected').attr('option-id');
+            var formatoLabel = productWrapper.find('.swatch-attribute.formato .swatch-option.selected').attr('option-label');
             var sizeId = productWrapper.find('.swatch-attribute.size .swatch-option.text.selected').attr('option-id');
             var sizeLabel = productWrapper.find('.swatch-attribute.size .swatch-option.text.selected').text();
             var colorId = productWrapper.find('.swatch-attribute.color .swatch-option.color.selected').attr('option-id');
             var colorLabel = productWrapper.find('.swatch-attribute.color .swatch-option.color.selected').attr('option-label');
             if (typeof(params) === 'string') {
-                params += '&size=' + sizeId + '&color=' + colorId + '&sizeLabel=' + sizeLabel + '&colorLabel=' + colorLabel;
+                params += '&size=' + sizeId +'&formato=' + formatoId + '&color=' + colorId + '&sizeLabel=' + sizeLabel + '&formatoLabel=' + formatoLabel + '&colorLabel=' + colorLabel + '&formatoQty=' + qty;
             }
+            console.log(params);
             $.ajax({
                 url: actionUrl + additionUrl,
                 data: params,

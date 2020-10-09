@@ -442,7 +442,7 @@ define([
                         '</div>' + input +
                     '</div>'
                 );
-
+                console.log(input);
                 $widget.optionsMap[item.id] = {};
 
                 // Aggregate options array to hash (key => value)
@@ -722,8 +722,14 @@ define([
                 $wrapper = $this.parents('.' + $widget.options.classes.attributeOptionsWrapper),
                 $label = $parent.find('.' + $widget.options.classes.attributeSelectedOptionLabelClass),
                 attributeId = $parent.attr('attribute-id'),
-                $input = $parent.find('.' + $widget.options.classes.attributeInput),
-                checkAdditionalData = JSON.parse(this.options.jsonSwatchConfig[attributeId]['additional_data']);
+                $input = $parent.find('.' + $widget.options.classes.attributeInput);
+                try{
+                    var checkAdditionalData = JSON.parse(this.options.jsonSwatchConfig[attributeId]['additional_data']);
+                }
+                catch{
+                    
+                }
+                
 
             if ($widget.inProductList) {
                 $input = $widget.productForm.find(

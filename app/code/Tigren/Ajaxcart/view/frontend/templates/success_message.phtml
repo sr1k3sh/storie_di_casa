@@ -3,7 +3,10 @@
  * @copyright Copyright (c) 2016 www.tigren.com
  */
 ?>
-<?php $_product = $block->getProduct(); ?>
+<?php $_product = $block->getProduct();
+      $helperJs = $this->helper('Tigren\Ajaxcart\Helper\Data');
+      $_formatoId = $this->getLayout()->createBlock("Tigren\Ajaxcart\Block\Product\ConfigurableOption")->getFormatoId();
+?>
 <div class="mb-login-popup-title">
     <strong><?php echo __('Success'); ?></strong>
 </div>
@@ -11,16 +14,40 @@
     <div class="success-content">
         <?php echo $block->getChildHtml('ajaxcart.message'); ?>
 
-        <h2 class="product-name"><?php echo $_product->getName() ?></h2>
-        <?php echo $block->getChildHtml('product_option'); ?>
-        <?php echo $block->getChildHtml('product_image'); ?>
-        <?php echo $block->getChildHtml('ajaxcart.cartinfo'); ?>
+        <div class="product-details-wrapper">
+            <?php echo $block->getChildHtml('product_image'); ?>
+            <div class="product-info">
+                <span class="product-name"><?php echo $_product->getName() ?></span>
+                <span class="product-price"><?php 
+                if($_product->getTypeId() == \Magento\ConfigurableProduct\Model\Product\Type\Configurable::TYPE_CODE){
+                    $data=$_product->getTypeInstance()->getConfigurableOptions($_product);
+                    foreach($data as $attr){
+                        foreach($attr as $a){
+                            if($a["value_index"]== $_formatoId){
+                                $sku=$a["sku"];
+                            }
+                        }
+                    }
+                    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+                    $productCollection = $objectManager->create('Magento\Catalog\Model\Product')->loadByAttribute('sku', $sku);
+                    $productPriceBySku = $productCollection->getPrice();
+                    echo $helperJs->getPriceWithCurrency($productPriceBySku);
+                }
+                else{
+                    echo $helperJs->getPriceWithCurrency($_product->getFinalPrice());
+                }
+                ?></span> 
+                <?php echo $block->getChildHtml('product_option'); ?>
+                <h2 class="product-short-desc"><?php echo $_product->getShortDescription() ?></h2>
+            </div>
+        </div>
+        <!-- <?php //echo $block->getChildHtml('ajaxcart.cartinfo'); ?> -->
         <?php echo $block->getChildHtml('ajaxcart.product.related'); ?>
     </div>
     <div class="ajaxcart-buttons ajaxsuite-buttons">
         <button type="button" id="ajaxcart_cancel" class="action primary mb-ajaxsuite-close"
-                title="<?php echo __('Continue Shopping') ?>">
-            <span><?php echo __('Continue Shopping ') ?></span>
+                title="<?php echo __('CONTINUA LO SHOPPING') ?>">
+            <span><?php echo __('CONTINUA LO SHOPPING ') ?></span>
             <?php
             if ($popupTTL = $this->helper('Tigren\Ajaxsuite\Helper\Data')->getTTLAjaxSuite()) {
                 ?>
@@ -32,7 +59,7 @@
         <button type="button" id="ajaxcart_checkout" class="action focus primary"
                 title="<?php echo __('View Cart') ?>"
                 onClick="window.location = '<?php echo $block->getUrl('checkout/cart'); ?>'">
-            <span><?php echo __('View Cart') ?></span>
+            <span><?php echo __('PROCEDI CON IL CHECKOUT') ?></span>
         </button>
     </div>
 </div>
