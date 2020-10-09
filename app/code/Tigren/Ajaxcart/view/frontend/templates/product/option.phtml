@@ -4,18 +4,28 @@
  */
 
 ?>
-<div class="swatch-opt">
     <?php if (!empty($block->getColorLabel()) && $block->getColorLabel() !== 'undefined') { ?>
         <span class="swatch-attribute color">
         <span>Color: </span>
-        <strong><?php echo $block->getColorLabel() ?></strong>
+        <span><?php echo $block->getColorLabel() ?></span>
     </span>&nbsp;&nbsp;
     <?php } ?>
     <?php if (!empty($block->getSizeLabel()) && $block->getSizeLabel() !== 'undefined') { ?>
         <span class="swatch-attribute size">
         <span>Size: </span>
-        <strong><?php echo $block->getSizeLabel() ?></strong>
+        <span><?php echo $block->getSizeLabel() ?></span>
     </span>
     <?php } ?>
-    <strong><?php echo $block->getPrice() ?></strong>
-</div>
+    <?php if (!empty($block->getFormatoQty()) && $block->getFormatoQty() !== 'undefined'  && $block->getFormatoQty() !== 'null') { ?>
+        <span class="swatch-attribute formato-qty">
+        <span>Q.ta: </span>
+        <span><?php echo $block->getFormatoQty() ?></span>
+    </span>
+    <?php } ?>
+    <?php if (!empty($block->getFormatoLabel()) && $block->getFormatoLabel() !== 'undefined') { ?>
+        <span class="swatch-attribute formato">
+        <span>Formato: </span>
+        <span><?php echo $block->getFormatoLabel() ?></span>
+    </span>
+    <?php } ?>
+

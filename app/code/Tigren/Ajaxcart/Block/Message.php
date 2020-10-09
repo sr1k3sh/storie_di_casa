@@ -38,7 +38,7 @@ class Message extends \Magento\Framework\View\Element\Template
     {
         $message = $this->_ajaxcartHelper->getScopeConfig('ajaxcart/general/message');
         if (!$message) {
-            $message = 'You have recently added this product to your Cart';
+            $message = 'Il Prodotto è Stato Aggiunto Al Carrello';
         }
         return $message;
     }
