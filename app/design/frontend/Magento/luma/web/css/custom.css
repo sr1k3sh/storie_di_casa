@@ -2560,3 +2560,18 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 #mb-ajaxsuite-popup .field.qty label{
     display: block;
 }
+
+/* MInicart  */
+
+.minicart-wrapper .block-minicart .block-title {
+    display:block;
+}
+.minicart-wrapper .block-minicart .block-title strong{
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: bold;
+   color:#000000;
+}
+.minicart-wrapper .block-minicart .block-title strong .qty{
+    display: none;
+}
