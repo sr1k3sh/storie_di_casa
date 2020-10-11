@@ -30,9 +30,6 @@ input:not([disabled]):focus{
 .fieldset > .field > .label, .fieldset > .fields > .field > .label,.opc-wrapper .form-login .fieldset .field .label, .opc-wrapper .form-shipping-address .fieldset .field .label{
     font-size: 16px;
 }
-.page-title-wrapper{
-    display: none;
-}
 .opc-progress-bar-item._active:before,.opc-progress-bar-item._active > span:before{
     background: #333333 !important;
     border-color: #333333 !important;
@@ -609,6 +606,19 @@ div#product-reviews-container .block-container{
 
 
 /* custom product detail */
+.page-title-wrapper{
+    display: block !important; 
+   padding-bottom: 0 !important;
+   padding-left: 0 !important;
+   text-align: left !important;
+   font-size: 3rem;
+   font-weight: bold;
+}
+.page-title-wrapper h1.page-title span.base{
+   font-size: 3rem;
+   font-weight: bold;
+   color: #1A1A1A;
+}
 .product-info-main .product-info-price{
     display: flex !important;
     padding-bottom: 0 !important;
@@ -622,6 +632,10 @@ div#product-reviews-container .block-container{
    padding-bottom: 0 !important;
    padding-left: 0 !important;
    text-align: left !important;
+}
+
+.product-info-main .product.attribute.sku {
+    display:none;
 }
 .product-info-main .product.attribute.sku .type{
     display: none;
