@@ -120,6 +120,10 @@ input:not([disabled]):focus{
     align-items: center;
 }
 
+.minicart-wrapper .action.showcart.active {
+    display:flex;
+}
+
 div.minicart-wrapper a.action.showcart span.text{
     font-size: 14px;
     width: auto;
