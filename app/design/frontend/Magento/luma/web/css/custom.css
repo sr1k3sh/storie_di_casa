@@ -2,6 +2,18 @@
     font-size:14px;
     color:#666666;
 }
+.action.primary {
+    background:#1A1A1A;
+    border: 1px solid #1A1A1A;
+}
+.action.primary:hover {
+    background: #000000;
+    border: 1px solid #000000;
+}
+.action.primary:active {
+    background: #000000;
+    border: 1px solid #000000;
+}
 input[type="radio"] {
     /* remove standard background appearance */
     -webkit-appearance: none;
@@ -2596,4 +2608,9 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 .block-minicart .subtitle.empty {
     text-align: left;
     color: #666666;
+}
+
+/* Customer Account */
+.sidebar.sidebar-main ul.nav.items{
+    flex-direction: column;
 }
