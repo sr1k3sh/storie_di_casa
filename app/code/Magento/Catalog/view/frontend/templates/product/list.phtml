@@ -176,7 +176,9 @@ $_helper = $this->helper(Magento\Catalog\Helper\Output::class);
             <?php endforeach; ?>
         </ol>
     </div>
+    <div class="bottom-toolbar">
     <?= $block->getToolbarHtml() ?>
+    </div>
     <?php if (!$block->isRedirectToCartEnabled()) :?>
         <script type="text/x-magento-init">
         {

@@ -1092,8 +1092,14 @@ div.product-item-info div.product-item-details{
     opacity: 1;
     border-radius: 50%;
 }
+.bottom-toolbar  .toolbar .limiter {
+    display: none !important;
+}
+.bottom-toolbar .sorter {
+    display: none !important;
+}
 .page-products .toolbar .limiter{
-    display: flex !important;
+    display: flex;
     float: right;
     flex-direction: row-reverse;
     align-items: center;
@@ -1818,10 +1824,11 @@ form.form.subscribe div.actions button{
     }
     .page-with-filter .toolbar-amount{
         display: none;
-    }
+     }
+     /*
     .page-products .toolbar .limiter{
         display: none !important;
-    }
+    } */
     .page-products .sorter{
         position: relative;
         float: left;
