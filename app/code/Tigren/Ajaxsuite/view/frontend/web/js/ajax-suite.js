@@ -32,7 +32,7 @@ define([
                 headerErrorColor: '#ff002f',
                 headerTextColor: '#fff',
                 buttonTextColor: '#fff',
-                buttonBackgroundColor: '#006bb4',
+                buttonBackgroundColor: '#1A1A1A',
             }
         },
 

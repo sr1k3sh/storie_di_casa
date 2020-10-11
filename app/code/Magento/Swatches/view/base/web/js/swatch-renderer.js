@@ -442,7 +442,7 @@ define([
                         '</div>' + input +
                     '</div>'
                 );
-                console.log(input);
+
                 $widget.optionsMap[item.id] = {};
 
                 // Aggregate options array to hash (key => value)
@@ -572,7 +572,7 @@ define([
                         '</div>';
                 } else if (type === 3) {
                     // Clear
-                    html += '<div class="' + optionClass + '" ' + attr + '></div>';
+                    html += '<input type="radio" class="swatch-custom ' + optionClass + '" ' + attr + ' name="swatch-radio"><label class="swatch-label">'+label+'</label>';
                 } else {
                     // Default
                     html += '<div class="' + optionClass + '" ' + attr + '>' + label + '</div>';
@@ -742,6 +742,7 @@ define([
             }
 
             if ($this.hasClass('selected')) {
+                console.log($this);
                 $parent.removeAttr('option-selected').find('.selected').removeClass('selected');
                 $input.val('');
                 $label.text('');

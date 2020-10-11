@@ -15,12 +15,17 @@ input[type="radio"] {
     border: 1.5px solid #635252;
     background-color: #ffffff14;
     border-radius: 50%;
+    vertical-align: inherit;
+    margin: 4px 3px 0 0;
 }
   
 /* appearance for checked radiobutton */
 input[type="radio"]:checked {
 background-color: #333333;
 padding:2px
+}
+input:not([disabled]):focus{
+    box-shadow: none;
 }
 .fieldset > .field > .label, .fieldset > .fields > .field > .label,.opc-wrapper .form-login .fieldset .field .label, .opc-wrapper .form-shipping-address .fieldset .field .label{
     font-size: 16px;
@@ -2416,7 +2421,7 @@ form.form.subscribe div.actions button{
     background-color: #E9E9E9!important;
     border-color: #E9E9E9!important;
 }
-#ajaxcart_checkout{
+#ajaxcart_checkout, #product-addtocart-button{
     color: #FFFFFF!important;
     background-color: #1A1A1A!important;
     border-color: #1A1A1A!important;
@@ -2487,9 +2492,71 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 #mb-ajaxcart-wrapper .ajaxcart-success-box .ajaxcart-buttons > *{
     margin: 5px 22px;
 }
-#ajaxcart_cancel{
+#ajaxcart_checkout, #ajaxcart_cancel, #product-addtocart-button{
     padding: 15px 40px;
 }
-#ajaxcart_checkout{
-    padding: 15px 40px;
+.box-tocart .actions > *{
+    margin:0 15px 0 0;
+}
+
+/* custom radiobutton in custom swatch */
+.swatch-custom{
+    min-width:14px;
+    border: 1px solid #000000;
+    height:14px;
+    float:none;
+}
+.swatch-custom.selected{
+    outline:none;
+    border: 1px solid #000000; 
+}
+.swatch-custom:not(.disabled):hover{
+    outline:none;
+    border: 1px solid #000000;
+}
+.swatch-custom:focus{
+    box-shadow: none;
+}
+.swatch-label{
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.swatch-attribute-selected-option {
+    display: none;
+}
+.swatch-attribute-label {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.price-label{
+    display: none !important;
+}
+#mb-ajaxsuite-popup .box-tocart .control{
+    width: auto !important;
+    display: inline-block;
+}
+#mb-ajaxsuite-popup .box-tocart .count-minus, #mb-ajaxsuite-popup .box-tocart .count-plus{
+    position: absolute;
+    font-size: 20px;
+    height: 32px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    line-height: normal;
+}
+#mb-ajaxsuite-popup .box-tocart .count-minus{
+    left: 5%;
+    width: auto;
+    top: -5%;
+}
+#mb-ajaxsuite-popup .box-tocart .count-plus{
+    right: 5%;
+    width: auto;
+    top: 0%;
+}
+#mb-ajaxsuite-popup .field.qty label{
+    display: block;
 }
