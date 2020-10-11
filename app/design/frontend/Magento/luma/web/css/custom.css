@@ -2575,3 +2575,7 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 .minicart-wrapper .block-minicart .block-title strong .qty{
     display: none;
 }
+.block-minicart .subtitle.empty {
+    text-align: left;
+    color: #1A1A1A;
+}
