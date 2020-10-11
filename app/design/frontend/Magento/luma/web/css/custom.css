@@ -3,16 +3,16 @@
     color:#666666;
 }
 .action.primary {
-    background:#1A1A1A;
-    border: 1px solid #1A1A1A;
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
 }
 .action.primary:hover {
-    background: #000000;
-    border: 1px solid #000000;
+    background: #000000 !important;
+    border: 1px solid #000000!important;
 }
 .action.primary:active {
-    background: #000000;
-    border: 1px solid #000000;
+    background: #000000 !important;
+    border: 1px solid #000000 !important;
 }
 input[type="radio"] {
     /* remove standard background appearance */
