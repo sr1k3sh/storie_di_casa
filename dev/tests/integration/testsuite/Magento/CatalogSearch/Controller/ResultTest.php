@@ -28,7 +28,7 @@ class ResultTest extends \Magento\TestFramework\TestCase\AbstractController
         $this->assertNotContains('for="search">Search', $responseBody);
         $this->assertStringMatchesFormat('%aSuche%S%a', $responseBody);
 
-        $this->assertNotContains('Search entire store here...', $responseBody);
+        $this->assertNotContains('Cosa stai cercando?', $responseBody);
         $this->assertContains('Den gesamten Shop durchsuchen...', $responseBody);
     }
 
