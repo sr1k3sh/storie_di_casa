@@ -1816,6 +1816,7 @@ form.form.subscribe div.actions button{
     }
     .block-search {
         margin:0 !important;
+        width: 160px !important;
     }
     .block-content .field.search{
         position: relative;
