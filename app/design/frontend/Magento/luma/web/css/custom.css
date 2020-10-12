@@ -549,7 +549,7 @@ a.action.towishlist span{
     display: none !important;
 }
 .feature-product,.cms-home .widget.block-static-block{
-    padding:0 40px 0 70px;
+    padding:0 40px;
 }
 /* Bss ProductWidget */
 .slick-dots{
@@ -1410,7 +1410,7 @@ border:1px solid #000;
 .evidenza-column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 25px;
+    padding: 0 35px;
 }
 
 .promobanner .text{
