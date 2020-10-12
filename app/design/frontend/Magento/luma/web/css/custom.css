@@ -156,6 +156,12 @@ div.minicart-wrapper a.action.showcart span.text{
     color: #333333;
     text-decoration: none;
 }
+.opc-wrapper .shipping-address-item.selected-item{
+    border-color: #333333 !important;
+}
+.opc-wrapper .shipping-address-item.selected-item:after{
+    background: #333333 !important;
+}
 .breadcrumbs .item:not(:last-child)::after{
     margin:0 !important;
 }
