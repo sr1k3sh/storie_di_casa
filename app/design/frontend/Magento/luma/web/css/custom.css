@@ -1543,6 +1543,7 @@ border:1px solid #000;
 /* mini cart  */
 .minicart-wrapper .block-minicart{
     max-width: 259px;
+    padding:25px 16px !important;
 }
 .minicart-wrapper.active .block-minicart{
     border: 1px solid #707070;
