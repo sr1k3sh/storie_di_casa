@@ -179,6 +179,9 @@ div.minicart-wrapper a.action.showcart span.text{
 .page-products .page-main,.page-wrapper > .breadcrumbs{
     padding: 0 32px !important;
 }
+.block-search{
+    width: 435px !important;
+}
 #search_mini_form .control input#search{
     padding:0 8px 0 32px;
     font-size: 14px;
