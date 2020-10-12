@@ -2617,3 +2617,9 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 .sidebar.sidebar-main ul.nav.items{
     flex-direction: column;
 }
+.navigation .level0 .submenu li {
+    font-size:16px
+}
+.minicart-wrapper .action.showcart.active:before {
+    display:none;
+}
