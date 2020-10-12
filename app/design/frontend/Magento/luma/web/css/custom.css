@@ -1404,7 +1404,7 @@ border:1px solid #000;
 .evidenza-banner .evidenza-column .promobanner img{
     object-fit: cover;
     min-height: 300px;
-    height: 400px;
+    height: 460px;
     width: 100%;
 }
 .evidenza-column {
@@ -1432,7 +1432,7 @@ border:1px solid #000;
 
 .promobanner .banner-subtitle{
     font-style: normal;
-    margin-bottom: 12px;
+    margin-bottom: 32px;
     font-size: 16px;
 }
 
