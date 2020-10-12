@@ -1801,7 +1801,7 @@ form.form.subscribe div.actions button{
         position: absolute;
         top: 160px;
         z-index: 11;
-        width: 150px;
+        width: 190px;
         left: 16px;
     }
     .minicart-wrapper{
@@ -2140,6 +2140,7 @@ form.form.subscribe div.actions button{
     .hero-banner .banner-content{
         display: flex;
         flex-direction: column;
+        top:24%;
     }
     .hero-banner .banner-content .header-sub-title {
         font-size: 18px;
