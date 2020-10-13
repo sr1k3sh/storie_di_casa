@@ -2634,3 +2634,37 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 .minicart-wrapper .action.showcart.active:before {
     display:none;
 }
+
+ /* Page Header Banner */
+div.header.content{
+     display:flex;
+ }
+.nav-toggle {
+     order:1
+ }
+a.logo{
+    order:2;
+    height:142px;
+}
+.block-search {
+    order:4;
+}
+div.header.content .widget.block.block-static-block{
+    margin:0 60px 0 0;
+    order:3;
+}
+div.header.content .widget.block.block-static-block > *{
+    display:inline-block;
+}
+div.header.content .widget.block.block-static-block p{
+    margin:0 5px 0 0;
+    font-size: 16px;;
+}
+div.header.content .widget.block.block-static-block h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+div.header.content .widget.block.block-static-block div{
+    text-transform: uppercase;
+    vertical-align: middle;
+}
