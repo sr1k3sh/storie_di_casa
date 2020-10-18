@@ -2783,7 +2783,8 @@ div.header.content .widget.block.block-static-block div{
         top:14px;
     }
     .block-search input{
-        height:48px;
+        height:64px;
+        width:435px;
     }
     .header.content{
         padding: 10px 24px 0 70px!important;
@@ -2840,6 +2841,7 @@ div.header.content .widget.block.block-static-block div{
     }
     .opc-wrapper .shipping-address-item.selected-item:after{
         background: #333333 !important;
+        vertical-align: middle;
     }
     .breadcrumbs .item:not(:last-child)::after{
         margin:0 !important;
@@ -3046,11 +3048,11 @@ div.header.content .widget.block.block-static-block div{
         margin-left: 0 !important;
     }
     .navigation .level0{
-        margin-left: 41px !important;
+        margin-right: 29px !important;
     }
     .navigation .level0 > .level-top{
         font-size: 18px;
-        padding-left: 0px !important;
+        padding-left: 12px !important;
         padding-right: 12px !important;
         color: #4B4A4A;
     }
@@ -4630,6 +4632,10 @@ div.header.content .widget.block.block-static-block div{
     }
     .block-search {
         order:4;
+        margin-right: 88px;
+    }
+    .block-search .action.search:before {
+        vertical-align: text-top;
     }
     div.header.content .widget.block.block-static-block{
         order:2;
