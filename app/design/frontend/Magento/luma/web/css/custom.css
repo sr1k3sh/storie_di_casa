@@ -3168,11 +3168,16 @@ div.header.content .widget.block.block-static-block div{
     } */
     
     .slick-arrow{
-        background-color: #fff !important;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16) !important;
-        width: 4.375rem !important;
-        height:4.375rem !important;
-        border-radius: 50%;
+        width: 70px !important;
+        height: 70px !important;   
+    }
+    .slick-next{
+        margin-right: 42px;
+        margin-left: -84px; 
+    }
+    .slick-prev{
+        margin-left: 42px;
+        margin-right: -84px; 
     }
     .slick-prev::before,.slick-next::before{
         font-weight: lighter;
@@ -3233,7 +3238,7 @@ div.header.content .widget.block.block-static-block div{
         display: none !important;
     }
     .feature-product,.cms-home .widget.block-static-block{
-        padding:0 40px;
+        padding: 0 160px 0 182px;
     }
     /* Bss ProductWidget */
     .slick-dots{
@@ -4052,10 +4057,8 @@ div.header.content .widget.block.block-static-block div{
     
     /* Evidenza */
     .evidenza-banner .evidenza-column .promobanner img{
-        object-fit: cover;
-        min-height: 300px;
-        height: 460px;
-        width: 100%;
+        height:554px;
+        width:342px;
     }
     .evidenza-column {
         flex: 25%;
