@@ -4283,9 +4283,7 @@ div.header.content .widget.block.block-static-block div{
         text-align: center;
     }
     .storie-newsletter img{
-        max-height: 325px;
-        width: 100%;
-        object-fit: cover;
+        max-height: 435px;
     }
     .storie-newsletter div.newsletter-content{
         position: absolute;
@@ -4308,24 +4306,20 @@ div.header.content .widget.block.block-static-block div{
         text-align: center;
     }
     div.newsletter-content div.block.newsletter{
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        width: auto;
-        margin-top:35px;
+        margin-top: 60px;
     }
     .block.newsletter .field .control:before {
         display:none;
     }
     .block.newsletter input {
-        height: 50px;
-        width: 300px;
-        padding:0px;
-        text-align: center;
+        height: 69px;
+        width: 398px;
+        padding: 0 20px;
+        font-size:18px;
     }
     form.form.subscribe div.actions button{
-        height: 50px;
-        font-size:1.3rem;
+        height: 69px;
+        font-size:18px;
         background:#1A1A1A;
         border-color: #1A1A1A;
         font-weight: 500;
@@ -4639,7 +4633,7 @@ div.header.content .widget.block.block-static-block div{
     }
     div.header.content .widget.block.block-static-block{
         order:2;
-        padding-left:0px !important;
+        padding:0px !important;
     }
     div.header.content .widget.block.block-static-block > *{
         display:inline-block;
