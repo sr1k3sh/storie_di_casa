@@ -1463,7 +1463,7 @@ border:1px solid #000;
     position: relative;
     width: 100vw;
     margin-left: calc((100% - 100vw) / 2);
-    background:#666666;
+    background:#4B4A4A;
     margin-bottom:50px;
 }
 .section-grid div.grid{
@@ -3206,7 +3206,10 @@ div.header.content .widget.block.block-static-block div{
         z-index: 11;
     }
     p.testimonial{
-        font-size: 14px !important;
+        font-size: 18px !important;
+    }
+    .slick-track {
+        padding-left:57px;
     }
     /* wish list */
     a.action.towishlist span{
@@ -4102,6 +4105,7 @@ div.header.content .widget.block.block-static-block div{
     .section-grid{
         padding-left: 180px;
         padding-right: 160px;
+        margin-bottom: 83px;
     }
     .section-grid div.grid{
         height: 100%;
