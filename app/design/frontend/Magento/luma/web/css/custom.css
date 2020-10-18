@@ -3214,6 +3214,10 @@ div.header.content .widget.block.block-static-block div{
     .yereone-testimonial-item.slick-slide {
         width: 426px !important;
     }
+    .slick-slide{
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
     /* wish list */
     a.action.towishlist span{
         display: none;
