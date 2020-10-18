@@ -2637,6 +2637,9 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 }
 
 /* Customer Account */
+.customer-menu li a svg {
+    display: none;
+}
 .login-container .fieldset:after {
     font-size: 1.4rem;
 }
