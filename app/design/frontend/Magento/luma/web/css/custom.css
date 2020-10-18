@@ -3503,9 +3503,9 @@ div.header.content .widget.block.block-static-block div{
     .product.data.items > .item.title > .switch {
         font-size: 16px !important;
     }
-    .product.attibute.dimensioni_prodotto p {
-    font-size: 16px;
-    color: #666666;
+    .product.info.detailed p {
+        font-size: 16px;
+        color: #666666;
     }
     div.product.media .top-header-links{
         display:none;
