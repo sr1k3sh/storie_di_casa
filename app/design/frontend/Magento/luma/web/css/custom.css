@@ -4650,5 +4650,18 @@ div.header.content .widget.block.block-static-block div{
         text-transform: uppercase;
         vertical-align: middle;
     }
+    .footer.content{
+        padding-left: 70px!important;
+        padding-right: 70px!important;
+    }
+    .footer.content .widget.block-static-block {
+        padding: 0px;
+    }
+    .footer.content .links li {
+        font-size: 18px !important;
+    }
+    .page-footer .h4-font {
+        font-size: 18px !important;
+    }
 
  }
