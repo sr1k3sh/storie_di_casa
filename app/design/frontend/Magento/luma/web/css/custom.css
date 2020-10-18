@@ -4693,5 +4693,8 @@ div.header.content .widget.block.block-static-block div{
     .page-main {
         padding-left:70px !important;
     }
+    .breadcrumbs .item:not(:last-child):after {
+        vertical-align: middle;
+    }
 
  }
