@@ -4636,6 +4636,7 @@ div.header.content .widget.block.block-static-block div{
     }
     .block-search .action.search:before {
         vertical-align: text-top;
+        margin-top: 7px !important;
     }
     div.header.content .widget.block.block-static-block{
         order:2;
