@@ -1,6 +1,15 @@
+body{
+    font-size:14px !important;
+}
 * p{
     font-size:14px;
     color:#666666;
+}
+div.field.note{
+    font-size:14px;
+}
+.action.remind{
+    font-size:14px;
 }
 .action.primary {
     background:#1A1A1A !important;
@@ -2625,6 +2634,13 @@ div.product-details-wrapper div.product-info span.swatch-attribute.formato{
 }
 
 /* Customer Account */
+.login-container .fieldset:after {
+    font-size: 1.4rem;
+}
+
+.password-strength-meter {
+    font-size:14px;
+}
 .sidebar.sidebar-main ul.nav.items{
     flex-direction: column;
 }
@@ -2817,6 +2833,7 @@ div.header.content .widget.block.block-static-block div{
     }
     
     div.minicart-wrapper a.action.showcart span.text{
+        margin-top:3px;
         font-size: 14px;
         width: auto;
         clip: auto;
@@ -3140,6 +3157,7 @@ div.header.content .widget.block.block-static-block div{
     .minicart-wrapper a svg {
         height: 20px;
         width: 20px;
+        margin-top:4px;
     }
     .panel.header .instagram-link{
         margin-left:30px;
@@ -3234,7 +3252,7 @@ div.header.content .widget.block.block-static-block div{
     }
     /* custom h3 */
     .widget.block.block-static-block h3{
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     .storie-newsletter-sidebar::before {
         position: absolute;
@@ -3600,10 +3618,8 @@ div.header.content .widget.block.block-static-block div{
         display: block;
     }
     .catalog-subcategory span.subcategory a{
-        font-size:14px;
-        color:#666666;
-        line-height:1.7;
-        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 32px;
     }
     .catalog-subcategory >:first-child{
         margin-top:10px;
@@ -4387,6 +4403,7 @@ div.header.content .widget.block.block-static-block div{
     .block-title strong{
         font-size: 3.25rem;
         text-transform: uppercase;
+        font-weight: 300;
     }
     .catalog-category span.category{
         display: block;
@@ -4669,6 +4686,9 @@ div.header.content .widget.block.block-static-block div{
     }
     .page-footer .h4-font {
         font-size: 18px !important;
+    }
+    .page-main {
+        padding-left:70px;
     }
 
  }
