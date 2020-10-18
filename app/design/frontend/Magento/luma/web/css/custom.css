@@ -3064,6 +3064,9 @@ div.header.content .widget.block.block-static-block div{
     .navigation .level0.first{
         margin-left: 0 !important;
     }
+    .navigation .level0.first a {
+        padding-left: 0px !important;
+    }
     .navigation .level0{
         margin-right: 29px !important;
     }
@@ -4688,7 +4691,7 @@ div.header.content .widget.block.block-static-block div{
         font-size: 18px !important;
     }
     .page-main {
-        padding-left:70px;
+        padding-left:70px !important;
     }
 
  }
