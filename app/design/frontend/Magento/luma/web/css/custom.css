@@ -4094,7 +4094,7 @@ div.header.content .widget.block.block-static-block div{
     }
     
     .promobanner .btn-promo-banner{
-        padding: 24px 35px;
+        padding: 24px 35px !important;
     }
    
     
