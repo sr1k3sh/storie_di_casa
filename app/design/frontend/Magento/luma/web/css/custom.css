@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Nunito;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap');
+}
 body{
     font-size:14px !important;
 }
@@ -246,7 +250,9 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 @import url('/Muli-Bold.ttf');
 *{
-    font-family: 'muli', sans-serif !important;
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 200;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 .hero-banner button{
@@ -551,6 +557,22 @@ a.action.towishlist span{
 
 /* side bar */
 .sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
+    color: #666666;
+}
+.sidebar .brand-desc strong {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 900;
+}
+.sidebar .brand-desc p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 300;
+    line-height: 23px;
+}
+.sidebar .widget.block-static-block p {
+    font-size: 16px;
+    font-weight: 300;
     color: #666666;
 }
 /* custom h3 */
@@ -2695,6 +2717,15 @@ div.header.content .widget.block.block-static-block div{
     vertical-align: middle;
 }
 
+.toolbar-sorter select#sorter {
+    padding-right: 105px;
+    padding-left: 30px;
+}
+.toolbar-sorter .sorter-label {
+    position: absolute;
+    top: 4px;
+}
+
 
  /* Scree Width higher than 1366px */
  @media screen and (min-width: 1367px) {
@@ -2891,7 +2922,7 @@ div.header.content .widget.block.block-static-block div{
         padding:0 !important;
     }
     .page-products .page-main,.page-wrapper > .breadcrumbs{
-        padding: 0 32px 0 70px !important;
+        padding: 0 88px 0 70px !important;
     }
     .block-search{
         width: 435px !important;
@@ -2901,6 +2932,19 @@ div.header.content .widget.block.block-static-block div{
         font-size: 14px;
         background:#E9E9E9;
         border:none;
+    }
+    .page-products .product-item-info {
+        width: 300px;
+        text-align: center;
+    }
+    .page-layout-2columns-left .column.main {
+        width:85.166667% !important;
+    }
+    .page-layout-2columns-left .sidebar-main {
+        width: 14.833333%!important;
+    }
+    .page-layout-2columns-left .sidebar-additional {
+        width: 14.833333% !important;    
     }
     /* .nav-toggle{
         display: block !important;
@@ -2926,8 +2970,9 @@ div.header.content .widget.block.block-static-block div{
     
     @import url('/Muli-Bold.ttf');
     *{
-        font-family: 'muli', sans-serif !important;
+        font-family: 'Muli', sans-serif !important;
     }
+      
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
     .hero-banner button{
         color:#fff;
@@ -3218,12 +3263,13 @@ div.header.content .widget.block.block-static-block div{
         font-size: 31px !important;
     }
     .product-item-name, .product.name a{
-        color: #1A1A1A;
-        font-size: 24px;
-        
+        color: #4C4D4F;
+        font-size: 21px;
+        font-family: Nunito!important;
     }
     .product-item .price-box .price{
         font-weight: lighter !important;
+        font-family: Nunito!important;
     }
     .sale-product-icon {
         background-color: #4c4d4f;
@@ -3267,6 +3313,7 @@ div.header.content .widget.block.block-static-block div{
     /* custom h3 */
     .widget.block.block-static-block h3{
         font-size: 18px !important;
+        line-height: 34px;
     }
     .storie-newsletter-sidebar::before {
         position: absolute;
@@ -3612,14 +3659,11 @@ div.header.content .widget.block.block-static-block div{
         speak: none;
     }
     #product-reviews-container div.rating-total{
-        font-size: 14px;
-        color:#666666;
+        font-size: 16px;
     }
     
     div.rating-percent-container{
-        margin:30px 0px;
-        font-size:14px; 
-        color:#666666;
+        font-size:16px; 
     }
     div.rating-percent-container .rating-percent{
         height:20px;
@@ -3648,7 +3692,7 @@ div.header.content .widget.block.block-static-block div{
         line-height: 32px;
     }
     .catalog-subcategory >:first-child{
-        margin-top:10px;
+        margin-top:20px;
     }
     .catalog-subcategory >:last-child{
         margin-bottom:50px;
@@ -3671,14 +3715,12 @@ div.header.content .widget.block.block-static-block div{
         font-weight: bold;
     }
     .product-review-form-container .review-form-subtitle{
-        color:#666666;
-        font-size: 14px;
-        margin-bottom: 42px;
+        font-size: 16px;
     }
     .product-review-form-container .btn-review{
         border: 1px solid #1A1A1A;
-        height: 56px;
-        font-size: 14px;
+        font-size: 16px;
+        padding: 19px 19px;
     }
     
     #product-reviews-container div#product-review-container{
@@ -3760,6 +3802,9 @@ div.header.content .widget.block.block-static-block div{
         margin-top:10px;
         align-items: flex-start;
         font-size: 14px;
+    }
+    .review-item .rev-3 strong {
+        font-weight: 600;
     }
     .box-tocart .control{
         position: relative;
@@ -4392,9 +4437,9 @@ div.header.content .widget.block.block-static-block div{
         color: #fff;
     }
     .storie-newsletter-sidebar div.newsletter-content .newsletter-subtitle{
-        font-size: 16px;
-        color:#fff;
-        text-align: left;
+        width:174px;
+        margin-top: 10px;
+        line-height: 20px;
     }
     
     .storie-newsletter-sidebar form.subscribe input{
@@ -4403,28 +4448,31 @@ div.header.content .widget.block.block-static-block div{
         display: none;
     }
     .storie-newsletter-sidebar form.form.subscribe div.actions button {
-        border-color: #fff;
-        background:transparent;
+        border-color: #fff!important;
+        background: transparent !important;
     }
     .storie-newsletter-sidebar form.subscribe div.actions{
         display: block;
     }
     .storie-newsletter-sidebar form.subscribe button{
-        width:180px;
+        width:auto !important;
+        height: auto !important;
+        padding: 24px 24px !important;
     }
     .storie-newsletter-sidebar div.newsletter-content div.block.newsletter {
-        margin-top:30px;
+        margin-top:120px;
         margin-bottom:0px;
         justify-content: flex-start;
+    }
+    .storie-newsletter-sidebar form .field.newsletter{
+        display: none;
     }
      /* Sidebar Categories Anchor */
     .sidebar-additional div.block-compare, div.block-wishlist{
         display:none;
     }
     .block-title strong{
-        font-size: 3.25rem;
-        text-transform: uppercase;
-        font-weight: 300;
+        font-size: 28px;
     }
     .catalog-category span.category{
         display: block;
@@ -4440,6 +4488,10 @@ div.header.content .widget.block.block-static-block div{
     }
     .catalog-category >:last-child{
         margin-bottom:50px;
+    }
+
+    .page-layout-2columns-left .main {
+        padding-left: 172px !important;
     }
     
     /* copyright */
@@ -4714,5 +4766,20 @@ div.header.content .widget.block.block-static-block div{
     .breadcrumbs .item:not(:last-child):after {
         vertical-align: middle;
     }
+    .page-layout-2columns-left .sidebar-main {
+        margin-top:49px;
+    }
+    div#product-reviews-container .block-title strong {
+        font-size: 36px;
+    }
 
+    .toolbar-sorter select#sorter {
+        padding-right: 120px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .toolbar-sorter .sorter-label {
+        position: absolute;
+        top: 4px;
+    }
  }
