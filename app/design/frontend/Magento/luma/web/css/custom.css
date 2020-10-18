@@ -206,7 +206,7 @@ div.minicart-wrapper a.action.showcart span.text{
     padding: 0 32px !important;
 }
 .block-search{
-    width: 435px !important;
+    width:360px !important;
 }
 #search_mini_form .control input#search{
     padding:0 8px 0 32px;
@@ -2700,6 +2700,7 @@ a.logo{
 div.header.content .widget.block.block-static-block{
     margin:0 60px 0 0;
     order:2;
+    margin: 0 130px 0 0;
 }
 div.header.content .widget.block.block-static-block > *{
     display:inline-block;
