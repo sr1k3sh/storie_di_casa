@@ -3211,6 +3211,9 @@ div.header.content .widget.block.block-static-block div{
     .slick-track {
         padding-left:57px;
     }
+    .yereone-testimonial-item.slick-slide {
+        width: 426px !important;
+    }
     /* wish list */
     a.action.towishlist span{
         display: none;
