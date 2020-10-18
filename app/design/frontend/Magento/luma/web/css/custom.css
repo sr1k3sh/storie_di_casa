@@ -3366,9 +3366,12 @@ div.header.content .widget.block.block-static-block div{
        font-weight: bold;
     }
     .page-title-wrapper h1.page-title span.base{
-       font-size: 3rem;
-       font-weight: bold;
-       color: #1A1A1A;
+       font-size: 48px;
+       display: none;
+    }
+    .product-info-main .page-title-wrapper.product .page-title span{
+        font-size:48px;
+        display: block !important;
     }
     .product-info-main .product-info-price{
         display: flex !important;
@@ -3412,8 +3415,12 @@ div.header.content .widget.block.block-static-block div{
         text-decoration: line-through;
     }
     .product-info-main .price-box .price-container .price{
-        font-size: 2.25rem !important;
+        font-size: 36px !important;
         font-weight: lighter;
+    }
+    .product-info-main .product.attribute.overview p {
+        font-size: 21px;
+        color: #666666;
     }
     .product-reviews-summary .rating-summary{
         display: none;
