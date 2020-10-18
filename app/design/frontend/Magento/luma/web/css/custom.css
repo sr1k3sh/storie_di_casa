@@ -4100,16 +4100,11 @@ div.header.content .widget.block.block-static-block div{
     
     /* Grid section */
     .section-grid{
-        position: relative;
-        width: 100vw;
-        margin-left: calc((100% - 100vw) / 2);
-        background:#666666;
-        margin-bottom:50px;
+        padding-left: 180px;
+        padding-right: 160px;
     }
     .section-grid div.grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        /* grid-template-rows: 260px; */
+        height: 100%;
     }
     .yereone-testimonial-meta .yereone-testimonial-date {
         font-size: 14px;
@@ -4160,25 +4155,21 @@ div.header.content .widget.block.block-static-block div{
     
     .section-grid div.grid div.grid-item{
         text-align: center;
+        width: 344px;
         padding:40px 0px;
     }
     
     .section-grid img{
-        height: 50px;
-        width: 50px;
-        margin-bottom: 10px;
+        height: 68px;
+        width: 61px;
     }
     
     .section-grid h2{
-        color:#ffffff;
-        margin-bottom: 10px;
-        font-size:24px;
-        font-weight: bold;
+        font-size:32px;
+        margin-bottom: 12px;
     }
     .section-grid div.sub-title{
-        color:#D9D9D9;
-        margin-bottom: 10px;
-        font-size:14px;
+        font-size:16px;
     }
     /* mini cart  */
     .minicart-wrapper .block-minicart{
