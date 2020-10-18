@@ -2891,6 +2891,9 @@ div.header.content .widget.block.block-static-block div{
         top:152px;
         left:239px;
     }
+    .hero-banner .banner-content .header-sub-title{
+        line-height: 36px;
+    }
     
     @import url('/Muli-Bold.ttf');
     *{
