@@ -165,6 +165,9 @@ div.minicart-wrapper a.action.showcart span.text{
     color: #333333;
     text-decoration: none;
 }
+.breadcrumbs .items > li {
+    font-weight: lighter !important;
+}
 .opc-wrapper .shipping-address-item.selected-item{
     border-color: #333333 !important;
 }
@@ -2850,8 +2853,8 @@ div.header.content .widget.block.block-static-block div{
         font-size: 16px !important;
     }
     .breadcrumbs a:visited,.breadcrumbs a,.breadcrumbs a:hover{
-        color: #333333;
-        text-decoration: none;
+        color: #666666;
+    
     }
     .opc-wrapper .shipping-address-item.selected-item{
         border-color: #333333 !important;
