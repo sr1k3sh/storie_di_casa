@@ -3172,12 +3172,12 @@ div.header.content .widget.block.block-static-block div{
         height: 70px !important;   
     }
     .slick-next{
-        margin-right: 42px;
-        margin-left: -84px; 
-    }
-    .slick-prev{
         margin-left: 42px;
         margin-right: -84px; 
+    }
+    .slick-prev{
+        margin-left: -84px;
+        margin-right: 42px; 
     }
     .slick-prev::before,.slick-next::before{
         font-weight: lighter;
