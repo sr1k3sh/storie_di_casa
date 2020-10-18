@@ -4060,10 +4060,16 @@ div.header.content .widget.block.block-static-block div{
         height:554px;
         width:342px;
     }
+    .evidenza-banner.row :first-child {
+        padding-left: 0px;
+    }
     .evidenza-column {
         flex: 25%;
         max-width: 25%;
         padding: 0 35px;
+    }
+    .evidenza-banner.row :last-child {
+        padding-right: 0px;
     }
     
     .promobanner .text{
@@ -4079,30 +4085,18 @@ div.header.content .widget.block.block-static-block div{
     }
     
     .promobanner .banner-title{
-        font-weight: bold;
-        font-size: 24px;
+        font-size: 36px;
     }
     
     .promobanner .banner-subtitle{
-        font-style: normal;
-        margin-bottom: 32px;
-        font-size: 16px;
+        font-size: 18px;
+        margin-bottom: 47px;
     }
     
     .promobanner .btn-promo-banner{
-        font-size: 17px;
-        color: #000;
-        background: #fff;
-        padding: 10px 18px;
-        border: 2px solid black;
-        box-shadow: none;
-        text-transform: uppercase;
+        padding: 24px 35px;
     }
-    
-    .promobanner .btn-promo-banner:hover{
-        color:#fff;
-        background:#000;
-    }
+   
     
     /* Grid section */
     .section-grid{
