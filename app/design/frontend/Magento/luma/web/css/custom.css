@@ -264,8 +264,6 @@ div.minicart-wrapper a.action.showcart span.text{
 }
 *{
     font-family: Muli-regular, sans-serif;
-    font-style: normal;
-    font-weight: normal;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 .hero-banner button{
@@ -541,6 +539,7 @@ button:not(.primary){
     font-weight: 600 !important;
     font-size: 20px;
     max-width:200px;
+    font-family: 'nunito-bold',sans-serif;
 }
 .product-item .price-box .price{
     font-weight: lighter !important;
@@ -730,6 +729,7 @@ div.price-box span.special-price span.price{
     margin:0;
     display:inline-block;
     font-size: 18px;
+    font-family: 'nunito-regular',sans-serif;
 }
 div.price-box span.old-price span.price{
     margin-left:14px;
