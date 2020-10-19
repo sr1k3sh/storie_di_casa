@@ -3239,14 +3239,8 @@ div.header.content .widget.block.block-static-block div{
     /* CATEGORIA PAGE */
     
     .whatsapp-link{
-        position: fixed;
-        bottom: 10px;
-        right: 27px;
-        width: inherit;
-        min-height: inherit;
-        transform: scale(0.6);
-        cursor: pointer;
-        z-index: 111;
+        height:61px;
+        width:61px;
     }
     /* input{
         outline:none;
