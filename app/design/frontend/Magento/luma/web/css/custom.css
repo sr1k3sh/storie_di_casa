@@ -4817,6 +4817,10 @@ div.header.content .widget.block.block-static-block div{
     .footer.content .widget.block-static-block {
         padding: 0px;
     }
+    .footer.content .container{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
     .footer.content .links li {
         font-size: 18px !important;
     }
@@ -4850,5 +4854,8 @@ div.header.content .widget.block.block-static-block div{
     }
     .footer.content .instagram-link{
         margin-left:20px !important;
+    }
+    .footer.content .links {
+        padding-right:0px !important;
     }
  }
