@@ -4831,4 +4831,7 @@ div.header.content .widget.block.block-static-block div{
         position: absolute;
         top: 4px;
     }
+    div.panel.header div.minicart-wrapper{
+        margin-left: 70px;
+    }
  }
