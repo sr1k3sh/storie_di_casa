@@ -2928,6 +2928,7 @@ div.header.content .widget.block.block-static-block div{
     .minicart-wrapper .action.showcart{
         display: flex;
         align-items: center;
+        margin-right: 18px;
     }
     
     .minicart-wrapper .action.showcart.active {
