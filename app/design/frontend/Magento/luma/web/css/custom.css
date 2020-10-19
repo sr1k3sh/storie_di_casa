@@ -1813,9 +1813,10 @@ form.form.subscribe div.actions button{
 @media (min-width: 768px){
     .header.panel > .header.links {
         display: flex;
-        /* align-items: center; */
-        align-items: flex-start;
+        align-items: center;
     }
+    .header.panel .header.links li.authorization-link a {
+        vertical-align: top;
 }
 @media  screen and (max-width: 767px){
     .footer.content .links li{
@@ -3205,7 +3206,7 @@ div.header.content .widget.block.block-static-block div{
     } */
     .header.panel > .header.links > .authorization-link::after{
         margin:0 !important;
-        vertical-align: text-top;
+        vertical-align: top;
     }
     .header.panel > .header.links > li{
         margin:0 0 0 4px !important;
