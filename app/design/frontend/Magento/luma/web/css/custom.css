@@ -1817,6 +1817,7 @@ form.form.subscribe div.actions button{
     }
     .header.panel .header.links li.authorization-link a {
         vertical-align: top;
+    }
 }
 @media  screen and (max-width: 767px){
     .minicart-wrapper {
