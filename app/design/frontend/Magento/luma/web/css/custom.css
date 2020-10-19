@@ -249,8 +249,13 @@ div.minicart-wrapper a.action.showcart span.text{
     line-height: 2;
 }
 @import url('/Muli-Bold.ttf');
+@import url('./Nunito-Bold.ttf');
+@font-face {
+    font-family: 'nunito-bold';
+    src: url('./Nunito-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
 *{
-    font-family: muli, sans-serif;
+    font-family: nunito-bold, sans-serif;
     font-style: normal;
     font-weight: 200;
 }
