@@ -3213,6 +3213,9 @@ div.header.content .widget.block.block-static-block div{
         font-size: 16px;
         height: 20px;
     }
+    .header.panel > .header.links > li > a{
+        vertical-align: top;
+    }
     .minicart-wrapper {
         margin-left: 30px !important;
     }
