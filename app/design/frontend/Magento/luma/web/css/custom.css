@@ -1819,6 +1819,9 @@ form.form.subscribe div.actions button{
         vertical-align: top;
 }
 @media  screen and (max-width: 767px){
+    .minicart-wrapper {
+        margin-left: auto;
+    }
     .footer.content .links li{
         font-size:14px !important;
     }
