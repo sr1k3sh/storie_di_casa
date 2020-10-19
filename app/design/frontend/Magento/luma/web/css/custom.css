@@ -536,7 +536,6 @@ button:not(.primary){
     font-size: 31px !important;
 }
 .product-item-name, .product.name a{
-    font-weight: 600 !important;
     font-size: 20px;
     max-width:200px;
     font-family: 'nunito-bold',sans-serif;
