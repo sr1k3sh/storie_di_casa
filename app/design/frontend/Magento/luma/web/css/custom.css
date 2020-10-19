@@ -8,6 +8,7 @@ body{
 * p{
     font-size:14px;
     color:#666666;
+    font-family: Muli-Light;
 }
 div.field.note{
     font-size:14px;
@@ -124,6 +125,12 @@ input:not([disabled]):focus{
 .block-search input{
     height:48px;
 }
+.header-offer{
+    font-family: Muli-Semibold;
+}
+.header-offer strong {
+    font-family: Muli-Black;
+}
 .header.content{
     display: flex;
     align-items: center;
@@ -237,19 +244,63 @@ div.minicart-wrapper a.action.showcart span.text{
     left:10%;
 }
 .hero-banner .banner-content .header-sub-title{
-    font-size:28px;
+    font-size:20px;
     color: #fff;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
 }
+.hero-banner .banner-content .header-sub-title strong {
+    font-family: Muli-Bold;
+}
 .hero-banner .banner-content .header-title{
     color: #fff;
-    font-size:82px;
+    font-size:58px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0px;
     line-height: 2;
+    font-family: Muli-Extrabold;
+}
+@font-face {
+    font-family: 'Muli-Black';
+    src: url('./Muli-Black.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Muli-Semibold';
+    src: url('./Muli-SemiBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Muli-Light';
+    src: url('./Muli-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Muli-Bolditalic';
+    src: url('./Muli-BoldItalic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Muli-Extrabold';
+    src: url('./Muli-ExtraBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Muli-Extralight';
+    src: url('./Muli-ExtraLight.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Nunito-Extrabold';
+    src: url('./Nunito-ExtraBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Nunito-Extralight';
+    src: url('./Nunito-Extralight.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Nunito-Semibold';
+    src: url('./Nunito-SemiBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('./Muli-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 @import url('/Muli-Bold.ttf');
 @import url('./Nunito-Bold.ttf');
@@ -277,6 +328,7 @@ div.minicart-wrapper a.action.showcart span.text{
     font-size:24px;
     text-transform: uppercase;
     transition:all 0.3s ease-in-out;
+    font-family: Muli-Bold;
 }
 .hero-banner button:hover{
     background:#fff;
@@ -287,6 +339,7 @@ h2.section-title{
     font-size:24px;
     text-transform: uppercase;
     font-weight: 600;
+    font-family: Muli-Bold;
 }
 .product-item-details{
     display: flex;
@@ -420,7 +473,8 @@ h2.section-title{
 .navigation .level0 > .level-top{
     text-transform: uppercase;
     font-size: 16px;
-    font-family: 'nunito-regular', sans-serif;
+    font-family: Muli-Bold !important;
+    color: #4B4A4A !important;
 }
 .navigation .level0 .submenu .active > a{
     border-color: #333333 !important;
@@ -542,6 +596,11 @@ button:not(.primary){
     font-size: 20px;
     max-width:200px;
     font-family: 'nunito-bold',sans-serif;
+}
+.product-item-name, .product.name a.product-item-link {
+    color: #1A1A1A;
+    font-size: 24px;
+    font-family: Nunito-Bold !important;
 }
 .product-item .price-box .price{
     font-weight: lighter !important;
@@ -2770,10 +2829,13 @@ div.header.content .widget.block.block-static-block > *{
 div.header.content .widget.block.block-static-block p{
     margin:0 5px 0 0;
     font-size: 16px;;
+    font-family: Muli-Light;
+    color: #4B4A4A;
 }
 div.header.content .widget.block.block-static-block h2{
     font-size: 24px;
     font-weight: 600;
+    color: #4B4A4A;
 }
 div.header.content .widget.block.block-static-block div{
     text-transform: uppercase;
@@ -2999,6 +3061,7 @@ div.header.content .widget.block.block-static-block div{
         font-size: 14px;
         background:#E9E9E9;
         border:none;
+        font-family: Nunito-Semibold;
     }
     .page-products .product-item-info {
         width: 300px;
@@ -3328,8 +3391,9 @@ div.header.content .widget.block.block-static-block div{
         font-size: 31px !important;
     }
     .product-item-name, .product.name a{
-        color: #4C4D4F;
-        font-size: 21px;
+        color: #1A1A1A;
+        font-size: 24px;
+        font-family: Nunito-Bold;
     }
     .product-item .price-box .price{
         font-weight: lighter !important;
