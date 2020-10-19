@@ -3333,11 +3333,9 @@ div.header.content .widget.block.block-static-block div{
     .product-item-name, .product.name a{
         color: #4C4D4F;
         font-size: 21px;
-        font-family: Nunito!important;
     }
     .product-item .price-box .price{
         font-weight: lighter !important;
-        font-family: Nunito!important;
     }
     .sale-product-icon {
         background-color: #4c4d4f;
