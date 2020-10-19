@@ -254,6 +254,10 @@ div.minicart-wrapper a.action.showcart span.text{
     font-family: 'nunito-bold';
     src: url('./Nunito-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }  
+@font-face {
+    font-family: 'nunito-regular';
+    src: url('./Nunito-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 *{
     font-family: nunito-bold, sans-serif;
     font-style: normal;
@@ -411,6 +415,7 @@ h2.section-title{
 .navigation .level0 > .level-top{
     text-transform: uppercase;
     font-size: 16px;
+    font-family: nunito-regular, sans-serif;
 }
 .navigation .level0 .submenu .active > a{
     border-color: #333333 !important;
