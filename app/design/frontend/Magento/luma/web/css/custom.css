@@ -258,6 +258,10 @@ div.minicart-wrapper a.action.showcart span.text{
     font-family: 'nunito-regular';
     src: url('./Nunito-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+@font-face {
+    font-family: 'Muli-regular';
+    src: url('./Muli-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 *{
     font-family: nunito-bold, sans-serif;
     font-style: normal;
