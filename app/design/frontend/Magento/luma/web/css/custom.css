@@ -1822,6 +1822,12 @@ form.form.subscribe div.actions button{
     .minicart-wrapper {
         margin-left: auto;
     }
+    .panel.header .header-offer {
+        display:none;
+    }
+    div.header.content .widget.block.block-static-block {
+        display: none;
+    }
     .footer.content .links li{
         font-size:14px !important;
     }
