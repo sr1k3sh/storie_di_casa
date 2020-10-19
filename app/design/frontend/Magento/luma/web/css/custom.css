@@ -3191,10 +3191,11 @@ div.header.content .widget.block.block-static-block div{
         margin-right: 20px !important;
     }
     .navigation .level0 > .level-top{
-        font-size: 18px;
+        font-size: 14px;
         padding-left: 14px !important;
         padding-right: 14px !important;
         color: #4B4A4A;
+        font-family: 'nunito-regular',sans-serif;
     }
     .navigation .level0 .submenu .active > a{
         border-color: #333333 !important;
