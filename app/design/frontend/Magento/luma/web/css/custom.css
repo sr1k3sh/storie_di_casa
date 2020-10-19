@@ -417,7 +417,7 @@ h2.section-title{
 .navigation .level0 > .level-top{
     text-transform: uppercase;
     font-size: 16px;
-    font-family: nunito-regular, sans-serif;
+    font-family: 'nunito-regular', sans-serif;
 }
 .navigation .level0 .submenu .active > a{
     border-color: #333333 !important;
@@ -3033,10 +3033,10 @@ div.header.content .widget.block.block-static-block div{
         line-height: 36px;
     }
     
-    @import url('/Muli-Bold.ttf');
+    /* @import url('/Muli-Bold.ttf');
     *{
         font-family: 'Muli', sans-serif !important;
-    }
+    } */
       
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
     .hero-banner button{
