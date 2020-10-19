@@ -1813,7 +1813,8 @@ form.form.subscribe div.actions button{
 @media (min-width: 768px){
     .header.panel > .header.links {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
+        align-items: flex-start;
     }
 }
 @media  screen and (max-width: 767px){
