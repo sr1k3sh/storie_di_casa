@@ -2045,6 +2045,39 @@ form.form.subscribe div.actions button{
         height: 64px;
         padding: 12px 18px !important;
     }
+    .mb-ajaxsuite-popup-wrapper {
+        width: 325px;
+    }
+    #mb-ajaxcart-wrapper img.image {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+        width: auto;
+        height: 195px;
+    }
+    #mb-ajaxcart-wrapper .product-add-form {
+        text-align: center;
+    }
+    #mb-ajaxcart-wrapper .box-tocart .fieldset {
+        display:block !important;
+    }
+    #ajaxcart_checkout, #ajaxcart_cancel, #product-addtocart-button {
+        padding: 10px 20px !important;
+    }
+    #mb-ajaxcart-wrapper .product-add-form .actions {
+        padding-top: 25px;
+    }
+    #mb-ajaxsuite-popup-wrapper{
+        background:#fff !important;
+        background-color: #fff !important;
+    }
+    #mb-ajaxcart-wrapper .product-name {
+        padding-left:0 !important;
+    }
+    #ajaxcart_checkout{
+        padding: 10px 10px!important;
+    }
+
 }
 @media only screen and (max-width: 1366px){
     .hero-banner .banner-content{
