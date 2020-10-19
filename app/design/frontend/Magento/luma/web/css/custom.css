@@ -2905,8 +2905,11 @@ div.header.content .widget.block.block-static-block div{
         width:435px;
     }
     .header.content{
-        padding: 10px 24px 0 70px!important;
+        padding: 10px 70px 0 70px!important;
         margin-bottom: 37px;
+    }
+    .block-search {
+        margin-right: 24px !important;
     }
     .block-search .action.search{
         top:15% !important;
@@ -2928,6 +2931,7 @@ div.header.content .widget.block.block-static-block div{
     .minicart-wrapper .action.showcart{
         display: flex;
         align-items: center;
+        margin-right: 18px;
     }
     
     .minicart-wrapper .action.showcart.active {
@@ -3170,7 +3174,7 @@ div.header.content .widget.block.block-static-block div{
         text-align:left;
     }
     .panel.header{
-        padding: 9px 24px 9px 70px!important;
+        padding: 9px 70px 9px 70px!important;
     }
     .footer.content .links li{
         font-size: 16px !important;
@@ -4845,8 +4849,5 @@ div.header.content .widget.block.block-static-block div{
     .toolbar-sorter .sorter-label {
         position: absolute;
         top: 4px;
-    }
-    div.panel.header div.minicart-wrapper{
-        margin-right: 70px;
     }
  }
