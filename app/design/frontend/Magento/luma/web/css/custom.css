@@ -263,9 +263,9 @@ div.minicart-wrapper a.action.showcart span.text{
     src: url('./Muli-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 *{
-    font-family: nunito-bold, sans-serif;
+    font-family: Muli-regular, sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: normal;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 .hero-banner button{
@@ -507,6 +507,7 @@ button:not(.primary){
     margin-left: 22px;
     font-size: 16px;
     text-transform: uppercase;
+    font-family: 'Muli-regular',sans-serif;
 }
 .product-item-name{
     text-align: left;
