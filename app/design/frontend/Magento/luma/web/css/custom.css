@@ -4845,10 +4845,10 @@ div.header.content .widget.block.block-static-block div{
         position: absolute;
         top: 4px;
     }
-    .footer.content.facebook-link{
-        padding-left:47px;
+    .footer.content .facebook-link{
+        margin-left:47px !important;
     }
     .footer.content .instagram-link{
-        padding-left:20px;
+        margin-left:20px !important;
     }
  }
