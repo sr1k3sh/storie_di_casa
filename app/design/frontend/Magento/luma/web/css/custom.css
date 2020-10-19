@@ -325,7 +325,7 @@ div.minicart-wrapper a.action.showcart span.text{
     border:2px solid #fff;
     padding:2.125rem 3.125rem ;
     background:none;
-    font-size:24px;
+    font-size:17px;
     text-transform: uppercase;
     transition:all 0.3s ease-in-out;
     font-family: Muli-Bold;
@@ -3104,15 +3104,6 @@ div.header.content .widget.block.block-static-block div{
     } */
       
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-    .hero-banner button{
-        color:#fff;
-        border:2px solid #fff;
-        padding:2.125rem 3.125rem ;
-        background:none;
-        font-size:24px;
-        text-transform: uppercase;
-        transition:all 0.3s ease-in-out;
-    }
     .hero-banner button:hover{
         background:#fff;
         color:#7ebdcc;
