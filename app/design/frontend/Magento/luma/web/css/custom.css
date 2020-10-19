@@ -2905,8 +2905,11 @@ div.header.content .widget.block.block-static-block div{
         width:435px;
     }
     .header.content{
-        padding: 10px 24px 0 70px!important;
+        padding: 10px 70px 0 70px!important;
         margin-bottom: 37px;
+    }
+    .block-search {
+        margin-right: 24px !important;
     }
     .block-search .action.search{
         top:15% !important;
