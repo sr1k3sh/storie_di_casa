@@ -551,6 +551,10 @@ button:not(.primary){
 .header.panel > .header.links > li{
     margin:0 0 0 4px !important;
 }
+.header.panel > .header.links > li > a {
+    vertical-align: top;
+    text-transform: capitalize;
+}
 .panel.header .instagram-link{
     margin-left:14px;
 }
