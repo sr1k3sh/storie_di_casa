@@ -3155,7 +3155,7 @@ div.header.content .widget.block.block-static-block div{
         text-align:left;
     }
     .panel.header{
-        padding: 9px 24px 9px 70px!important;
+        padding: 9px 70px 9px 70px!important;
     }
     .footer.content .links li{
         font-size: 16px !important;
@@ -4830,8 +4830,5 @@ div.header.content .widget.block.block-static-block div{
     .toolbar-sorter .sorter-label {
         position: absolute;
         top: 4px;
-    }
-    div.panel.header div.minicart-wrapper{
-        margin-right: 70px;
     }
  }
