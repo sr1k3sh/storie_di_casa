@@ -73,8 +73,11 @@ input:not([disabled]):focus{
     border-color: #333333 !important;
 }
 .minicart-wrapper .action.showcart .counter.qty{
-    background: #333333 !important;
+    background: transparent !important;
     color: #ffff;
+}
+.minicart-wrapper .action.showcart .counter-number {
+    text-shadow: none;
 }
 .margin-top-gap{
     margin-top: 6.25rem !important;
@@ -2851,7 +2854,7 @@ div.header.content .widget.block.block-static-block div{
         border-color: #333333 !important;
     }
     .minicart-wrapper .action.showcart .counter.qty{
-        background: #333333 !important;
+        background: transparent !important;
         color: #ffff;
     }
     .margin-top-gap{
