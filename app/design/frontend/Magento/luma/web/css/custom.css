@@ -2828,7 +2828,7 @@ div.header.content .widget.block.block-static-block div{
         width: 100%;
     }
     .nav-sections-item-content > .navigation{
-        padding: 0 12px 0 70px !important;
+        padding: 0 87px 0 56px !important;
     }
     .navigation ul {
         padding: 0 !important;
@@ -3121,8 +3121,8 @@ div.header.content .widget.block.block-static-block div{
         margin-left: 0 !important;
     }
     .navigation .level0.first a {
-        padding-left: 0px !important;
-        padding-right: 0px!important;
+        padding-left: 14px !important;
+        padding-right: 14px!important;
     }
     .navigation .level0{
         margin-right: 20px !important;
