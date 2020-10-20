@@ -1288,6 +1288,8 @@ div.product-item-info div.product-item-details{
     font-size: 16px !important;
     font-weight: 500;
     text-transform: uppercase;
+    font-family: Nunito-Semibold;
+    color: #1A1A1A;
 }
 .footer-margin-17{
     margin-bottom: 17px !important;
@@ -1553,6 +1555,9 @@ border:1px solid #000;
 .promobanner .banner-title{
     font-weight: bold;
     font-size: 24px;
+    font-family:Muli-Extrabold;
+    color:#1A1A1A;
+    
 }
 
 .promobanner .banner-subtitle{
@@ -1563,12 +1568,13 @@ border:1px solid #000;
 
 .promobanner .btn-promo-banner{
     font-size: 17px;
-    color: #000;
+    color: #1A1A1A;
     background: #fff;
     padding: 10px 18px;
     border: 2px solid black;
     box-shadow: none;
     text-transform: uppercase;
+    font-family: Muli-Bold;
 }
 
 .promobanner .btn-promo-banner:hover{
@@ -1594,6 +1600,8 @@ border:1px solid #000;
 }
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-title span {
     font-size: 16px;
+    font-family: Muli-Bold;
+    color: #1A1A1A;
 }
 
 #product-options-wrapper div.field  label:first-child span{
@@ -1627,13 +1635,16 @@ border:1px solid #000;
 }
 .yereone-testimonial-content span {
     font-size: 16px;
-    color: #707070;
+    color: #4C4D4F;
 }
 .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-author span {
     font-size:  18px;
+    font-family: Muli-Bold;
+    color: #1A1A1A;
 }
 .yereone-testimonial-jobandcompany{
     font-size:  16px;
+    color : #707070;
 }
 
 .section-grid div.grid div.grid-item{
@@ -1652,6 +1663,7 @@ border:1px solid #000;
     margin-bottom: 10px;
     font-size:24px;
     font-weight: bold;
+    font-family: Muli-Extrabold;
 }
 .section-grid div.sub-title{
     color:#D9D9D9;
@@ -2180,6 +2192,7 @@ form.form.subscribe div.actions button{
 
 .copyright1{
     font-size:14px;
+    font-family: nunito-regular;
 }
 
 .col-payment{
@@ -4040,11 +4053,6 @@ div.header.content .widget.block.block-static-block div{
         border-bottom: 1px solid #eee;
         padding-bottom: 20px;
     }
-    .page-footer .h4-font{
-        font-size: 16px !important;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
     .footer-margin-17{
         margin-bottom: 17px !important;
     }
@@ -4332,7 +4340,6 @@ div.header.content .widget.block.block-static-block div{
         font-size: 14px;
     }
     .yereone-testimonials .yereone-testimonial-item .yereone-testimonial-title span {
-        font-size: 16px;
     }
     
     #product-options-wrapper div.field  label:first-child span{
@@ -4643,8 +4650,15 @@ div.header.content .widget.block.block-static-block div{
     }
     .footer-quicklink:first-child .h4-font{
         text-transform: capitalize;
+        font-size: 18px !important;
+        margin-bottom: 15px;
     }
-    
+    .page-footer .h4-font {
+        margin-bottom: 50px;
+    }
+    .footer-quicklink:first-child li.footet-menu-list {
+        font-size: 18px !important;
+    }
     .copyright{
         display: none;
     }
@@ -4882,12 +4896,6 @@ div.header.content .widget.block.block-static-block div{
     .footer.content .container{
         padding-left:0 !important;
         padding-right:0 !important;
-    }
-    .footer.content .links li {
-        font-size: 18px !important;
-    }
-    .page-footer .h4-font {
-        font-size: 18px !important;
     }
     .page-main {
         padding-left:70px !important;
