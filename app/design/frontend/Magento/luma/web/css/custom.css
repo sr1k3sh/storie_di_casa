@@ -1187,13 +1187,17 @@ progress[value]::-webkit-progress-value {
 .review-author .review-details-value{
     color:#1A1A1A;
     font-size: 18px;
-    font-weight: bold;
+    font-family: nunito-bold;
 }
 #product-review-container div.review-date{
     float:left;
     font-size: 14px;
     color:#666666;
     margin-right:30px;
+    font-family:nunito-regular;
+}
+#product-review-container div.review-date time{
+    font-family:nunito-regular;
 }
 #product-review-container div.review-date span.review-details-label{
     display:none;
@@ -1229,6 +1233,9 @@ progress[value]::-webkit-progress-value {
     align-items: flex-start;
     font-size: 14px;
 }
+.review-item .rev-3 strong {
+    font-family: Muli-Bold;
+}
 .box-tocart .control{
     position: relative;
 }
@@ -1263,6 +1270,8 @@ div.block.related .block-title strong{
     color:#1A1A1A;
     font-weight: 100;
     font-size: 36px;
+    font-family: Muli-Bold;
+    line-height: 45px;
 }
 div.block.related .block-content{
     width:100%;
@@ -1283,6 +1292,13 @@ div.block.related .item.product.product-item{
 div.block.related .field.choice.related{
     display:none;
 }
+div.block.related div.products li.product-item .product-item-name a {
+    font-size: 21px;
+}
+div.block.related div.price-box span.special-price span.price {
+    font-size: 14px !important;
+}
+
 
 /* Image Slide in Home page */
 div.image-total{
