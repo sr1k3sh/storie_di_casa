@@ -4888,8 +4888,7 @@ div.header.content .widget.block.block-static-block div{
         vertical-align: middle;
     }
     .footer.content{
-        padding-left: 70px!important;
-        padding-right: 70px!important;
+        padding: 47px 70px 5px 70px !important;
     }
     .footer.content .widget.block-static-block {
         padding: 0px;
