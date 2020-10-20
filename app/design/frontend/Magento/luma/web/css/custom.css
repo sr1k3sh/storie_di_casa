@@ -3221,10 +3221,6 @@ div.header.content .widget.block.block-static-block div{
         speak: none;
         text-align: center;
     }
-    .product-item .price-box{
-        text-align: left;
-        margin:0 !important;
-    }
     
     /* review container */
     .review-container{
