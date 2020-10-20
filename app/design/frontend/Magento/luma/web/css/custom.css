@@ -3000,7 +3000,7 @@ div.header.content .widget.block.block-static-block div{
     font-family:Muli-Semibold;
     line-height: 20px;
 }
-table.table-order-items.history tr .col {
+table#my-orders-table tr .col {
     width: 16.66% !important;
 }
 
