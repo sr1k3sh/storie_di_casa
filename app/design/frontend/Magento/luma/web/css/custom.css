@@ -79,9 +79,16 @@ input:not([disabled]):focus{
 .minicart-wrapper .action.showcart .counter.qty{
     background: transparent !important;
     color: #ffff;
+    letter-spacing: -2px;
+    font-family: Muli-Bold;
+    font-size: 16px;
+    margin-top:0px;
+    font-family: Muli-Bold;
 }
 .minicart-wrapper .action.showcart .counter-number {
     text-shadow: none;
+    /* letter-spacing: -1px; */
+    font-family: Muli-Bold;
 }
 .margin-top-gap{
     margin-top: 6.25rem !important;
@@ -2092,6 +2099,11 @@ form.form.subscribe div.actions button span{
     .page-products .sorter{
         position: relative;
         float: left;
+    }
+    .toolbar-sorter select#sorter {
+        /* padding-right: 120px;
+        padding-left: 15px; */
+        font-size: 16px;
     }
     .storie-newsletter-sidebar form.subscribe input{
         display: block;
