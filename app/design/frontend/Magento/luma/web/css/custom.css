@@ -409,6 +409,7 @@ h2.section-title{
 .product-item .price-box{
     text-align: left;
     margin:0 !important;
+    margin-top: 5px !important
 }
 
 /* review container */
@@ -611,7 +612,8 @@ button:not(.primary){
     font-family: Nunito-Bold !important;
 }
 .product-item .price-box .price{
-    font-weight: lighter !important;
+    font-weight: 300 !important;
+    font-family: nunito-regular;
 }
 .sale-product-icon {
     background-color: #4c4d4f;
@@ -3433,7 +3435,8 @@ div.header.content .widget.block.block-static-block div{
         font-family: Nunito-Bold;
     }
     .product-item .price-box .price{
-        font-weight: lighter !important;
+        font-weight: 300 !important;
+        font-family: nunito-regular;
     }
     .sale-product-icon {
         background-color: #4c4d4f;
