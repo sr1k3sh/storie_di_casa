@@ -1656,6 +1656,15 @@ border:1px solid #000;
     font-family: Muli-Bold;
     color: #1A1A1A;
 }
+.user-profile {
+    margin-top: 50px;
+}
+.yereone-testimonial-meta {
+    margin-top: 40px;
+}
+.yereone-testimonial-title {
+    margin-top: 28px;
+}
 
 #product-options-wrapper div.field  label:first-child span{
     font-size:  16px;
