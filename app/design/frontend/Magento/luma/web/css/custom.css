@@ -604,9 +604,10 @@ button:not(.primary){
     max-width:200px;
     font-family: 'nunito-bold',sans-serif;
 }
-.product-item-name, .product.name a.product-item-link {
-    color: #1A1A1A;
-    font-size: 24px;
+.product-item-name, .page-products .products-grid .product-items .product.name a.product-item-link {
+    color: #4C4D4F;
+    font-size: 21px;
+    line-height:19px;
     font-family: Nunito-Bold !important;
 }
 .product-item .price-box .price{
