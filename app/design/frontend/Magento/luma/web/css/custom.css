@@ -2753,6 +2753,9 @@ form.form.subscribe div.actions button span{
 .block-collapsible-nav .item.current > strong {
     border-color: #333333 !important;
 }
+.block-collapsible-nav .item.current a {
+    border-color: #3e3e3e;
+}
 .navigation .level0.active > .level-top, .navigation .level0.has-active > .level-top {
     border-color: #333333 !important;
 }
@@ -2996,6 +2999,9 @@ div.header.content .widget.block.block-static-block div{
 .limiter-text{
     font-family:Muli-Semibold;
     line-height: 20px;
+}
+table.table-order-items.history tr .col {
+    width: 16.66% !important;
 }
 
 
