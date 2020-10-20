@@ -3183,6 +3183,7 @@ div.header.content .widget.block.block-static-block div{
     }
     .products-grid .product-item-actions{
         margin:auto;
+        margin-right: 10px;
     }
     .products-grid .product-item-info:hover .float-cart{
         opacity: 1;
