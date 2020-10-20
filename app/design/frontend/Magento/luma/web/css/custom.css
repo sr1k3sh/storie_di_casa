@@ -2968,6 +2968,8 @@ div.header.content .widget.block.block-static-block div{
 .toolbar-sorter select#sorter {
     padding-right: 105px;
     padding-left: 30px;
+    font-size: 16px;
+    font-family: Muli-Semibold;
 }
 .toolbar-sorter .sorter-label {
     position: absolute;
