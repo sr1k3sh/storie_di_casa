@@ -3253,6 +3253,7 @@ div.header.content .widget.block.block-static-block div{
         font-size: 16px !important;
         color:#707070 !important;
         text-transform: capitalize;
+        line-height: 30px;
     }
     .navigation .level0.first{
         margin-left: 0 !important;
