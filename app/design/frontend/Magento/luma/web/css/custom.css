@@ -1019,7 +1019,7 @@ div#average-rating div.rating-label{
     display: inline-block;
 }
 #product-reviews-container div#average-rating div.rating-content div.rating-result{
-    width: 88px;
+    width: auto;
     display: inline-block;
     position: relative;
     margin-left:20px;
@@ -3888,7 +3888,7 @@ div.header.content .widget.block.block-static-block div{
         display: inline-block;
     }
     #product-reviews-container div#average-rating div.rating-content div.rating-result{
-        width: 88px;
+        width: auto;
         display: inline-block;
         position: relative;
         margin-left:20px;
