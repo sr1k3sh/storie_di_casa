@@ -10,6 +10,9 @@ body{
     color:#666666;
     font-family: Muli-Light;
 }
+* strong{
+    font-family:Muli-Bold;
+}
 div.field.note{
     font-size:14px;
 }
@@ -638,8 +641,12 @@ a.action.towishlist span{
 .sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
     color: #666666;
 }
+.brand-desc p:first-child {
+    margin-bottom: 2rem;
+}
 .sidebar .brand-desc strong {
     font-size: 14px;
+    font-family: Muli-Bold;
     color: #666666;
     font-weight: 900;
 }
@@ -653,10 +660,18 @@ a.action.towishlist span{
     font-size: 16px;
     font-weight: 300;
     color: #666666;
+    font-family: Muli-Regular;
+    margin-top: -0.7rem;
+}
+.sidebar.widget.block.block-static-block h3 strong {
+    font-size: 18px !important;
+    line-height: 34px;
+    font-family: Muli-Extrabold;
 }
 /* custom h3 */
 .widget.block.block-static-block h3{
     font-size: 16px !important;
+    margin-top: 18px;
 }
 .storie-newsletter-sidebar::before {
     position: absolute;
@@ -1027,6 +1042,9 @@ progress[value]::-webkit-progress-value {
     color:#666666;
     line-height:1.7;
     text-transform: uppercase;
+}
+.catalog-subcategory span.subcategory a span{
+    font-family:Muli-Light;
 }
 .catalog-subcategory >:first-child{
     margin-top:10px;
@@ -1884,6 +1902,8 @@ form.form.subscribe div.actions button span{
 .block-title strong{
     font-size: 3.25rem;
     text-transform: uppercase;
+    color: #000000;
+    font-family: Muli-Bold;
 }
 .catalog-category span.category{
     display: block;
