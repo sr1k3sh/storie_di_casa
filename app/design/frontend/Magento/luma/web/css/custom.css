@@ -2929,7 +2929,7 @@ div.header.content .widget.block.block-static-block div{
 }
 .toolbar-sorter .sorter-label {
     position: absolute;
-    top: 4px;
+    top: 5px;
     font-family: Muli-Semibold;
     line-height: 20px;
 }
@@ -4985,7 +4985,7 @@ div.header.content .widget.block.block-static-block div{
     }
     .toolbar-sorter .sorter-label {
         position: absolute;
-        top: 4px;
+        top: 5px;
     }
     .footer.content .facebook-link{
         margin-left:47px !important;
