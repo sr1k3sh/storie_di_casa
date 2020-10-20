@@ -1789,6 +1789,7 @@ div.newsletter-content .newsletter-title{
     font-weight: bold;
     text-align: center;
     color:#fff;
+    font-family: Muli-Extrabold;
 }
 div.newsletter-content .newsletter-subtitle{
     font-size: 18px;
@@ -1812,11 +1813,14 @@ div.newsletter-content div.block.newsletter{
     text-align: center;
 }
 form.form.subscribe div.actions button{
-    height: 50px;
+    padding: 20px 27px;
     font-size:1.3rem;
     background:#1A1A1A;
     border-color: #1A1A1A;
     font-weight: 500;
+}
+form.form.subscribe div.actions button span{
+    font-family: Muli-Bold !important;
 }
 
     /* Newsletter Sidebar  */
@@ -3465,7 +3469,7 @@ div.header.content .widget.block.block-static-block div{
         display: none !important;
     }
     .feature-product,.cms-home .widget.block-static-block{
-        padding: 0 160px 0 182px;
+        padding: 0 160px 0 160px;
     }
     /* Bss ProductWidget */
     .slick-dots{
@@ -4531,14 +4535,7 @@ div.header.content .widget.block.block-static-block div{
         padding: 0 20px;
         font-size:18px;
     }
-    form.form.subscribe div.actions button{
-        height: 69px;
-        font-size:18px;
-        background:#1A1A1A;
-        border-color: #1A1A1A;
-        font-weight: 500;
-    }
-    
+        
         /* Newsletter Sidebar  */
     .storie-newsletter-sidebar{
         position:relative;
