@@ -2701,11 +2701,17 @@ form.form.subscribe div.actions button span{
         margin-right: 0 !important;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
         align-items: center;
     }
     .col-payment .icon-payment .facebook-link{
         order:3;
+        height:26px;
+    }
+    .col-payment .icon-payment .instagram-link{
+        height:26px;
+    }
+    .copyright-section .icon-payment>img{
+        margin-left: 40px;
     }
 } 
 
