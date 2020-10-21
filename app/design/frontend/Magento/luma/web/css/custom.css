@@ -2696,6 +2696,7 @@ form.form.subscribe div.actions button span{
     }
     .col-md-6.col-payment{
         padding: 0 46px 0 0 !important;
+        margin-bottom:10px;
     }
     .col-payment .icon-payment{
         margin-right: 0 !important;
@@ -2712,6 +2713,7 @@ form.form.subscribe div.actions button span{
     }
     .copyright-section .icon-payment>img{
         margin-left: 40px;
+        height: 26px;
     }
 } 
 
