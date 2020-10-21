@@ -2603,7 +2603,7 @@ form.form.subscribe div.actions button span{
     li.item.product.product-item.slick-slide button {
         display: none;
     }
-    .slick.slide{
+    .slick-slide{
         margin:5 15px 15px 15px !important; 
     }
 }
