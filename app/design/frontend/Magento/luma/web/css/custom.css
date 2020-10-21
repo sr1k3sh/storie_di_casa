@@ -494,7 +494,7 @@ h2.section-title{
 }
 /* Footer */
 .logo-footer{
-    display: none;
+    display: none !important;
 }
 .page-footer .block-static-block{
     text-align:center;
@@ -2452,10 +2452,6 @@ form.form.subscribe div.actions button span{
     .columns .column.main {
         padding-bottom:0px;
     }
-    .logo-footer{
-        text-align: left;
-        margin-bottom: 35px;
-    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2724,6 +2720,10 @@ form.form.subscribe div.actions button span{
     .copyright-section .icon-payment>img{
         margin-left: 40px;
         height: 26px;
+    }
+    .logo-footer{
+        text-align: left;
+        margin-bottom: 35px;
     }
 } 
 
