@@ -21,5 +21,6 @@
                 </arguments>
             </block>
         </referenceBlock>
+        <referenceBlock name="page.main.title" remove="false" />
     </body>
 </page>
