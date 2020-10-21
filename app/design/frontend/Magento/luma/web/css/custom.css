@@ -2604,7 +2604,7 @@ form.form.subscribe div.actions button span{
         display: none;
     }
     .slick.slide{
-        margin:0 15px 15px 15px !important; 
+        margin:5 15px 15px 15px !important; 
     }
 }
 
