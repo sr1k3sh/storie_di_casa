@@ -2706,8 +2706,11 @@ form.form.subscribe div.actions button span{
     .col-payment .icon-payment{
         margin-right: 0 !important;
         display: flex;
-        flex-direction: row-reverse;
+        order:2;
         align-items: center;
+    }
+    .col-payment .icon-social {
+        order:1;
     }
     .col-payment .icon-social .facebook-link{
         height:26px;
