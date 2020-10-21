@@ -73,6 +73,9 @@ input:not([disabled]):focus{
 .page-title-wrapper span.order-status{
     margin:0px;
 }
+.page-header .panel.wrapper {
+    background-color: #4C4D4F;
+}
 .feature-product{
     text-align:center;
 }
