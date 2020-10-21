@@ -2712,9 +2712,12 @@ form.form.subscribe div.actions button span{
     .col-payment .icon-social .facebook-link{
         height:26px;
         margin:0px;
+        display: inline-block !important;
     }
     .col-payment .icon-social .instagram-link{
         height:26px;
+        display: inline-block !important;
+        margin-left: 19px;
     }
     .copyright-section .icon-payment>img{
         margin-left: 40px;
