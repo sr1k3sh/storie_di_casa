@@ -2510,6 +2510,7 @@ form.form.subscribe div.actions button span{
     }
     .section-grid{
         padding:20px;
+        margin-bottom:0px;
     }
     .section-grid h2{
         font-size: 18px;
@@ -2520,6 +2521,9 @@ form.form.subscribe div.actions button span{
     .section-grid img{
         width: 48px;
         height: 53px;
+    }
+    .section-grid div.grid div.grid-item {
+        padding: 20px 25px 0px;
     }
     .promobanner .banner-title{
         font-size: 21px;
