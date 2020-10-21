@@ -2559,7 +2559,6 @@ form.form.subscribe div.actions button span{
         padding:28px;
     }
     .block.newsletter input{
-        width: 230px;
         margin-right: 0px;
         text-align: left;
         padding: 27px 141px 27px 25px;
@@ -2759,7 +2758,6 @@ form.form.subscribe div.actions button span{
     }
     .block.newsletter input {
         height: 30px;
-        width: 230px;
         margin-right: 0px;
     }
     form.form.subscribe div.actions button{
