@@ -2653,7 +2653,7 @@ form.form.subscribe div.actions button span{
     }
     .block.newsletter .actions {
         display:block;
-        padding-top: 10px;
+        margin-top: 25px;
     }
     form.form.subscribe div.actions button {
         width:300px;
