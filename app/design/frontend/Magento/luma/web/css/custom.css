@@ -2722,6 +2722,7 @@ form.form.subscribe div.actions button span{
         height: 26px;
     }
     .logo-footer{
+        display:block !important;
         text-align: left;
         margin-bottom: 35px;
     }
