@@ -2498,7 +2498,6 @@ form.form.subscribe div.actions button span{
     .evidenza-banner .evidenza-column .promobanner img{
         min-height: 200px;
         height: 280px;
-        width: 157px;
     }
     .section-grid div.grid{
         display: flex;
@@ -2554,6 +2553,7 @@ form.form.subscribe div.actions button span{
     }
     div.newsletter-content .newsletter-subtitle{
         font-size: 14px;
+        margin-bottom: 45px;
     }
     .storie-newsletter div.newsletter-content{
         padding:28px;
@@ -2562,7 +2562,7 @@ form.form.subscribe div.actions button span{
         width: 230px;
         margin-right: 0px;
         text-align: left;
-        padding: 24px;
+        padding: 27px 141px 27px 25px;
         height: auto;
     }
     .footer.content{
