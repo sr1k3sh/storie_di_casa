@@ -261,6 +261,20 @@ div.minicart-wrapper a.action.showcart span.text{
     min-height:230px;
     width: 100%;
 }
+.hero-banner .header-ad strong {
+    font-size: 0px;
+    font-family: Muli-Black;
+    color: #fff;
+    text-transform: uppercase;
+    display: none;
+}
+.hero-banner .header-ad{
+    font-size: 0px;
+    font-family: Muli-Semibold;
+    color: #fff;
+    text-transform: uppercase;
+    display: none;
+}
 .hero-banner .banner-content{
     position: absolute;
     top:calc(100vw/15);
@@ -2058,14 +2072,6 @@ form.form.subscribe div.actions button span{
         justify-content: space-between;
         align-items: center;
     }
-    .panel.header .header-offer{
-        display: block;
-        position: absolute;
-        top: 160px;
-        z-index: 11;
-        width: 190px;
-        left: 16px;
-    }
     .minicart-wrapper{
         margin-top:0;
     }
@@ -2442,6 +2448,15 @@ form.form.subscribe div.actions button span{
         display: flex;
         flex-direction: column;
         top:24%;
+    }
+    .hero-banner .header-ad strong {
+        font-size: 13px;
+        display:block;
+    }
+    .hero-banner .header-ad{
+        font-size: 13px;
+        display: block;
+        margin-bottom:28px;
     }
     .hero-banner .banner-content .header-sub-title {
         font-size: 18px;
