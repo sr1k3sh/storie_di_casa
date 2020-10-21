@@ -230,6 +230,7 @@ div.minicart-wrapper a.action.showcart span.text{
     border: none;
     margin: 0 0 0 -10px;
     width: 10px;
+    background: #ffffff url(../images/down-arrow.svg) no-repeat 100% 40%;
 }
 .cms-home .page-main{
     padding:0 !important;
@@ -513,6 +514,7 @@ h2.section-title{
     transition: all 0.3s ease-in-out;
 }
 .product-item-info .float-cart button>span{
+    font-family: Muli-Bold;
     text-transform: uppercase;
     text-decoration: none;
     color:#fff;
@@ -2141,8 +2143,8 @@ form.form.subscribe div.actions button span{
         float: left;
     }
     .toolbar-sorter select#sorter {
-        /* padding-right: 120px;
-        padding-left: 15px; */
+        padding-right: 95px;
+        padding-left: 50px;
         font-size: 16px;
     }
     .storie-newsletter-sidebar form.subscribe input{
@@ -2990,7 +2992,8 @@ div.header.content .widget.block.block-static-block div{
 .toolbar-sorter select#sorter {
     padding-right: 105px;
     padding-left: 30px;
-    font-size: 16px;
+    margin-left: 0px;
+    font-size: 12px;
     font-family: Muli-Semibold;
 }
 .toolbar-sorter .sorter-label {
@@ -5061,9 +5064,9 @@ table#my-orders-table tr .col {
     }
 
     .toolbar-sorter select#sorter {
-        padding-right: 120px;
-        padding-left: 15px;
-        font-size: 12px;
+        /* padding-right: 120px; */
+        /* padding-left: 15px; */
+        /* font-size: 12px; */
     }
     .toolbar-sorter .sorter-label {
         position: absolute;
