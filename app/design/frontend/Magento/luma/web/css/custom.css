@@ -2447,7 +2447,7 @@ form.form.subscribe div.actions button span{
     .hero-banner .banner-content{
         display: flex;
         flex-direction: column;
-        top:24%;
+        top:10%;
     }
     .hero-banner .header-ad strong {
         font-size: 13px;
