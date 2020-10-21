@@ -2055,6 +2055,9 @@ form.form.subscribe div.actions button span{
     }
 }
 @media  screen and (max-width: 767px){
+    .page-products .page-main, .page-wrapper > .breadcrumbs {
+        padding: 0 20px !important;
+    }
     .panel.header .header-offer {
         display:none;
     }
@@ -2156,16 +2159,52 @@ form.form.subscribe div.actions button span{
     .page-products .sorter{
         position: relative;
         float: left;
+        margin-right:0px;
+    }
+    .toolbar-sorter .sorter-label {
+        font-size: 14px;
+        top:0 !important;
     }
     .toolbar-sorter select#sorter {
-        padding-right: 95px;
-        padding-left: 50px;
-        font-size: 16px;
+        padding:0 !important;
+        margin:0 !important;
+        font-size: 14px !important;
+        top:0;
+        position: absolute;
+        height: auto;
+        width:88px;
+        opacity:0 !important;
+    }
+
+    .limiter-text {
+        font-size:14px;
+    }
+    div.toolbar-products div.field.limiter{
+        position: relative;
+    }
+    div.toolbar-products div.field.limiter select#limiter{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        font-size: 14px;
+        height: auto;
+        opacity: 0;
+    }
+
+    .storie-newsletter-sidebar{
+        width: 100vw;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
     }
     .storie-newsletter-sidebar form.subscribe input{
         display: block;
         width: auto;
-        padding: 22px 46px;
+        padding: 22px 84px;
         height: auto;
     }
     .storie-newsletter-sidebar div.newsletter-content{
@@ -2308,6 +2347,21 @@ form.form.subscribe div.actions button span{
     }
     #ajaxcart_checkout{
         padding: 10px 10px!important;
+    }
+    .products-grid .product-item-actions, li.item.product.product-item .actions-secondary{
+        display:none;
+    }
+    .page-products .products-grid .product-items .product.name a.product-item-link {
+        font-size: 18px;
+        line-height: 25px;
+        color: #1A1A1A;
+    }
+    .page-products .products-grid .product-items .price-container .price {
+        font-size: 1.6rem;
+        color: #1A1A1A;
+    }
+    .page-products .products-grid .product-items .price-box.price-final_price {
+        padding-left: 0px !important;
     }
 
 }
