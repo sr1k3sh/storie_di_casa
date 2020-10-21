@@ -2707,6 +2707,7 @@ form.form.subscribe div.actions button span{
     .col-payment .icon-payment .facebook-link{
         order:3;
         height:26px;
+        margin:0px;
     }
     .col-payment .icon-payment .instagram-link{
         height:26px;
