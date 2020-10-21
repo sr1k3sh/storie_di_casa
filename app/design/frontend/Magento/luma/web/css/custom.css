@@ -1954,7 +1954,7 @@ form.form.subscribe div.actions button{
 }
 form.form.subscribe div.actions button span{
     font-family: Muli-Bold !important;
-    font-size:17px;
+    font-size:13px;
 }
 
     /* Newsletter Sidebar  */
@@ -2545,7 +2545,7 @@ form.form.subscribe div.actions button span{
     }
     .block.newsletter .action.subscribe{
         height: auto;
-        padding:24px 40px;
+        padding:24px 44px;
         width: fit-content;
     }
     div.newsletter-content .newsletter-title{
