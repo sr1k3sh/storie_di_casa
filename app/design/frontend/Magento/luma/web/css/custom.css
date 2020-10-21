@@ -2603,6 +2603,9 @@ form.form.subscribe div.actions button span{
     li.item.product.product-item.slick-slide button {
         display: none;
     }
+    .slick.slide{
+        margin:0 15px 15px 15px !important; 
+    }
 }
 
 @media only screen and (max-width: 600px) {
