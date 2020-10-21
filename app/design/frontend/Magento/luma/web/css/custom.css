@@ -1645,8 +1645,8 @@ border:1px solid #000;
 .promobanner .text{
     text-align: left;
     position: relative !important;;
-    padding:10px 0px 0px 0px !important;
-    color:#000000 !important;
+    padding:9px 0px 0px 0px !important;
+    color:#1A1A1A !important;
     margin-left: 1px;
 }
 
@@ -1659,6 +1659,7 @@ border:1px solid #000;
     font-size: 24px;
     font-family:Muli-Extrabold;
     color:#1A1A1A;
+    line-height: 28px;
     
 }
 
@@ -1776,11 +1777,14 @@ border:1px solid #000;
     font-size:24px;
     font-weight: bold;
     font-family: Muli-Extrabold;
+    line-height: 24px;
+
 }
 .section-grid div.sub-title{
     color:#D9D9D9;
     margin-bottom: 10px;
     font-size:14px;
+    line-height:18px;
 }
 /* mini cart  */
 .minicart-wrapper .block-minicart{
@@ -2488,9 +2492,13 @@ form.form.subscribe div.actions button span{
         max-width: 50%;
         padding: 10px;
     }
+    .evidenza-column .promobanner{
+        margin-bottom: 0px;
+    } 
     .evidenza-banner .evidenza-column .promobanner img{
         min-height: 200px;
-        height: 200px;
+        height: 280px;
+        width: 157px;
     }
     .section-grid div.grid{
         display: flex;
@@ -2511,13 +2519,14 @@ form.form.subscribe div.actions button span{
     }
     .section-grid img{
         width: 48px;
-        height: 48px;
+        height: 53px;
     }
     .promobanner .banner-title{
         font-size: 21px;
     }
     .promobanner .banner-subtitle{
         font-size: 14px;
+        margin-bottom: 0px;
     }
     .evidenza-column .banner-button{
         display: none;
@@ -2604,7 +2613,7 @@ form.form.subscribe div.actions button span{
         display: none;
     }
     .slick-slide{
-        margin:5 15px 15px 15px !important; 
+        margin:5px 15px 15px 15px !important; 
     }
 }
 
