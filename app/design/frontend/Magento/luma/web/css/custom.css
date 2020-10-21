@@ -493,7 +493,9 @@ h2.section-title{
     margin-left:14px;
 }
 /* Footer */
-
+.logo-footer{
+    display: none;
+}
 .page-footer .block-static-block{
     text-align:center;
 }
@@ -2449,6 +2451,10 @@ form.form.subscribe div.actions button span{
     }
     .columns .column.main {
         padding-bottom:0px;
+    }
+    .logo-footer{
+        text-align: left;
+        margin-bottom: 35px;
     }
 }
 
