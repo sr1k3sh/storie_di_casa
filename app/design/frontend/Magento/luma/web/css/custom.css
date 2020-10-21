@@ -579,7 +579,7 @@ h2.section-title{
 button:not(.primary){
     box-shadow: none;
 }
-.col-payment .icon-payment {
+.col-payment .icon-social {
     margin-right: 26px;
 }
 .nav-sections{margin-bottom:0px !important}
@@ -3549,7 +3549,7 @@ table#my-orders-table tr .col {
     button:not(.primary){
         box-shadow: none;
     }
-    .col-payment .icon-payment {
+    .col-payment .icon-social {
         margin-right: 26px;
     }
     .nav-sections{margin-bottom:0px !important}
