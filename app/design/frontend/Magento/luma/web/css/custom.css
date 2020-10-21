@@ -2597,6 +2597,12 @@ form.form.subscribe div.actions button span{
     .header.links > li.authorization-link > a > svg{
         display: block;
     }
+    .product-item-info .float-cart {
+        display: none;
+    }
+    li.item.product.product-item.slick-slide button {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
