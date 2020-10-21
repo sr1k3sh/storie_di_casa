@@ -2303,6 +2303,14 @@ form.form.subscribe div.actions button span{
         top: -133%;
         right: 0;
     }
+    .product-info-main .price-box .price-container .price {
+        font-size: 1.8rem !important;
+    }
+    .product-info-main .product.attribute.overview p {
+        font-family: Muli-Light;
+        line-height: 18px;
+        font-size:1.4rem;
+    }
     .fotorama__arr--prev {
         left:-45px !important;
     }
