@@ -2552,7 +2552,7 @@ form.form.subscribe div.actions button span{
         font-size: 1.5rem;
     }
     .copyright-section .col-copyright1 {
-        text-align: center;
+        text-align: left;
         margin-bottom:10px;
     }
     .evidenza-column {
@@ -2727,6 +2727,9 @@ form.form.subscribe div.actions button span{
     }
 
     /* Footer */
+    .page-footer .container {
+        padding:0px;
+    }
     .page-footer .footer-list {
         text-align: center;
     }
@@ -2773,6 +2776,7 @@ form.form.subscribe div.actions button span{
     }
     .col-payment .icon-social {
         order:1;
+        margin-left:0px;
     }
     .col-payment .icon-social .facebook-link{
         height:26px;
