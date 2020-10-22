@@ -2903,6 +2903,12 @@ form.form.subscribe div.actions button span{
         padding-top:0px !important;
         padding-bottom:0px!important;
     }
+    .col-md-6.col-payment {
+        flex-direction: column;
+    }
+    .col-md-6.col-payment> * {
+    margin-bottom: 10px;
+    }
 }
 .block-collapsible-nav .item.current > strong {
     border-color: #333333 !important;
