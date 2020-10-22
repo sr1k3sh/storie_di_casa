@@ -3164,6 +3164,15 @@ div.header.content .widget.block.block-static-block div{
 table#my-orders-table tr .col {
     width: 16.66%;
 }
+.footer.content .icon-social{
+    margin-left:40px !important;
+}
+.footer.content .instagram-link{
+    margin-left:15px !important;
+}
+.footer.content .links {
+    /* padding-right:0px !important; */
+}
 
 
  /* Scree Width higher than 1366px */
@@ -5227,7 +5236,7 @@ table#my-orders-table tr .col {
         position: absolute;
         top: 5px;
     }
-    .footer.content .facebook-link{
+    .footer.content .icon-social{
         margin-left:47px !important;
     }
     .footer.content .instagram-link{
