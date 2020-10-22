@@ -2359,6 +2359,12 @@ form.form.subscribe div.actions button span{
     .products-grid .product-item-actions, li.item.product.product-item .actions-secondary{
         display:none;
     }
+    li.item.product.product-item.slick-slide .actions-secondary {
+        display: inline-block !important;
+    }
+    li.item.product.product-item.slick-slide .actions-secondary svg{
+        width:30px;
+    }
     .page-products .products-grid .product-items .product.name a.product-item-link {
         font-size: 18px;
         line-height: 25px;
@@ -2817,6 +2823,7 @@ form.form.subscribe div.actions button span{
     .col-payment .icon-social {
         order:1;
         margin:0px;
+        margin-left:0 !important;
     }
     .col-payment .icon-social .facebook-link{
         height:26px;
