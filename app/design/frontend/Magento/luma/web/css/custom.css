@@ -2927,6 +2927,11 @@ form.form.subscribe div.actions button span{
         padding: 0 25px;
     } */
 }
+@media only screen and (max-width: 350px) {
+    .storie-newsletter-sidebar form.subscribe input {
+        padding: 22px 62px;
+    }
+}
 
 @media only screen and (max-width: 300px) {
     /* Hero banner */
