@@ -2362,7 +2362,7 @@ form.form.subscribe div.actions button span{
     li.item.product.product-item.slick-slide .bss-item-action{
         display: inline-block !important;
     }
-    li.item.product.product-item.slick-slide .products.action{
+    li.item.product.product-item.slick-slide .bss-item-action .actions-secondary{
         display: inline-block !important;
     }
     li.item.product.product-item.slick-slide .actions-secondary svg{
