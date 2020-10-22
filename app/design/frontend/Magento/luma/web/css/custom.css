@@ -2359,11 +2359,11 @@ form.form.subscribe div.actions button span{
     .products-grid .product-item-actions, li.item.product.product-item .actions-secondary{
         display:none;
     }
-    li.item.product.product-item.slick-slide .actions-secondary {
+    li.item.product.product-item.slick-slide .bss-item-action{
         display: inline-block !important;
     }
     li.item.product.product-item.slick-slide .products.action{
-        display: inline-block;
+        display: inline-block !important;
     }
     li.item.product.product-item.slick-slide .actions-secondary svg{
         width:30px;
