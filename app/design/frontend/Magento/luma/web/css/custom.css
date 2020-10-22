@@ -2737,6 +2737,30 @@ form.form.subscribe div.actions button span{
     .page-footer .footer-list {
         text-align: center;
     }
+    h2.section-title.testimonial {
+        padding-top: 45px;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        background: #E9E9E9;
+        margin-bottom: 0px;
+        margin-top:0;
+    }
+    p.testimonial {
+        padding-bottom: 34px;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        background: #E9E9E9;
+        margin-right: -50vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .yereone-testimonials{
         background: #e9e9e9;
         width: 100vw;
