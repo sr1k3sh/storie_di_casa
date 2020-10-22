@@ -2362,6 +2362,9 @@ form.form.subscribe div.actions button span{
     li.item.product.product-item.slick-slide .actions-secondary {
         display: inline-block !important;
     }
+    li.item.product.product-item.slick-slide .products.action{
+        display: inline-block;
+    }
     li.item.product.product-item.slick-slide .actions-secondary svg{
         width:30px;
     }
@@ -3212,7 +3215,7 @@ table#my-orders-table tr .col {
     width: 16.66%;
 }
 .footer.content .icon-social{
-    margin-left:40px !important;
+    margin-left:40px;
 }
 .footer.content .instagram-link{
     margin-left:15px !important;
