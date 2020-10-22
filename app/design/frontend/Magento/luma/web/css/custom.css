@@ -2776,7 +2776,7 @@ form.form.subscribe div.actions button span{
     }
     .col-payment .icon-social {
         order:1;
-        margin-left:0px;
+        margin:0px;
     }
     .col-payment .icon-social .facebook-link{
         height:26px;
