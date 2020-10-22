@@ -2077,7 +2077,7 @@ form.form.subscribe div.actions button span{
         object-position: 76%;
     }
     .panel.header{
-        padding:8px !important;
+        padding:8px 20px !important;
         justify-content: space-between;
         align-items: center;
     }
@@ -2118,8 +2118,7 @@ form.form.subscribe div.actions button span{
     .mobile-logo svg{
         display: block;
         width: 100%;
-        margin-left: 26px;
-        margin-top: 0px;    
+        margin:0;   
     }
     .cms-home .page-main{
         padding:0 20px !important;
@@ -2431,7 +2430,23 @@ form.form.subscribe div.actions button span{
         text-align:center;
     }
     .mobile-logo{
-        margin:0 auto;
+        margin:0;
+        order: 1;
+    }
+    .panel.header .top-header-links {
+        order:2;
+    }
+    .header.panel > .header.links {
+        order:3;
+    }
+    .minicart-wrapper {
+        order: 4;
+    }
+    #switcher-currency{
+        order: 5;
+    }
+    .panel.header .top-header-links span.icon-payment{
+        margin-left:15px;
     }
 }
 .copyright{
