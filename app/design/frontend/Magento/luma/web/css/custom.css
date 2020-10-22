@@ -74,7 +74,7 @@ input:not([disabled]):focus{
     margin:0px;
 }
 .page-header .panel.wrapper {
-    background-color: #4C4D4F;
+    background-color: #4C4D4F !important;
 }
 .feature-product{
     text-align:center;
