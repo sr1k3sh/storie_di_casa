@@ -2079,6 +2079,9 @@ form.form.subscribe div.actions button span{
     #mobile-toolbar button{
         padding:0 !important
     }
+    #mobile-toolbar button{
+        outline-color: transparent;
+    }
     #mobile-toolbar button svg{
         height: 20px;
         width: 30px;
