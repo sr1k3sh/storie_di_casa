@@ -23,16 +23,7 @@ div.field.note{
     display:table;
     vertical-align: middle;
 } */
-button {
-    background: #000000! important;
-    color: #ffffff !important;
-    font-size: 18px;
-}
-button:hover button:focus button:active {
-    background: #000;
-    border: 1px solid #000;
-    color: #fff;
-}
+
 .action.primary {
     background:#1A1A1A !important;
     border: 1px solid #1A1A1A !important;
