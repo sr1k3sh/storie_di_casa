@@ -85,7 +85,7 @@ $title = $objectManager->get('Magento\Framework\View\Page\Title');
                                 <?= /* @noEscape */ $_helper->productAttribute($_product, $_product->getName(), 'name') ?>
                             </a>
                         </strong>
-                        <?= $block->getReviewsSummaryHtml($_product, $templateType) ?>
+                        <!-- <?//= $block->getReviewsSummaryHtml($_product, $templateType) ?> -->
                         <?= /* @noEscape */ $block->getProductPrice($_product) ?>
                         <?php if ($_product->isAvailable()) :?>
                             <?= $block->getProductDetailsHtml($_product) ?>

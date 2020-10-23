@@ -735,6 +735,11 @@ a.action.towishlist span{
     display:none;
 }
 
+.product-info-main .product-social-links .action.towishlist svg {
+    width: 20px;
+    height: 17px;
+}
+
 /* side bar */
 .sidebar .widget.block:not(:last-child), .sidebar .widget:not(:last-child){
     color: #666666;
@@ -751,17 +756,18 @@ a.action.towishlist span{
 .sidebar .brand-desc p {
     font-size: 14px !important;
     color: #666666;
-    line-height: 23px;
+    line-height: 23px !important;
     margin-top:0 !important
 }
 .sidebar .widget.block-static-block p {
     font-size: 16px;
     font-weight: 300;
     color: #666666;
+    line-height: 20px;
     font-family: Muli-Regular;
     margin-top: -0.7rem;
 }
-.sidebar.widget.block.block-static-block h3 strong {
+.sidebar .widget.block.block-static-block h3 strong {
     font-size: 18px !important;
     line-height: 34px;
     font-family: Muli-Extrabold;
@@ -1223,7 +1229,6 @@ progress[value]::-webkit-progress-value {
 }
 .product-review-form-container .btn-review{
     border: 1px solid #1A1A1A;
-    height: 56px;
     font-size: 14px;
 }
 
@@ -3794,8 +3799,8 @@ table#my-orders-table tr .col {
     /* CATEGORIA PAGE */
     
     .whatsapp-link{
-        height:61px;
-        width:61px;
+        height:70px;
+        width:70px;
     }
     /* input{
         outline:none;
@@ -4335,7 +4340,7 @@ table#my-orders-table tr .col {
     .product-review-form-container .btn-review{
         border: 1px solid #1A1A1A;
         font-size: 16px;
-        padding: 19px 19px;
+        padding: 19px 18px;
     }
     
     #product-reviews-container div#product-review-container{
