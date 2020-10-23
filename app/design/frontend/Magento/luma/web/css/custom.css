@@ -5238,7 +5238,7 @@ table#my-orders-table tr .col {
         margin: 5px 22px;
     }
     #ajaxcart_checkout, #ajaxcart_cancel, #product-addtocart-button{
-        padding: 15px 40px;
+        padding: 15px 30px;
     }
     .box-tocart .actions > *{
         margin:0 15px 0 0;
