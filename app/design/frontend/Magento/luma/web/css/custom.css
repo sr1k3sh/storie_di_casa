@@ -3297,7 +3297,7 @@ table#my-orders-table tr .col {
  /* Scree Width higher than 1366px */
  @media screen and (min-width: 1367px) {
      body{
-         font-size: 18px;
+         font-size: 18px !important;
      }
 
     * p{
