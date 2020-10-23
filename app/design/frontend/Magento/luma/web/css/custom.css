@@ -26,10 +26,17 @@ div.field.note{
 button {
     background: #000000;
     color: #ffffff;
+    font-size: 18px;
+}
+button:hover button:focus button:active {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
 }
 .action.primary {
     background:#1A1A1A !important;
     border: 1px solid #1A1A1A !important;
+    font-size:18px;
 }
 .action.primary:hover {
     background: #000000 !important;
@@ -5372,5 +5379,17 @@ table#my-orders-table tr .col {
     }
     .cart-summary .block .title strong {
         font-size: 1.8rem;
+    }
+    .abs-discount-block-desktop .block > .title strong, .paypal-review-discount .block > .title strong, .cart-discount .block > .title strong {
+        font-size: 1.8rem;
+    }
+    .opc-wrapper .shipping-address-item {
+        font-size: 18px;
+    }
+    .fieldset > .field > .label, .fieldset > .fields > .field > .label, .opc-wrapper .form-login .fieldset .field .label, .opc-wrapper .form-shipping-address .fieldset .field .label {
+        font-size: 18px;
+    }
+    input[type="text"], input[type="password"], input[type="url"], input[type="tel"], input[type="search"], input[type="number"], input[type="datetime"], input[type="email"] {
+        font-size:18px;
     }
  }
