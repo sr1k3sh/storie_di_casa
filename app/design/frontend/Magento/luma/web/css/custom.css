@@ -2067,7 +2067,7 @@ form.form.subscribe div.actions button span{
         justify-content: space-between;
         align-self: center;
         align-items: center;
-        margin: 10px 0px;
+        margin: 10px 0 30px 0 ;
     }
     #mobile-toolbar .mobile-page-title{
         font-family: Muli-Bold;
