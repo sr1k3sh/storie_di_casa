@@ -2960,6 +2960,21 @@ form.form.subscribe div.actions button span{
         max-width: 100%;
         padding: 0 25px;
     } */
+    .product-info-main .product-add-form div.box-tocart button {
+        padding: 12px 44px !important;
+    }
+    .product-info-main .box-tocart {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+    .product-info-main .product-add-form div.box-tocart div.field.qty input {
+        background: #E9E9E9;
+    }
+
 }
 @media only screen and (max-width: 350px) {
     .storie-newsletter-sidebar form.subscribe input {
