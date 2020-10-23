@@ -23,7 +23,25 @@ div.field.note{
     display:table;
     vertical-align: middle;
 } */
-
+button.action.continue-shopping,button#empty_cart_button,button.action.update{
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
+    font-size:18px;
+}
+button.action.continue-shopping:hover,button.action.continue-shopping:focus,button.action.continue-shopping:active,
+button.action.update:hover,button.action.update:focus,button.action.update:active{
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
+}
+.opc-wrapper button.action-select-shipping-item {
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
+    font-size:18px;
+}
+.opc-wrapper button.action-select-shipping-item:hover,.opc-wrapper button.action-select-shipping-item:focus,.opc-wrapper button.action-select-shipping-item:active {
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
+}
 .action.primary {
     background:#1A1A1A !important;
     border: 1px solid #1A1A1A !important;
