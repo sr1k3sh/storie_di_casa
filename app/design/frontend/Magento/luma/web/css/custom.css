@@ -220,6 +220,12 @@ div.minicart-wrapper a.action.showcart span.text{
 .breadcrumbs .item:not(:last-child)::after{
     margin:0 !important;
 }
+.toolbar-products {
+    position: relative;
+}
+#mobile-toolbar{
+    display:none;
+}
 .page-with-filter .toolbar-amount{
     font-size: 16px !important;
 }
@@ -2055,6 +2061,28 @@ form.form.subscribe div.actions button span{
     }
 }
 @media  screen and (max-width: 767px){
+    #mobile-toolbar{
+        display:flex;
+        overflow: hidden;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    #mobile-toolbar .mobile-page-title{
+        font-family: Muli-Bold;
+        font-size: 21px;
+        line-height: 26px;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    #mobile-toolbar button{
+        padding:0 !important
+    }
+    #mobile-toolbar button svg{
+        height: 20px;
+        width: 30px;
+    }
     .page-products .page-main, .page-wrapper > .breadcrumbs {
         padding: 0 20px !important;
     }
@@ -2181,13 +2209,16 @@ form.form.subscribe div.actions button span{
     div.toolbar-products div.field.limiter{
         position: relative;
     }
+    .page-products .toolbar .limiter .control {
+        margin-left:0;
+    }
     div.toolbar-products div.field.limiter select#limiter{
         padding: 0;
         margin: 0;
         position: absolute;
         top: 0;
         left: 0;
-        width: 80px;
+        width: 70px;
         font-size: 14px;
         height: auto;
         opacity: 0;
