@@ -44,6 +44,17 @@ button.action.update:hover,button.action.update:focus,button.action.update:activ
     background:#1A1A1A !important;
     border: 1px solid #1A1A1A !important;
 }
+button.action.action-edit-address{
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
+    color: #fff;
+    font-size:18px;
+}
+button.action.action-edit-address:hover,button.action.action-edit-address:focus,button.action.action-edit-address:active{
+    background:#1A1A1A !important;
+    border: 1px solid #1A1A1A !important;
+    color: #fff;
+}
 .action.primary {
     background:#1A1A1A !important;
     border: 1px solid #1A1A1A !important;
