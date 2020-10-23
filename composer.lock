@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47cd6c7db9796e72cc96c2b2ead7669c",
+    "content-hash": "1dee20e3b5526e5e36f66916c30876a1",
     "packages": [
         {
             "name": "avada/module-proofo",
@@ -3654,6 +3654,38 @@
             ],
             "description": "Magento 2 Instagram Feed Extension",
             "time": "2020-07-24T07:04:02+00:00"
+        },
+        {
+            "name": "magma/magento2-italian-regions",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magma/magento2-italian-regions.git",
+                "reference": "ebbe7cfe710fd3f370938a067ed62933df638f1d"
+            },
+            "require": {
+                "magento/framework": "^100|^101|^102.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magma\\ItalianRegions\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Magma Consulting"
+                }
+            ],
+            "description": "A Magento 2 module that adds Italian regions (provinces)",
+            "time": "2019-12-05T15:12:32+00:00"
         },
         {
             "name": "monolog/monolog",

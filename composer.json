@@ -72,6 +72,7 @@
         "magento/zendframework1": "~1.14.2",
         "mageplaza/magento-2-italian-language-pack": "dev-master",
         "mageplaza/module-instagram-feed": "^1.1",
+        "magma/magento2-italian-regions": "^1.1",
         "monolog/monolog": "^1.17",
         "paragonie/sodium_compat": "^1.6",
         "pelago/emogrifier": "^2.0.0",
@@ -368,6 +369,10 @@
         "swissupartifacts": {
             "type": "artifact",
             "url": "/var/www/html/k/vendor/swissup/artifacts"
+        },
+        "magento2-italian-regions": {
+            "type": "git",
+            "url": "https://github.com/magma/magento2-italian-regions.git"
         }
     }
 }
