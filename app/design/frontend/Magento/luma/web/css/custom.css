@@ -23,6 +23,10 @@ div.field.note{
     display:table;
     vertical-align: middle;
 } */
+button {
+    background: #000000;
+    color: #ffffff;
+}
 .action.primary {
     background:#1A1A1A !important;
     border: 1px solid #1A1A1A !important;
@@ -5365,5 +5369,8 @@ table#my-orders-table tr .col {
     }
     .footer.content .links {
         padding-right:0px !important;
+    }
+    .cart-summary .block .title strong {
+        font-size: 1.8rem;
     }
  }
