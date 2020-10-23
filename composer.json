@@ -366,10 +366,10 @@
             "type": "vcs",
             "url": "https://github.com/emizentech/magento2-category-list-widget/"
         },
-        "swissupartifacts": {
-            "type": "artifact",
-            "url": "/var/www/html/k/vendor/swissup/artifacts"
-        },
+        // "swissupartifacts": {
+        //     "type": "artifact",
+        //     "url": "/var/www/magento/vendor/swissup/artifacts"
+        // },
         "magento2-italian-regions": {
             "type": "git",
             "url": "https://github.com/magma/magento2-italian-regions.git"
