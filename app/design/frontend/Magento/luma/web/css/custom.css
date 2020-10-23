@@ -24,8 +24,8 @@ div.field.note{
     vertical-align: middle;
 } */
 button {
-    background: #000000;
-    color: #ffffff;
+    background: #000000! important;
+    color: #ffffff !important;
     font-size: 18px;
 }
 button:hover button:focus button:active {
